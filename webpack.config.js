@@ -17,6 +17,9 @@ var config = {
       include: path.join(__dirname, 'app'),
       test: /\.jsx?$/, // A regexp to test the require path. accepts either js or jsx
       loaders: ['babel'] // The module to load. "babel" is short for "babel-loader"
+    },{
+      test: /\.css$/,
+      loader: 'style!css'
     }]
   }
 };
