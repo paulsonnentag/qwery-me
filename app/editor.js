@@ -2,10 +2,21 @@ import React from 'react';
 import CodeMirror from 'codemirror';
 import 'codemirror/lib/codemirror.css';
 
-import './scss/theme.scss';
+import './editor.scss';
+import './theme.scss';
 import './qwery-mode';
+import AutoComplete from './auto-complete';
 
 export default class Editor extends React.Component {
+
+  constructor () {
+    super();
+
+    this.state = {
+      token: null,
+      coords: null
+    }
+  }
 
   componentDidMount () {
     this._codeMirror = CodeMirror(this._container, {
@@ -15,13 +26,33 @@ export default class Editor extends React.Component {
       mode: 'qwery',
       theme: 'qwery'
     });
+
+    this._codeMirror.on('change', (function (cm, change) {
+      var token = cm.getTokenAt(change.from);
+      var pos = CodeMirror.Pos(change.from.line, token.start);
+      var coords = cm.cursorCoords(pos, 'local');
+
+
+      if (token.type == null) {
+	this.setState({token: null, coords: null});
+
+      } else {
+	this.setState({
+	  token: token,
+	  coords: coords
+	})
+      }
+    }).bind(this));
   }
 
   render () {
     return (
       <div>
       <h1>Editor</h1>
+      <div className="editor">
       <div ref={(el) => this._container = el}></div>
+      <AutoComplete token={this.state.token} coords={this.state.coords}/>
+      </div>
       </div>
     )
   }
