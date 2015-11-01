@@ -1,14 +1,17 @@
 import React from 'react';
 import CodeMirror from 'codemirror';
+import 'codemirror/lib/codemirror.css';
 
-require('codemirror/lib/codemirror.css');
-
+import './qwery-mode';
 
 export default class Editor extends React.Component {
 
   componentDidMount () {
-    this._codeMirror = CodeMirror.fromTextArea(this._textArea, {
-      lineNumbers: true
+    this._codeMirror = CodeMirror(this._container, {
+      lineNumbers: true,
+      lineSeperator: '\n',
+      value: '?Person position held President of the United states of America\n?Person married to ?Wife',
+      mode: 'qwery'
     });
   }
 
@@ -16,7 +19,7 @@ export default class Editor extends React.Component {
     return (
       <div>
       <h1>Editor</h1>
-      <textarea ref={(el) => this._textArea = el}></textarea>
+      <div ref={(el) => this._container = el}></div>
       </div>
     )
   }
