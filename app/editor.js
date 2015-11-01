@@ -2,6 +2,7 @@ import React from 'react';
 import CodeMirror from 'codemirror';
 import 'codemirror/lib/codemirror.css';
 
+import './scss/theme.scss';
 import './qwery-mode';
 
 export default class Editor extends React.Component {
@@ -10,8 +11,9 @@ export default class Editor extends React.Component {
     this._codeMirror = CodeMirror(this._container, {
       lineNumbers: true,
       lineSeperator: '\n',
-      value: '?Person position held President of the United states of America\n?Person married to ?Wife',
-      mode: 'qwery'
+      value: '?Person "position held" "President of the United states of America"\n?Person "married to" ?Wife',
+      mode: 'qwery',
+      theme: 'qwery'
     });
   }
 
