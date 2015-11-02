@@ -14,6 +14,10 @@
   &:last-child {
     border-bottom: 0;
   }
+
+  &.selected {
+    background: #83C7DE;
+  }
 }
 
 .completion-item-label, .completion-item-description {
