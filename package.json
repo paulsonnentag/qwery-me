@@ -24,6 +24,7 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "codemirror": "^5.8.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.1"
   }
