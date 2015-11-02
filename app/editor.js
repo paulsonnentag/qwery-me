@@ -5,7 +5,7 @@ import 'codemirror/lib/codemirror.css';
 import './editor.scss';
 import './theme.scss';
 import './qwery-mode';
-import AutoComplete from './auto-complete';
+import Hint from './hint';
 
 export default class Editor extends React.Component {
 
@@ -51,7 +51,9 @@ export default class Editor extends React.Component {
       <h1>Editor</h1>
       <div className="editor">
       <div ref={(el) => this._container = el}></div>
-      <AutoComplete token={this.state.token} coords={this.state.coords}/>
+      <Hint coords={this.state.coords}>
+      This is a hint
+      </Hint>
       </div>
       </div>
     )
