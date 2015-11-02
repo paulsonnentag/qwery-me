@@ -6,7 +6,7 @@ var STRING_REGEX = /\"(\\.|[^\"])*\"/;
 
 CodeMirror.defineSimpleMode('qwery', {
   start: [
-    {regex: STRING_REGEX, token: 'entity', next: 'property', sol: true},
+    {regex: STRING_REGEX, token: 'item', next: 'property', sol: true},
     {regex: VAR_REGEX, token: 'variable', next: 'property', sol: true}
   ],
 
@@ -15,7 +15,7 @@ CodeMirror.defineSimpleMode('qwery', {
   ],
 
   entity: [
-    {regex: STRING_REGEX, token: 'entity', next: 'start'},
+    {regex: STRING_REGEX, token: 'item', next: 'start'},
     {regex: VAR_REGEX, token: 'variable', next: 'start'}
   ],
 });

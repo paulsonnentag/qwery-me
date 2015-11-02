@@ -6,6 +6,7 @@ import './editor.scss';
 import './theme.scss';
 import './qwery-mode';
 import Hint from './hint';
+import Completion from './completion';
 
 export default class Editor extends React.Component {
 
@@ -33,14 +34,14 @@ export default class Editor extends React.Component {
       var coords = cm.cursorCoords(pos, 'local');
 
 
-      if (token.type == null) {
-	this.setState({token: null, coords: null});
-
-      } else {
+      if (token.type == 'property' || token.type == 'item') {
 	this.setState({
 	  token: token,
 	  coords: coords
-	})
+	});
+
+      } else {
+	this.setState({token: null, coords: null});
       }
     }).bind(this));
   }
@@ -52,7 +53,7 @@ export default class Editor extends React.Component {
       <div className="editor">
       <div ref={(el) => this._container = el}></div>
       <Hint coords={this.state.coords}>
-      This is a hint
+      <Completion token={this.state.token}/>
       </Hint>
       </div>
       </div>
