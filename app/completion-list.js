@@ -13,7 +13,7 @@ export default class CompletionList extends React.Component {
 
 
 function completionItem (selected, item, i, items) {
-  var selectedClass = (selected % items.length == i) ? ' selected' : '';
+  var selectedClass = (selected % items.length === i) ? ' selected' : '';
 
   return (
     <li key={item.id} className={'completion-item' + selectedClass }>

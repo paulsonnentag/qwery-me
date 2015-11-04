@@ -44,7 +44,7 @@ export default class Hint extends React.Component {
 
     return (
       <div className="hint" style={style}>
-      {children}
+      {React.Children.map(children, (child) => React.cloneElement(child, {token: token}))}
       </div>
     );
   }
