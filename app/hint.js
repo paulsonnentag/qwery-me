@@ -1,8 +1,6 @@
 import React from 'react';
 import CodeMirror from 'codemirror';
 
-import './hint.scss'
-
 const OFFSET_Y = 16;
 const OFFSET_X = 30;
 

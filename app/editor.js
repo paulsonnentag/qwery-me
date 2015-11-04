@@ -1,9 +1,6 @@
 import React from 'react';
 import CodeMirror from 'codemirror';
-import 'codemirror/lib/codemirror.css';
 
-import './editor.scss';
-import './theme.scss';
 import './qwery-mode';
 import Hint from './hint';
 import Completion from './completion';
@@ -19,7 +16,6 @@ export default class Editor extends React.Component {
     var cm = CodeMirror(this._container, {
       lineNumbers: true,
       lineSeperator: '\n',
-      value: '?Person "position held" "President of the United states of America"\n?Person "married to" ?Wife',
       mode: 'qwery',
       theme: 'qwery'
     });
@@ -39,12 +35,9 @@ export default class Editor extends React.Component {
     }
 
     return (
-      <div>
-      <h1>Editor</h1>
       <div className="editor">
-      <div ref={(el) => this._container = el}></div>
+      <div className="editor-container" ref={(el) => this._container = el}></div>
       {hint}
-      </div>
       </div>
     )
   }

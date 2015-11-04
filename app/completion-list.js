@@ -1,5 +1,4 @@
 import React from 'react';
-import './completion-list.scss'
 
 export default class CompletionList extends React.Component {
   render () {
