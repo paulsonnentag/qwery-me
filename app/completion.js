@@ -8,18 +8,8 @@ export default class Completion extends React.Component {
     super();
 
     this.state = {
-      items: []
+      items: [{match: 'foo', description: 'another description for long'}]
     };
-  }
-
-  componentWillReceiveProps (props) {
-    var search = props.token.string.slice(1, -1);
-
-    wikiData.getMatches(props.token.type, search).then(function (items) {
-      this.setState({items: items});
-      this.props.onSelect(items[this.props.selected % items.length])
-
-    }.bind(this));
   }
 
   render () {
