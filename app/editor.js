@@ -1,5 +1,6 @@
 import React from 'react';
 import CodeMirror from 'codemirror';
+
 import './qwery-mode';
 import Hint from './hint';
 import Completion from './completion';
@@ -12,7 +13,6 @@ export default class Editor extends React.Component {
   }
 
   componentDidMount () {
-    var {onSetLine} = this.props;
     var cm = CodeMirror(this._container, {
       lineNumbers: true,
       lineSeperator: '\n',
@@ -21,12 +21,6 @@ export default class Editor extends React.Component {
     });
 
     this.setState({cm: cm});
-
-    cm.on('change', (cm, change) => {
-      var line = change.from.line
-      var tokens = cm.getLineTokens(line);
-      onSetLine(line, tokens);
-    });
   }
 
   render () {
