@@ -27,14 +27,13 @@ export default class Editor extends React.Component {
     this.setState({cm: cm});
   }
 
-
   render () {
     var hint;
 
     if (this.state.cm) {
       hint = (
 	<Hint cm={this.state.cm}>
-	<Completion cm={this.cm}/>
+	<Completion cm={this.state.cm} />
 	</Hint>
       );
     }

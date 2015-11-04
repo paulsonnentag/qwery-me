@@ -10,7 +10,11 @@ export default class Hint extends React.Component {
 
   constructor () {
     super();
-    this.state = {token: null};
+
+    this.state = {
+      token: null,
+      coords: null,
+    };
   }
 
   componentDidMount () {
@@ -29,7 +33,7 @@ export default class Hint extends React.Component {
   }
 
   render () {
-    var {token, coords} = this.state;
+    var {token, hidden, coords} = this.state;
     var {cm, children} = this.props;
     var style;
 
