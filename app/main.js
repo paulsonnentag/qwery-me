@@ -1,8 +1,15 @@
-'use strict';
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
 import App from './app';
+import qweryApp from './reducers';
 import '../style/main.scss';
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+var store = createStore(qweryApp);
+var appElement = document.getElementById('app');
+
+store.subscribe(() => console.log(store.getState().lines.toJS()));
+
+render(<Provider store={store}><App/></Provider>, appElement);
