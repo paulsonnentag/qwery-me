@@ -57,15 +57,28 @@ export default class Completion extends React.Component {
     var item = items[selected % items.length];
     var cursor = cm.getCursor();
     var token = cm.getTokenAt(cursor);
+    var tokens = cm.getLineTokens(cursor.line);
+    var nextToken = getNextToken(token, tokens);
+    var end = (nextToken.type.includes('id')) ? nextToken.end : token.end;
 
     cm.replaceRange(
-      '"' + item.match + '"',
+      '"' + item.match + '":' + item.id,
       {line: cursor.line, ch: token.start},
-      {line: cursor.line, ch: token.end}
+      {line: cursor.line, ch: end}
     );
   }
 
   render () {
     return <CompletionList items={this.state.items} selected={this.state.selected}/>;
   }
+}
+
+
+function getNextToken (token, tokens) {
+  return tokens
+    .filter((token) => token.type !== null)
+    .find((t, i, tokens) => {
+      var prevToken = tokens[i-1];
+      return prevToken && prevToken.start == token.start && prevToken.end == prevToken.end;
+    });
 }

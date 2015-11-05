@@ -1,5 +1,11 @@
+$variable-color: #F16745;
+$item-color: darken(#7BC8A4, 10%);
+$property-color: darken(#4CC3D9, 10%);
+
 .cm-s-qwery {
-  .cm-variable {color: red}
-  .cm-property {color: blue};
-  .cm-item {color: magenta};
+  .cm-variable {color: $variable-color}
+  .cm-property {color: $property-color};
+  .cm-item {color: $item-color};
+  .cm-property-id {color: lighten($property-color, 30%)};
+  .cm-item-id {color: lighten($item-color, 30%)};
 }

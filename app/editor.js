@@ -16,6 +16,7 @@ export default class Editor extends React.Component {
     var cm = CodeMirror(this._container, {
       lineNumbers: true,
       lineSeperator: '\n',
+      value: '?Person "position held":P39 "President of Amerika":Q11696 ',
       mode: 'qwery',
       theme: 'qwery'
     });
