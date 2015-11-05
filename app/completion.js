@@ -59,7 +59,7 @@ export default class Completion extends React.Component {
     var token = cm.getTokenAt(cursor);
     var tokens = cm.getLineTokens(cursor.line);
     var nextToken = getNextToken(token, tokens);
-    var end = (nextToken.type.includes('id')) ? nextToken.end : token.end;
+    var end = (nextToken && nextToken.type.includes('id')) ? nextToken.end : token.end;
 
     cm.replaceRange(
       '"' + item.match + '":' + item.id,
