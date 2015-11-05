@@ -17,7 +17,7 @@ CodeMirror.defineSimpleMode('qwery', {
   ],
 
   propertyID: [
-    {regex: PROPERTY_ID_REGEX, token: 'id property-id', next: 'entity'}
+    {regex: PROPERTY_ID_REGEX, token: 'property-id', next: 'entity'}
   ],
 
   entity: [
@@ -26,6 +26,6 @@ CodeMirror.defineSimpleMode('qwery', {
   ],
 
   entityID: [
-    {regex: ITEM_ID_REGEX, token: 'id item-id', next: 'start'}
+    {regex: ITEM_ID_REGEX, token: 'item-id', next: 'start'}
   ],
 });

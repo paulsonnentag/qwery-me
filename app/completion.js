@@ -59,7 +59,7 @@ export default class Completion extends React.Component {
     var token = cm.getTokenAt(cursor);
     var tokens = cm.getLineTokens(cursor.line);
     var nextToken = getNextToken(token, tokens);
-    var end = (nextToken && nextToken.type.includes('id')) ? nextToken.end : token.end;
+    var end = isIDToken(nextToken) ? nextToken.end : token.end;
 
     cm.replaceRange(
       '"' + item.match + '":' + item.id,
@@ -81,4 +81,8 @@ function getNextToken (token, tokens) {
       var prevToken = tokens[i-1];
       return prevToken && prevToken.start == token.start && prevToken.end == prevToken.end;
     });
+}
+
+function isIDToken (token) {
+  return token && (token.id === 'property-id' || token.id == 'item-id');
 }

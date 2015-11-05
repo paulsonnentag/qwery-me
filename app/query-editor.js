@@ -1,11 +1,11 @@
 import React from 'react';
 import CodeMirror from 'codemirror';
-
 import './qwery-mode';
 import Hint from './hint';
 import Completion from './completion';
+import QueryRunner from './query-runner';
 
-export default class Editor extends React.Component {
+export default class QueryEditor extends React.Component {
 
   constructor () {
     super();
@@ -25,20 +25,30 @@ export default class Editor extends React.Component {
   }
 
   render () {
-    var hint;
+    var {cm} = this.state
+    var hint, queryRunner;
 
-    if (this.state.cm) {
+    if (cm) {
       hint = (
-	<Hint cm={this.state.cm}>
-	<Completion cm={this.state.cm} />
+	<Hint cm={cm}>
+	<Completion cm={cm} />
 	</Hint>
+      );
+
+      queryRunner = (
+	<QueryRunner cm={cm}/>
       );
     }
 
     return (
-      <div className="editor">
-      <div className="editor-container" ref={(el) => this._container = el}></div>
+      <div className="query-editor">
+      <div className="query-input">
+      <div className="query-input-container" ref={(el) => this._container = el}></div>
       {hint}
+      </div>
+      <div className="query-result">
+      {queryRunner}
+      </div>
       </div>
     )
   }

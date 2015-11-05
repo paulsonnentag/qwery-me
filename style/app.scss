@@ -12,17 +12,10 @@ $header-height: 64px;
   font-size: 1.2em;
 }
 
-
-.content {
-  @include outer-container(100%);
+.query-editor {
   position: absolute;
   top: $header-height;
   bottom: 0;
   left: 0;
   right: 0;
-
-  .editor, .results {
-    @include span-columns(6);
-    height: 100%;
-  }
 }
