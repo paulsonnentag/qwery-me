@@ -7,13 +7,13 @@
 }
 
 .query-input, .query-result {
+  @include omega;
   @include span-columns(6);
   height: 100%;
   overflow: auto;
 }
 
 .query-input {
-  margin-right: 0;
   position: relative;
   border-right: 1px solid #333;
 }
