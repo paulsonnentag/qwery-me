@@ -5,9 +5,6 @@
 @import "../node_modules/codemirror/lib/codemirror.css";
 
 @import "app.scss";
-@import "query-editor.scss";
-@import "theme.scss";
-@import "hint.scss";
-@import "completion-list.scss";
+@import "input-node.scss";
 @import "query-runner.scss";
 @import "result-table.scss";

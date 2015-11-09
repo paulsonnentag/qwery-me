@@ -1,4 +1,5 @@
 import React from 'react';
+import Statement from './statement';
 
 export default class StatementEditor extends React.Component {
 
@@ -9,6 +10,11 @@ export default class StatementEditor extends React.Component {
   }
 
   render () {
-    return <h1>Statement Editor</h1>;
+    return (
+      <div>
+      <h1>Statement Editor</h1>
+      <Statement/>
+      </div>
+    );
   }
 }
