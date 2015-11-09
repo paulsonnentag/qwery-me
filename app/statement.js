@@ -33,6 +33,12 @@ export default class Statement extends React.Component {
     }
   }
 
+  deleteHandler (part) {
+    var state = {focus: part};
+    state[part] = null;
+    this.setState(state);
+  }
+
   focusHandler (part) {
     this.setState({focus: part});
   }
@@ -45,18 +51,21 @@ export default class Statement extends React.Component {
 
       <InputNode
       onChange={this.changeHandler.bind(this, 'item')}
+      onDelete={() => 0}
       onFocus={this.focusHandler.bind(this, 'item')}
       focus={focus === 'item'}/>
 
       {item ?
 	<InputNode
 	onChange={this.changeHandler.bind(this, 'property')}
+	onDelete={this.deleteHandler.bind(this, 'item')}
 	onFocus={this.focusHandler.bind(this, 'property')}
 	focus={focus === 'property'}/> : null}
 
       {property ?
 	<InputNode
 	onChange={this.changeHandler.bind(this, 'value')}
+	onDelete={this.deleteHandler.bind(this, 'property')}
 	onFocus={this.focusHandler.bind(this, 'value')}
 	focus={focus === 'value'}/> : null}
       </div>

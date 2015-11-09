@@ -1,5 +1,7 @@
 import React from 'react';
 
+const BACK_SPACE = 8;
+
 export default class InputNode extends React.Component {
 
   componentDidMount () {
@@ -19,10 +21,16 @@ export default class InputNode extends React.Component {
     this.props.onChange(this._input.value);
   }
 
+  keyDownHandler (e) {
+    if (e.target.value === '' && e.keyCode === BACK_SPACE) {
+      this.props.onDelete();
+    }
+  }
+
   render () {
     return (
       <form className="input-node" onSubmit={this.submitHandler.bind(this)}>
-      <input type="text" ref={(el) => this._input = el} />
+      <input type="text" ref={(el) => this._input = el} onKeyDown={this.keyDownHandler.bind(this)} />
       </form>
     );
   }
