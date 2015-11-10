@@ -12,6 +12,11 @@ $header-height: 64px;
   font-size: 1.2em;
 }
 
+.header-tag {
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .query-editor {
   position: absolute;
   top: $header-height;

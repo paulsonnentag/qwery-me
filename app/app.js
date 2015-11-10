@@ -6,7 +6,7 @@ export default class App extends React.Component {
     return (
       <div>
       <header className="header">
-      <h1 className="header-title">qwery.me</h1>
+      <h1 className="header-title">qwery.me <span className="header-tag">alpha</span></h1>
       </header>
       <QueryEditor />
       </div>
