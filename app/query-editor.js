@@ -16,7 +16,7 @@ export default class QueryEditor extends React.Component {
     var cm = CodeMirror(this._container, {
       lineNumbers: true,
       lineSeperator: '\n',
-      value: '?Person "position held":P39 "President of Amerika":Q11696 ',
+      value: '?Person "position held":P39 "President of Amerika":Q11696\n?Person "married to":P26 ?Spouse',
       mode: 'qwery',
       theme: 'qwery'
     });
