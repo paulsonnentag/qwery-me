@@ -16,7 +16,7 @@ export default class Completion extends React.Component {
 
     this.state = {
       items: [],
-      selected: null
+      selected: 0
     };
   }
 
@@ -43,12 +43,12 @@ export default class Completion extends React.Component {
 
   decSelected () {
     var selected = this.state.selected;
-    this.setState({selected: selected == null ? -1 : selected - 1})
+    this.setState({selected: selected - 1})
   }
 
   incSelected () {
     var selected = this.state.selected;
-    this.setState({selected: selected == null ? 0 : selected + 1})
+    this.setState({selected: selected + 1})
   }
 
   setCompletion () {
@@ -84,5 +84,5 @@ function getNextToken (token, tokens) {
 }
 
 function isIDToken (token) {
-  return token && (token.id === 'property-id' || token.id == 'item-id');
+  return token && (token.type === 'property-id' || token.type == 'item-id');
 }
