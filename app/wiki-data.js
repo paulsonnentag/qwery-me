@@ -12,7 +12,8 @@ var wikiData = {
 
   query: function (query) {
     return fetch(SPARQL_HOST + '?query=' + encodeURIComponent(query) + '&format=json')
-      .then(res => res.json())
+      .catch(() => alert('there seems to be an error with your query!'))
+      .then(res => res.json());
   }
 }
 
