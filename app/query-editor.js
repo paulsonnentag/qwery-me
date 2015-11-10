@@ -21,6 +21,25 @@ export default class QueryEditor extends React.Component {
       theme: 'qwery'
     });
 
+    var inloop = false;
+
+    cm.on('change', function (cm, change) {
+      var range;
+
+      if (!inloop && change.text.length === 1 && change.text[0] === '"') {
+	inloop = true;
+
+	cm.replaceRange('"', cm.getCursor(), cm.getCursor());
+	cm.setCursor({
+	  line: cm.getCursor().line,
+	  ch: cm.getCursor().ch - 1
+	})
+
+      } else {
+	inloop = false;
+      }
+    });
+
     this.setState({cm: cm});
   }
 
