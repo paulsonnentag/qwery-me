@@ -68,8 +68,13 @@ export default class Completion extends React.Component {
     );
   }
 
+  handleSelect (i) {
+    this.setState({selected: i});
+    this.setCompletion();
+  }
+
   render () {
-    return <CompletionList items={this.state.items} selected={this.state.selected}/>;
+    return <CompletionList items={this.state.items} selected={this.state.selected} onSelect={this.handleSelect.bind(this)}/>;
   }
 }
 
