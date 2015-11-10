@@ -8,8 +8,12 @@ var ITEM_ID_REGEX = /:Q[0-9]*/;
 
 CodeMirror.defineSimpleMode('qwery', {
   start: [
-    {regex: STRING_REGEX, token: 'item', next: 'property', sol: true},
+    {regex: STRING_REGEX, token: 'item', next: 'startEntityID', sol: true},
     {regex: VAR_REGEX, token: 'variable', next: 'property', sol: true}
+  ],
+
+  startEntityID: [
+    {regex: ITEM_ID_REGEX, token: 'item-id', next: 'property'}
   ],
 
   property: [
