@@ -14,7 +14,7 @@ var wikiData = {
     return fetch(SPARQL_HOST + '?query=' + encodeURIComponent(query) + '&format=json')
       .then(res => res.json())
   }
-}
+};
 
 function getMatchesURL (type, search) {
   return API_HOST + '?action=wbsearchentities&search=' + search  + '&format=json&callback=callback&language=en&type=' + type;
