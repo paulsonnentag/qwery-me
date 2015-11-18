@@ -13,7 +13,7 @@ class App extends React.Component {
         <header className="header">
           <h1 className="header-title">qwery.me</h1>
         </header>
-        <h2>Variables</h2>
+        <h2>Search for</h2>
         <VariableEditor variables={variables}/>
         <ActionButton action={addVariable()}>new variable</ActionButton>
 
