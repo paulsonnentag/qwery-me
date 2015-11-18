@@ -11,7 +11,7 @@ export default class Word extends React.Component {
   }
 
   render () {
-    var {value, onChange} = this.props;
+    var {value} = this.props;
 
     return (
       <input

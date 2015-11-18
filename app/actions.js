@@ -6,5 +6,6 @@ export function addStatement () {
 }
 
 export function updateStatement (statementPos, wordPos, word) {
+
   return {type: UPDATE_STATEMENT, statementPos, wordPos, word};
 }

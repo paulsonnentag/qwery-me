@@ -6,9 +6,6 @@ import store from '../store';
 
 export default class StatementEditor extends React.Component {
   render () {
-
-
-
     var {statements} = this.props;
 
     return (
