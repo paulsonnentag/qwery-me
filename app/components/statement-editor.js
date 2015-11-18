@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import Statement from './statement';
-import {updateStatement} from '../actions';
+import {updateStatement, deleteStatement} from '../actions';
 import store from '../store';
 
 export default class StatementEditor extends React.Component {
@@ -10,12 +10,18 @@ export default class StatementEditor extends React.Component {
 
     return (
       <div>
-          {_.map(statements, (words, i) => <Statement words={words} onUpdate={_.partial(handleUpdateStatement, i)} />)}
+          {_.map(statements, getStatement)}
       </div>
     );
   }
 }
 
-function handleUpdateStatement (statementPos, wordPos, word) {
-  store.dispatch(updateStatement(statementPos, wordPos, word));
+
+function getStatement (words, pos) {
+  return (
+    <Statement
+      words={words}
+      onUpdate={(wordPos, word) => store.dispatch(updateStatement(pos, wordPos, word))}
+      onDelete={() => store.dispatch(deleteStatement(pos))}/>
+  );
 }

@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import {combineReducers} from 'redux';
-import {ADD_STATEMENT, UPDATE_STATEMENT, ADD_VARIABLE, DELETE_VARIABLE, UPDATE_VARIABLE} from './actions';
+import {ADD_STATEMENT, UPDATE_STATEMENT, DELETE_STATEMENT, ADD_VARIABLE, UPDATE_VARIABLE, DELETE_VARIABLE} from './actions';
 import {SUBJECT, PREDICATE, OBJECT} from './components/word';
 
 function statements (statements = [], action) {
@@ -10,6 +10,9 @@ function statements (statements = [], action) {
 
     case UPDATE_STATEMENT:
       return updateStatement(statements, action);
+
+    case DELETE_STATEMENT:
+      return deleteStatement(statements, action);
   }
 
   return statements;
@@ -34,6 +37,10 @@ function updateStatement (statements, {word, wordPos, statementPos}) {
   nextStatements[statementPos][wordPos] = _.extend({}, prevWord, word);
 
   return nextStatements;
+}
+
+function deleteStatement (statements, {pos}) {
+  return omitIndex(statements, pos);
 }
 
 function variables (variables = [], action) {
@@ -66,7 +73,11 @@ function updateVariable (variables, {pos, variable}) {
 }
 
 function deleteVariable (variables, {pos}) {
-  return variables.slice(0, pos).concat(variables.slice(pos + 1));
+  return omitIndex(variables, pos);
+}
+
+function omitIndex (arr, index) {
+  return arr.slice(0, index).concat(arr.slice(index + 1));
 }
 
 const qweryMeApp = combineReducers({
