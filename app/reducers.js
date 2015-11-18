@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import {combineReducers} from 'redux';
-import {ADD_STATEMENT, UPDATE_STATEMENT, ADD_VARIABLE, DELETE_VARIABLE} from './actions';
+import {ADD_STATEMENT, UPDATE_STATEMENT, ADD_VARIABLE, DELETE_VARIABLE, UPDATE_VARIABLE} from './actions';
 import {SUBJECT, PREDICATE, OBJECT} from './components/word';
 
 function statements (statements = [], action) {
@@ -41,6 +41,9 @@ function variables (variables = [], action) {
     case ADD_VARIABLE:
       return addVariable(variables);
 
+    case UPDATE_VARIABLE:
+      return updateVariable(variables, action);
+
     case DELETE_VARIABLE:
       return deleteVariable(variables, action);
   }
@@ -53,6 +56,13 @@ function addVariable (variables) {
     name: null,
     type: null
   }]);
+}
+
+function updateVariable (variables, {pos, variable}) {
+  var nextVariables = _.cloneDeep(variables);
+  nextVariables[pos] = _.extend({}, variables[pos], variable);
+
+  return nextVariables;
 }
 
 function deleteVariable (variables, {pos}) {

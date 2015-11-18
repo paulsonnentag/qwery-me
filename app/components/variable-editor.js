@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React from 'react';
 import Variable from './variable';
 import store from '../store';
-import {deleteVariable} from '../actions';
+import {deleteVariable, updateVariable} from '../actions';
 
 export default class VariableEditor extends React.Component {
   render () {
@@ -10,12 +10,18 @@ export default class VariableEditor extends React.Component {
 
     return (
       <div className="variable-editor">
-        {_.map(variables, (variable, i) => <Variable onDelete={_.partial(handleDeleteVariable, i)} {...variable}/> ) }
+        {_.map(variables, getVariable)}
       </div>
     );
   }
 }
 
-function handleDeleteVariable (pos) {
-  store.dispatch(deleteVariable(pos));
+
+function getVariable (variable, pos) {
+  return (
+    <Variable
+      onDelete={() => store.dispatch(deleteVariable(pos))}
+      onUpdate={(variable) => store.dispatch(updateVariable(pos, variable))}
+      {...variable}/>
+  );
 }

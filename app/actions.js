@@ -20,6 +20,6 @@ export function deleteVariable (pos) {
   return {type: DELETE_VARIABLE, pos};
 }
 
-export function updateVariable (variable) {
-  return {type: UPDATE_VARIABLE, variable};
+export function updateVariable (pos, variable) {
+  return {type: UPDATE_VARIABLE, pos, variable};
 }
