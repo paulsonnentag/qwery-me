@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import Statement from './statement';
-import {updateStatement, deleteStatement} from '../actions';
+import {deleteStatement} from '../actions';
 import store from '../store';
 
 export default class StatementEditor extends React.Component {
@@ -16,12 +16,11 @@ export default class StatementEditor extends React.Component {
   }
 }
 
-
-function getStatement (words, pos) {
+function getStatement ({words, id}) {
   return (
     <Statement
-      words={words}
-      onUpdate={(wordPos, word) => store.dispatch(updateStatement(pos, wordPos, word))}
-      onDelete={() => store.dispatch(deleteStatement(pos))}/>
+      key={id}
+      id={id}
+      words={words}/>
   );
 }

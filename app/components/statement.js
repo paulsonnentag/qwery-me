@@ -6,12 +6,12 @@ import {deleteStatement} from '../actions';
 
 export default class Statement extends React.Component {
   render () {
-    var {words, onDelete} = this.props;
+    var {words, id} = this.props;
 
     return (
       <div className="statement">
-        {_.map(words, (word, i) => <Word {...word} onChange={_.partial(this.props.onUpdate, i)}/>)}
-        <button onClick={onDelete}>delete</button>
+        {_.map(words, (word) => <Word key={word.id} {...word}/>)}
+        <button onClick={() => store.dispatch(deleteStatement({id, words}))}>delete</button>
       </div>
     );
   }

@@ -1,32 +1,73 @@
-export const ADD_STATEMENT = 'ADD_STATEMENT';
-export const UPDATE_STATEMENT = 'UPDATE_STATEMENT';
-export const DELETE_STATEMENT = 'DELETE_STATEMENT';
+import _ from 'lodash';
+import {ITEM, PROPERTY} from './components/word';
+
 export const ADD_VARIABLE = 'ADD_VARIABLE';
 export const UPDATE_VARIABLE = 'UPDATE_VARIABLE';
 export const DELETE_VARIABLE = 'DELETE_VARIABLE';
 
+export const ADD_WORD = 'ADD_WORD';
+export const UPDATE_WORD = 'UPDATE_WORD';
+export const DELETE_WORD = 'DELETE_WORD';
 
-export function addStatement () {
-  return {type: ADD_STATEMENT};
-}
+export const ADD_STATEMENT = 'ADD_STATEMENT';
+export const DELETE_STATEMENT = 'DELETE_STATEMENT';
 
-export function updateStatement (statementPos, wordPos, word) {
-  return {type: UPDATE_STATEMENT, statementPos, wordPos, word};
-}
-
-export function deleteStatement (pos) {
-  return {type: DELETE_STATEMENT, pos};
-}
 
 export function addVariable () {
   return {type: ADD_VARIABLE};
 }
 
-export function updateVariable (pos, variable) {
-  return {type: UPDATE_VARIABLE, pos, variable};
+export function updateVariable (id, variable) {
+  return {type: UPDATE_VARIABLE, id, variable};
 }
 
-export function deleteVariable (pos) {
-  return {type: DELETE_VARIABLE, pos};
+export function deleteVariable (id) {
+  return {type: DELETE_VARIABLE, id};
 }
 
+export function addWord (word) {
+  return {type: ADD_WORD, word};
+}
+
+export function updateWord (id, word) {
+    return {type: UPDATE_WORD, id, word};
+}
+
+export function deleteWord (id) {
+  return {type: DELETE_WORD, id};
+}
+
+export function addStatement () {
+  return (dispatch) => {
+    var subject = {
+      type: ITEM,
+      id: _.uniqueId(),
+      value: ''
+    };
+    var predicate = {
+      type: PROPERTY,
+      id: _.uniqueId(),
+      prev: subject.id,
+      value: '',
+    };
+    var object = {
+      type: ITEM,
+      id: _.uniqueId(),
+      prev: predicate.id,
+      value: ''
+    };
+
+    dispatch(addWord(subject));
+    dispatch(addWord(predicate));
+    dispatch(addWord(object));
+    dispatch({type: ADD_STATEMENT, words: [subject.id, predicate.id, object.id]});
+  };
+}
+
+export function deleteStatement (statement) {
+  return (dispatch) => {
+    _.each(statement.words, (word) => dispatch(deleteWord(word.id)));
+
+    dispatch({type: DELETE_STATEMENT, id: statement.id});
+  };
+}

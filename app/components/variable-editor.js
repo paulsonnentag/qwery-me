@@ -17,11 +17,12 @@ export default class VariableEditor extends React.Component {
 }
 
 
-function getVariable (variable, pos) {
+function getVariable (variable) {
   return (
     <Variable
-      onDelete={() => store.dispatch(deleteVariable(pos))}
-      onUpdate={(variable) => store.dispatch(updateVariable(pos, variable))}
+      key={variable.id}
+      onDelete={() => store.dispatch(deleteVariable(variable.id))}
+      onUpdate={(update) => store.dispatch(updateVariable(variable.id, update))}
       {...variable}/>
   );
 }

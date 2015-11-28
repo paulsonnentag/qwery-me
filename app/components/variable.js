@@ -18,6 +18,7 @@ export default class Variable extends React.Component {
           className="variable-type"
           value={type}
           onChange={(e) => onUpdate({type: e.target.value})}>
+          <option></option>
           <option value={TYPE.PERSON}>Person</option>
           <option value={TYPE.EVENT}>Event</option>
           <option value={TYPE.PLACE}>Place</option>

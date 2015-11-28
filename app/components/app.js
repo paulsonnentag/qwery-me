@@ -26,7 +26,20 @@ class App extends React.Component {
 }
 
 function select (state) {
-    return state
+  var variables = state.variables.toJS();
+  var words = state.words.toJS();
+  var statements = _.map(state.statements.toJS(), (statement) => {
+    return {
+      id: statement.id,
+      words: _.map(statement.words, (id) => words[id])
+    };
+  });
+
+  return {
+    variables,
+    words,
+    statements
+  };
 }
 
 export default connect(select)(App);
