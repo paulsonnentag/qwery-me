@@ -13,6 +13,10 @@ export default class Toggle extends React.Component {
     this.setState({toggled: !this.state.toggled});
   }
 
+  componentDidMount () {
+    this.setState({toggled: false || this.props.initial});
+  }
+
   render () {
     var {children} = this.props;
     var {toggled} = this.state;

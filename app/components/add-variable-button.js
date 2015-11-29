@@ -7,7 +7,7 @@ export default class AddVariableButton extends React.Component {
   render () {
     return (
       <div className="add-variable-button">
-        <Toggle>
+        <Toggle initial={true}>
           <ToggleButton>New</ToggleButton>
           <VariableTypeSelect></VariableTypeSelect>
         </Toggle>
