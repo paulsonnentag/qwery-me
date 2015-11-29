@@ -14,26 +14,25 @@ export default class Variable extends React.Component {
 
     return (
       <div className="variable">
-        <select
-          className="variable-type"
-          value={type}
-          onChange={(e) => onUpdate({type: e.target.value})}>
-          <option></option>
-          <option value={TYPE.PERSON}>Person</option>
-          <option value={TYPE.EVENT}>Event</option>
-          <option value={TYPE.PLACE}>Place</option>
-          <option value={TYPE.ANYTHING}>Anything</option>
-        </select>
+        <div className="row">
+          <select
+            className="variable-type"
+            value={type}
+            onChange={(e) => onUpdate({type: e.target.value})}>
+            <option value={TYPE.PERSON}>Person</option>
+            <option value={TYPE.EVENT}>Event</option>
+            <option value={TYPE.PLACE}>Place</option>
+            <option value={TYPE.ANYTHING}>Anything</option>
+          </select>
+          <button
+            className="variable-delete-btn"
+            onClick={onDelete}/>
+        </div>
         <input
           className="variable-name"
           type="text"
           value={name}
           onChange={(e) => onUpdate({name: e.target.value})}/>
-        <button
-          className="variable-delete-btn"
-          onClick={onDelete}>
-          delete
-        </button>
       </div>
     );
   }

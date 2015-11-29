@@ -1,0 +1,50 @@
+$spacing: 7px;
+
+.variable-editor {
+  @include display(flex);
+  @include flex-direction(row);
+}
+
+.variable {
+  @include display(flex);
+  @include flex-direction(column);
+  background-color: green;
+  padding: $spacing;
+  margin-left: $spacing;
+  border-radius: $spacing;
+  width: 175px;
+}
+
+.variable-type, .variable-delete-btn {
+  @extend .column;
+}
+
+.variable-type, .variable-name {
+  background-color: inherit;
+  border: 0;
+}
+
+.variable-type {
+  flex: 2;
+}
+
+.variable-name {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 0 5px 10px;
+  font-size: 1.3em;
+  border-radius: $spacing;
+
+  &:focus {
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.variable-delete-btn {
+  background-color: inherit;
+  background-image: url('/assets/close-icon.svg');
+  border: 0;
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+}

@@ -1,4 +1,7 @@
+var webpack = require('webpack');
 var path = require('path');
+
+var ignore = new webpack.IgnorePlugin(new RegExp("\.svg$"))
 
 var config = {
   entry: [
@@ -6,6 +9,8 @@ var config = {
     'webpack-dev-server/client?http://localhost:8080',
     path.resolve(__dirname, 'app/main.js')
   ],
+
+  plugins: [ignore],
 
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -21,6 +26,7 @@ var config = {
       test: /\.css$/,
       loader: 'style!css'
     },{
+      exclude: /\.svg/,
       test: /\.scss$/,
       loader: 'style!css!sass'
     }]

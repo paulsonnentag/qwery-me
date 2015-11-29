@@ -16,7 +16,6 @@ export default class VariableEditor extends React.Component {
   }
 }
 
-
 function getVariable (variable) {
   return (
     <Variable
