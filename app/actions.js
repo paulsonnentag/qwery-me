@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import {ITEM, PROPERTY} from './components/word';
+import {WORD} from './types';
 
 export const ADD_VARIABLE = 'ADD_VARIABLE';
 export const UPDATE_VARIABLE = 'UPDATE_VARIABLE';
@@ -13,8 +13,9 @@ export const ADD_STATEMENT = 'ADD_STATEMENT';
 export const DELETE_STATEMENT = 'DELETE_STATEMENT';
 
 
-export function addVariable () {
-  return {type: ADD_VARIABLE};
+export function addVariable (variable) {
+  console.log('add', variable);
+  return {type: ADD_VARIABLE, variable};
 }
 
 export function updateVariable (id, variable) {
@@ -40,18 +41,18 @@ export function deleteWord (id) {
 export function addStatement () {
   return (dispatch) => {
     var subject = {
-      type: ITEM,
+      type: WORD.ITEM,
       id: _.uniqueId(),
       value: ''
     };
     var predicate = {
-      type: PROPERTY,
+      type: WORD.PROPERTY,
       id: _.uniqueId(),
       prev: subject.id,
       value: '',
     };
     var object = {
-      type: ITEM,
+      type: WORD.ITEM,
       id: _.uniqueId(),
       prev: predicate.id,
       value: ''

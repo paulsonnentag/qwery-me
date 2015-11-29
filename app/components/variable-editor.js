@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
 import Variable from './variable';
-import ActionButton from './action-button';
+import AddVariableButton from './add-variable-button';
 import store from '../store';
 import {deleteVariable, updateVariable, addVariable} from '../actions';
 
@@ -12,8 +12,7 @@ export default class VariableEditor extends React.Component {
     return (
       <div className="variable-editor">
         {_.map(variables, getVariable)}
-        <ActionButton className="variable-editor-new-btn"
-                      action={addVariable()}>add</ActionButton>
+        <AddVariableButton/>
       </div>
     );
   }

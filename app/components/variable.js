@@ -15,15 +15,7 @@ export default class Variable extends React.Component {
     return (
       <div className="variable">
         <div className="row">
-          <select
-            className="variable-type"
-            value={type}
-            onChange={(e) => onUpdate({type: e.target.value})}>
-            <option value={TYPE.PERSON}>Person</option>
-            <option value={TYPE.EVENT}>Event</option>
-            <option value={TYPE.PLACE}>Place</option>
-            <option value={TYPE.ANYTHING}>Anything</option>
-          </select>
+          <div className="variable-type">{type}</div>
           <button
             className="variable-delete-btn"
             onClick={onDelete}/>

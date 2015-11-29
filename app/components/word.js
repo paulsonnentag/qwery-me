@@ -2,9 +2,6 @@ import React from 'react';
 import {updateWord} from '../actions';
 import store from '../store';
 
-export const ITEM = 'ITEM';
-export const PROPERTY = 'PROPERTY';
-
 export default class Word extends React.Component {
 
   changeHandler (e) {

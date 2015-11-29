@@ -1,6 +1,6 @@
-$variable-spacing: 7px;
+$variable-spacing: 5px;
 $variable-width: 175px;
-$variable-height: 80px;
+$variable-height: 72px;
 $variable-color: #bada55;
 
 .variable-editor {
@@ -47,14 +47,15 @@ $variable-color: #bada55;
 }
 
 .variable-name {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 5px 0 5px 10px;
-  font-size: 1.3em;
+
   border-radius: $variable-spacing;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
 
   &:focus {
     outline: 0;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 }
 

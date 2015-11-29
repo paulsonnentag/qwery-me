@@ -5,7 +5,7 @@ import {ADD_VARIABLE, UPDATE_VARIABLE, DELETE_VARIABLE} from '../actions';
 export default function variables (variables = Immutable.Map(), action) {
   switch (action.type) {
     case ADD_VARIABLE:
-      return addVariable(variables);
+      return addVariable(variables, action);
 
     case UPDATE_VARIABLE:
       return updateVariable(variables, action);
@@ -17,11 +17,10 @@ export default function variables (variables = Immutable.Map(), action) {
   return variables;
 }
 
-function addVariable (variables) {
+function addVariable (variables, {variable}) {
   var id = _.uniqueId();
-  var variable = Immutable.Map({id});
-
-  return variables.set(id, variable);
+  console.log(variable);
+  return variables.set(id, Immutable.Map(variable).set('id', id));
 }
 
 function updateVariable (variables, {id, variable}) {
