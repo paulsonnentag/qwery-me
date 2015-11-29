@@ -6,7 +6,12 @@ import store from '../store';
 export default class VariableTypeSelect extends React.Component {
 
   addVariable (type) {
-    store.dispatch(addVariable({type}));
+    store.dispatch(
+      addVariable({
+        type,
+        name: getVariableName(type)
+      })
+    );
     this.props.toggle();
   }
 
@@ -24,5 +29,20 @@ export default class VariableTypeSelect extends React.Component {
       </div>
     )
   }
+}
 
+// getVariableName (type)
+// returns unique name based on type: type{i}
+// i >= 1, increase i until type{i} doesn't exist
+function getVariableName (type) {
+  var name;
+  var names = store.getState().variables.map((variable) => variable.get('name'));
+  var i = 1;
+
+  while (true) {
+    name = type + i++;
+    if (!names.contains(name)) {
+      return name;
+    }
+  }
 }

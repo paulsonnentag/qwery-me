@@ -9,7 +9,6 @@ class App extends React.Component {
   render () {
     var {statements, variables, selection} = this.props;
 
-    console.log(selection);
     return (
       <div>
         <header className="header">
@@ -18,7 +17,6 @@ class App extends React.Component {
         {JSON.stringify(selection)}
         <h2>Search for</h2>
         <VariableEditor variables={variables}/>
-
 
         <h2>Statements</h2>
         <StatementEditor statements={statements}/>

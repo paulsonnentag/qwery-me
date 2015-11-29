@@ -9,7 +9,6 @@ export default class Toggle extends React.Component {
   }
 
   toggle () {
-    console.log('toggle');
     this.setState({toggled: !this.state.toggled});
   }
 

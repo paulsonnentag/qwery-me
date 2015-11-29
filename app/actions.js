@@ -16,7 +16,6 @@ export const SET_SELECTION = 'SET_SELECTION';
 export const UNSET_SELECTION = 'UNSET_SELECTION';
 
 export function addVariable (variable) {
-  console.log('add', variable);
   return {type: ADD_VARIABLE, variable};
 }
 
