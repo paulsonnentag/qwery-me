@@ -12,6 +12,8 @@ export const DELETE_WORD = 'DELETE_WORD';
 export const ADD_STATEMENT = 'ADD_STATEMENT';
 export const DELETE_STATEMENT = 'DELETE_STATEMENT';
 
+export const SET_SELECTION = 'SET_SELECTION';
+export const UNSET_SELECTION = 'UNSET_SELECTION';
 
 export function addVariable (variable) {
   console.log('add', variable);
@@ -71,4 +73,12 @@ export function deleteStatement (statement) {
 
     dispatch({type: DELETE_STATEMENT, id: statement.id});
   };
+}
+
+export function setSelection (statementId, wordId) {
+  return {type: SET_SELECTION, statementId, wordId};
+}
+
+export function unsetSelection () {
+  return {type: UNSET_SELECTION};
 }

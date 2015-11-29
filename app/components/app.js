@@ -7,12 +7,15 @@ import {addStatement} from '../actions';
 
 class App extends React.Component {
   render () {
-    var {statements, variables} = this.props;
+    var {statements, variables, selection} = this.props;
+
+    console.log(selection);
     return (
       <div>
         <header className="header">
           <h1 className="header-title">qwery.me</h1>
         </header>
+        {JSON.stringify(selection)}
         <h2>Search for</h2>
         <VariableEditor variables={variables}/>
 
@@ -38,7 +41,8 @@ function select (state) {
   return {
     variables,
     words,
-    statements
+    statements,
+    selection: state.selection
   };
 }
 

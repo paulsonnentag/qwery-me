@@ -2,7 +2,6 @@ import Immutable from 'immutable';
 import _ from 'lodash';
 import {ADD_STATEMENT, DELETE_STATEMENT} from '../actions';
 
-
 export default function statements (statements = Immutable.Map(), action) {
   switch (action.type) {
     case ADD_STATEMENT:
