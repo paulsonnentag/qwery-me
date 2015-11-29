@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Toggle
-// toggle between two children
+// switch between two children, child gets toggle function passed down
 export default class Toggle extends React.Component {
   constructor () {
     super();

@@ -17,7 +17,7 @@ export default class Variable extends React.Component {
         <div className="row">
           <div className="variable-type">{type}</div>
           <button
-            className="variable-delete-btn"
+            className="close-btn"
             onClick={onDelete}/>
         </div>
         <input

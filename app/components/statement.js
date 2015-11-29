@@ -11,7 +11,8 @@ export default class Statement extends React.Component {
     return (
       <div className="statement">
         {_.map(words, (word) => <Word key={word.id} {...word}/>)}
-        <button onClick={() => store.dispatch(deleteStatement({id, words}))}>delete</button>
+        <button className="close-btn"
+                onClick={() => store.dispatch(deleteStatement({id, words}))}/>
       </div>
     );
   }
