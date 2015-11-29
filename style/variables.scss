@@ -1,4 +1,5 @@
 $variable-spacing: 5px;
+$variable-border-radius: 7px;
 $variable-width: 175px;
 $variable-height: 72px;
 $variable-color: #bada55;
@@ -9,26 +10,13 @@ $variable-color: #bada55;
   @include flex-direction(row);
 }
 
-.variable-editor-new-btn {
-  margin: $variable-spacing;
-  background-color: inherit;
-  width: $variable-width;
-  height: $variable-height;
-  border-radius: $variable-spacing;
-  border: 2px dashed $variable-color;
-
-  &:focus {
-    outline: none;
-  }
-}
-
 .variable {
   @include display(flex);
   @include flex-direction(column);
   background-color: $variable-color;
   padding: $variable-spacing;
   margin: $variable-spacing;
-  border-radius: $variable-spacing;
+  border-radius: $variable-border-radius;
   width: $variable-width;
   height: $variable-height;
 }
@@ -50,7 +38,7 @@ $variable-color: #bada55;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 5px 0 5px 10px;
 
-  border-radius: $variable-spacing;
+  border-radius: $variable-border-radius;
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
 
   &:focus {
@@ -66,4 +54,40 @@ $variable-color: #bada55;
   width: 32px;
   height: 32px;
   background-size: 32px 32px;
+}
+
+.add-variable-button {
+  position: relative;
+  width: $variable-width;
+  height: $variable-height;
+  margin: $variable-spacing;
+
+  .toggle-button {
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    border-radius: $variable-border-radius;
+    border: 2px dashed $variable-color;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.variable-type-select {
+  @include display(flex);
+  @include flex-direction(column);
+  positon: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.variable-type-select-option {
+  background: $variable-color;
+  border: 0;
+  margin-bottom: 3px;
+  padding: $variable-spacing;
+  border-radius: $variable-border-radius;
 }

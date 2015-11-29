@@ -5,7 +5,8 @@ export default class ToggleButton extends React.Component {
     var {toggle, children} = this.props;
 
     return (
-      <button onClick={toggle}>
+      <button className="toggle-button"
+              onClick={toggle}>
         {children}
       </button>
     );
