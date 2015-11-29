@@ -1,0 +1,21 @@
+{
+  "type": {
+    "person": "Person",
+    "event": "Event",
+    "location": "Location",
+    "anything": "Anything"
+  },
+
+  "app": {
+    "variables": {
+      "title": "Search for"
+    },
+
+    "statements": {
+      "title": "Statements",
+      "subject": "subject",
+      "predicate": "predicate",
+      "object": "object"
+    }
+  }
+}
