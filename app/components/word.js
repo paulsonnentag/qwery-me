@@ -1,6 +1,7 @@
 import React from 'react';
 import {updateWord} from '../actions';
 import store from '../store';
+import {WORD} from '../types';
 
 export default class Word extends React.Component {
 
@@ -9,10 +10,11 @@ export default class Word extends React.Component {
   }
 
   render () {
-    var {value, id} = this.props;
+    var {value, id, type} = this.props;
 
     return (
       <input
+        className={'word word-type-' + type.toLowerCase()}
         type="text"
         value={value}
         onChange={(e) => store.dispatch(updateWord(id, {value: e.target.value}))}/>
