@@ -1,8 +1,11 @@
 $variable-spacing: 5px;
-$variable-border-radius: 7px;
 $variable-width: 175px;
-$variable-height: 72px;
-$variable-color: #bada55;
+$variable-height: 42px;
+
+$variable-type-person-color: #F16745;
+$variable-type-event-color: #FFC65D;
+$variable-type-place-color: #7BC8A4;
+$variable-type-anything-color: #4CC3D9;
 
 .variable-editor {
   @include flex-wrap(wrap);
@@ -12,43 +15,27 @@ $variable-color: #bada55;
 
 .variable {
   @include display(flex);
-  @include flex-direction(column);
-  background-color: $variable-color;
-  padding: $variable-spacing;
-  margin: $variable-spacing;
-  border-radius: $variable-border-radius;
+  @include flex-direction(row);
   width: $variable-width;
-  height: $variable-height;
-}
+  margin: $variable-spacing;
+  padding: $variable-spacing 0 $variable-spacing $variable-spacing;
 
-.variable-type, .variable-delete-btn {
-  @extend .column;
-}
-
-.variable-type, .variable-name {
-  background-color: inherit;
-  border: 0;
-}
-
-.variable-type {
-  flex: 2;
+  .close-btn {
+    @include flex-shrink(0);
+  }
 }
 
 .variable-name {
+  border: 0;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 5px 0 5px 10px;
-
-  border-radius: $variable-border-radius;
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
 
   &:focus {
     outline: 0;
     background-color: rgba(255, 255, 255, 0.6);
   }
-}
-
-.variable-delete-btn {
-
 }
 
 .add-variable-button {
@@ -61,8 +48,8 @@ $variable-color: #bada55;
     background-color: inherit;
     width: 100%;
     height: 100%;
-    border-radius: $variable-border-radius;
-    border: 2px dashed $variable-color;
+    color: grey;
+    border: 1px dashed grey;
 
     &:focus {
       outline: none;
@@ -77,12 +64,25 @@ $variable-color: #bada55;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #fff;
 }
 
 .variable-type-select-option {
-  background: $variable-color;
-  border: 0;
-  margin-bottom: 3px;
   padding: $variable-spacing;
-  border-radius: $variable-border-radius;
+  height: $variable-height;
+  margin-bottom: 3px;
+  border: 0;
+}
+
+.variable-type-person {
+  background-color: $variable-type-person-color;
+}
+.variable-type-event {
+  background-color: $variable-type-event-color;
+}
+.variable-type-place {
+  background-color: $variable-type-place-color;
+}
+.variable-type-anything {
+  background-color: $variable-type-anything-color;
 }
