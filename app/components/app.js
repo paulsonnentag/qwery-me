@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import VariableEditor from './variable-editor';
 import StatementEditor from './statement-editor';
 import ActionButton from './action-button';
-import {addStatement, addVariable} from '../actions';
+import {addStatement} from '../actions';
 
 class App extends React.Component {
   render () {
@@ -15,7 +15,7 @@ class App extends React.Component {
         </header>
         <h2>Search for</h2>
         <VariableEditor variables={variables}/>
-        <ActionButton action={addVariable()}>new variable</ActionButton>
+
 
         <h2>Statements</h2>
         <StatementEditor statements={statements}/>

@@ -1,18 +1,36 @@
-$spacing: 7px;
+$variable-spacing: 7px;
+$variable-width: 175px;
+$variable-height: 80px;
+$variable-color: #bada55;
 
 .variable-editor {
+  @include flex-wrap(wrap);
   @include display(flex);
   @include flex-direction(row);
+}
+
+.variable-editor-new-btn {
+  margin: $variable-spacing;
+  background-color: inherit;
+  width: $variable-width;
+  height: $variable-height;
+  border-radius: $variable-spacing;
+  border: 2px dashed $variable-color;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .variable {
   @include display(flex);
   @include flex-direction(column);
-  background-color: green;
-  padding: $spacing;
-  margin-left: $spacing;
-  border-radius: $spacing;
-  width: 175px;
+  background-color: $variable-color;
+  padding: $variable-spacing;
+  margin: $variable-spacing;
+  border-radius: $variable-spacing;
+  width: $variable-width;
+  height: $variable-height;
 }
 
 .variable-type, .variable-delete-btn {
@@ -32,7 +50,7 @@ $spacing: 7px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px 0 5px 10px;
   font-size: 1.3em;
-  border-radius: $spacing;
+  border-radius: $variable-spacing;
 
   &:focus {
     outline: 0;

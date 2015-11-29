@@ -4,11 +4,12 @@ import {addStatement} from '../actions';
 
 export default class ActionButton extends React.Component {
   render () {
-    var {action, children} = this.props;
+    var {action, className, children} = this.props;
 
     return (
       <button
         type="button"
+        className={className}
         onClick={() => store.dispatch(action)}>
         {children}
       </button>
