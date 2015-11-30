@@ -1,6 +1,6 @@
 import {SET_SELECTION, UNSET_SELECTION} from '../actions';
 
-export default function selection (selection = null, action) {
+export default function selection (selection = {}, action) {
 
   switch (action.type) {
     case SET_SELECTION:
@@ -17,5 +17,5 @@ function setSelection (selection, {statementId, wordId}) {
 }
 
 function unsetSelection (selection, action) {
-  return null;
+  return {};
 }

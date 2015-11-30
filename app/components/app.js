@@ -9,8 +9,6 @@ class App extends React.Component {
   render () {
     var {statements, variables, selection} = this.props;
 
-
-
     return (
       <div>
         <header className="header">
@@ -24,7 +22,7 @@ class App extends React.Component {
           _.keys(variables).length > 0 ?
             <div>
             <h2>Statements</h2>
-            <StatementEditor statements={statements}/>
+            <StatementEditor statements={statements} selection={selection}/>
             <ActionButton action={addStatement()}>new statement</ActionButton>
             </div>
             :

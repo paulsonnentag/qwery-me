@@ -6,19 +6,20 @@ import store from '../store';
 
 export default class StatementEditor extends React.Component {
   render () {
-    var {statements} = this.props;
+    var {statements, selection} = this.props;
 
     return (
       <div className="statement-editor">
-          {_.map(statements, getStatement)}
+          {_.map(statements, _.partial(getStatement, selection))}
       </div>
     );
   }
 }
 
-function getStatement ({words, id}) {
+function getStatement (selection, {words, id}) {
   return (
     <Statement
+      selectedWord={selection.statementId === id ? selection.wordId : null}
       key={id}
       id={id}
       words={words}/>

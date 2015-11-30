@@ -1,7 +1,8 @@
 import _ from 'lodash';
 import React from 'react';
-import {updateWord} from '../actions';
 import store from '../store';
+import WordCompletion from './word-completion';
+import {updateWord} from '../actions';
 import {WORD} from '../types';
 
 export default class Word extends React.Component {
@@ -11,16 +12,21 @@ export default class Word extends React.Component {
   }
 
   render () {
-    var {value, id, type, onSelect, onUnselect} = this.props;
+    var {value, id, type, selected, prev, onSelect, onUnselect} = this.props;
 
     return (
-      <input
-        className={'word word-type-' + type.toLowerCase()}
-        type="text"
-        value={value}
-        onBlur={onUnselect}
-        onFocus={_.partial(onSelect, id)}
-        onChange={(e) => store.dispatch(updateWord(id, {value: e.target.value}))}/>
+      <div className="word">
+        <input
+          className={'word word-type-' + type.toLowerCase()}
+          type="text"
+          value={value}
+          onBlur={onUnselect}
+          onFocus={_.partial(onSelect, id)}
+          onChange={(e) => store.dispatch(updateWord(id, {value: e.target.value}))}/>
+        {
+          selected ? <WordCompletion word={{value, id, type, prev}}/> : null
+        }
+      </div>
     );
   }
 }
