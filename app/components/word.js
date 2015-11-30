@@ -24,7 +24,7 @@ export default class Word extends React.Component {
           onFocus={_.partial(onSelect, id)}
           onChange={(e) => store.dispatch(updateWord(id, {value: e.target.value}))}/>
         {
-          selected ? <WordCompletion word={{value, id, type, prev}}/> : null
+          selected ? <WordCompletion {...this.props}/> : null
         }
       </div>
     );
