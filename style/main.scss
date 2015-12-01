@@ -3,10 +3,12 @@
 
 @import "../node_modules/normalize.css/normalize.css";
 
-@import "app.scss";
-@import "layout.scss";
-@import "button.scss";
-@import "words";
-@import "variables.scss";
-@import "statements.scss";
-@import "result-table.scss";
+@import "base";
+
+@import "token";
+
+
+
+
+
+@import "app";

@@ -1,0 +1,27 @@
+$icon-size: 32px;
+
+.icon {
+  width: $icon-size;
+  height: $icon-size;
+  background-size: $icon-size $icon-size;
+}
+
+.icon-work {
+  background-image: url('assets/work.svg');
+}
+
+.icon-event {
+  background-image: url('assets/event.svg');
+}
+
+.icon-person {
+  background-image: url('assets/person.svg');
+}
+
+.icon-location {
+  background-image: url('assets/location.svg');
+}
+
+.icon-close {
+  background-image: url('assets/close.svg');
+}

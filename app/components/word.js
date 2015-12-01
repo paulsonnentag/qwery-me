@@ -15,16 +15,15 @@ export default class Word extends React.Component {
     var {value, id, type, selected, prev, onSelect, onUnselect} = this.props;
 
     return (
-      <div className="word">
+      <div className={'word word-type-' + type.toLowerCase()}>
         <input
-          className={'word word-type-' + type.toLowerCase()}
           type="text"
           value={value}
           onBlur={onUnselect}
           onFocus={_.partial(onSelect, id)}
           onChange={(e) => store.dispatch(updateWord(id, {value: e.target.value}))}/>
         {
-          selected ? <WordCompletion {...this.props}/> : null
+          true ? <WordCompletion {...this.props}/> : null
         }
       </div>
     );

@@ -1,7 +1,0 @@
-.row {
-  @include display(flex);
-  @include flex-direction(row);
-  @include align-items(center);
-  @include justify-content(flex-end);
-  width: 100%;
-}

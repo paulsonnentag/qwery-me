@@ -13,10 +13,10 @@ export default class VariableList extends React.Component {
   }
 }
 
-function getVariable ({type, name}) {
+function getVariable ({type, name, id}) {
   return (
-    <li className={'variable-type-' + type.toLowerCase()}>
-      {name}
+    <li key={id}>
+      <button className={'variable-list-option variable-type-' + type.toLowerCase()}>{name}</button>
     </li>
   );
 }
