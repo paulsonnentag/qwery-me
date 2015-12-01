@@ -5,3 +5,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+html {
+  background-color: $background-color;
+}

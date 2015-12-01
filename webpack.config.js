@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var ignore = new webpack.IgnorePlugin(new RegExp("\.svg$"))
+var ignore = new webpack.IgnorePlugin(new RegExp("\.svg$"));
 
 var config = {
   entry: [
@@ -20,15 +20,14 @@ var config = {
   module: {
     loaders: [{
       include: path.join(__dirname, 'app'),
-      test: /\.jsx?$/, // A regexp to test the require path. accepts either js or jsx
-      loaders: ['babel'] // The module to load. "babel" is short for "babel-loader"
+      test: /\.jsx?$/,
+      loaders: ['babel']
     },{
       test: /\.css$/,
-      loader: 'style!css'
+      loaders: ['style','css']
     },{
-      exclude: /\.svg/,
       test: /\.scss$/,
-      loader: 'style!css!sass'
+      loaders: ['style', 'css', 'sass']
     }]
   }
 };

@@ -1,0 +1,50 @@
+$icon-size: 32px;
+$icon-size-small: 16px;
+
+/* icon */
+
+.icon {
+  width: $icon-size;
+  height: $icon-size;
+  background-size: $icon-size $icon-size;
+  background-color: inherit;
+  border: 0;
+  margin: 5px;
+
+  &:focus {
+    outline: 0;
+    opacity: 0.5;
+  }
+
+
+  /* modifiers */
+  &.small {
+    width: $icon-size-small;
+    height: $icon-size-small;
+    background-size: $icon-size-small;
+  }
+
+  &.work {
+    background-image: url('/assets/work.svg');
+  }
+
+  &.event {
+    background-image: url('/assets/event.svg');
+  }
+
+  &.person {
+    background-image: url('/assets/person.svg');
+  }
+
+  &.location {
+    background-image: url('/assets/location.svg');
+  }
+
+  &.anything {
+    background-image: url('/assets/anything.svg');
+  }
+
+  &.close {
+    background-image: url('/assets/close.svg');
+  }
+}
