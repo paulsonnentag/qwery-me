@@ -4,6 +4,7 @@
 
 .word-completion {
   top: $token-height;
-  left: -$token-padding;
+  left: -$token-margin;
   position: absolute;
+  z-index: 100;
 }
