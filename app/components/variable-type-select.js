@@ -17,15 +17,32 @@ export default class VariableTypeSelect extends React.Component {
 
   render () {
     return (
-      <div className="variable-type-select">
-        <button className="variable-type-select-option variable-type-person"
-                onClick={this.addVariable.bind(this, VARIABLE.PERSON)}>Person</button>
-        <button className="variable-type-select-option variable-type-event"
-                onClick={this.addVariable.bind(this, VARIABLE.EVENT)}>Event</button>
-        <button className="variable-type-select-option variable-type-place"
-                onClick={this.addVariable.bind(this, VARIABLE.PLACE)}>Place</button>
-        <button className="variable-type-select-option variable-type-anything"
-                onClick={this.addVariable.bind(this, VARIABLE.ANYTHING)}>Anything</button>
+      <div className="token-list">
+        <button className="person token"
+                onClick={this.addVariable.bind(this, VARIABLE.PERSON)}>
+          <div className="small person icon"/>
+          Person
+        </button>
+        <button className="event token"
+                onClick={this.addVariable.bind(this, VARIABLE.EVENT)}>
+          <div className="small event icon"/>
+          Event
+        </button>
+        <button className="place token"
+                onClick={this.addVariable.bind(this, VARIABLE.PLACE)}>
+          <div className="small place icon"/>
+          Place
+        </button>
+        <button className="work token"
+                onClick={this.addVariable.bind(this, VARIABLE.PLACE)}>
+          <div className="small work icon"/>
+          Work
+        </button>
+        <button className="anything token"
+                onClick={this.addVariable.bind(this, VARIABLE.ANYTHING)}>
+          <div className="small anything icon"/>
+          Anything
+        </button>
       </div>
     )
   }

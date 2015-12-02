@@ -18,6 +18,7 @@ $token-border-radius: 7px;
   line-height: $token-inner-height;
   background-color: $token-default-color;
   border-radius: $token-border-radius;
+  border: 0;
 
   input {
     width: 100%;
@@ -47,7 +48,7 @@ $token-border-radius: 7px;
     background-color: $highlight-color-2;
   }
 
-  &.location {
+  &.place {
     background-color: $highlight-color-3;
   }
 
