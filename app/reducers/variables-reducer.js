@@ -23,7 +23,7 @@ function addVariable (variables, {variable}) {
 }
 
 function updateVariable (variables, {id, variable}) {
-  if (!variables.has(id)) {
+   if (!variables.has(id)) {
     throw new Error(`Can't update variable, id=${id} does not exist`);
   }
 

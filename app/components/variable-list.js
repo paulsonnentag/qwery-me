@@ -3,20 +3,22 @@ import React from 'react';
 
 export default class VariableList extends React.Component {
   render () {
-    var {variables} = this.props;
+    var {variables, onSelect} = this.props;
 
     return (
       <div className="token-list">
-        {_.map(variables, getVariable)}
+        {_.map(variables, _.partial(getVariable, onSelect))}
       </div>
     );
   }
 }
 
-function getVariable ({type, name, id}) {
+function getVariable (onSelect, variable) {
+  var {type, name, id} = variable;
   return (
     <div key={id}>
-      <button className={'token ' + type.toLowerCase()}>
+      <button className={'token ' + type.toLowerCase()}
+              onClick={() => {onSelect(variable), console.log("foo")}}>
         <div className={'small icon ' + type.toLowerCase()}/>
         {name}
       </button>

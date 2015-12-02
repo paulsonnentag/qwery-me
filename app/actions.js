@@ -44,19 +44,22 @@ export function addStatement () {
     var subject = {
       type: WORD.ITEM,
       id: _.uniqueId(),
-      value: ''
+      value: '',
+      token: null
     };
     var predicate = {
       type: WORD.PROPERTY,
       id: _.uniqueId(),
       prev: subject.id,
       value: '',
+      token: null
     };
     var object = {
       type: WORD.ITEM,
       id: _.uniqueId(),
       prev: predicate.id,
-      value: ''
+      value: '',
+      token: null
     };
 
     dispatch(addWord(subject));

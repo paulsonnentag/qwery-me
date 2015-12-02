@@ -18,7 +18,7 @@ export default class Word extends React.Component {
       <div className={'word token ' + type.toLowerCase()}>
         <input
           value={value}
-          onBlur={onUnselect}
+          onClick={(e) => e.stopPropagation()}
           onFocus={_.partial(onSelect, id)}
           onChange={(e) => store.dispatch(updateWord(id, {value: e.target.value}))}/>
         {

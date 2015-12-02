@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import VariableEditor from './variable-editor';
 import StatementEditor from './statement-editor';
 import ActionButton from './action-button';
+import CancelSelection from '../containers/cancel-selection';
 import {addStatement} from '../actions';
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
     var {statements, variables, selection} = this.props;
 
     return (
-      <div>
+      <CancelSelection selection={selection}>
         <header className="header">
           <h1 className="header-title">qwery.me</h1>
         </header>
@@ -28,7 +29,7 @@ class App extends React.Component {
             :
             null
         }
-      </div>
+      </CancelSelection>
     );
   }
 }

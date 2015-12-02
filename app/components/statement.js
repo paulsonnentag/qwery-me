@@ -10,10 +10,9 @@ export default class Statement extends React.Component {
 
     return (
       <div className="token-row">
-        {_.map(words, (word) => <Word key={word.id}
+        {_.map(words, (word) => <Word key={word.id} {...word}
                                       selected={selectedWord === word.id}
-                                      onSelect={(wordId) => store.dispatch(setSelection(id, wordId))}
-                                      onUnselect={() => store.dispatch(unsetSelection())} {...word}/>)}
+                                      onSelect={(wordId) => store.dispatch(setSelection(id, wordId))}/>)}
         <button className="small close icon"
                 onClick={() => store.dispatch(deleteStatement({id, words}))}/>
       </div>
