@@ -1,0 +1,9 @@
+.word {
+  position: relative;
+}
+
+.word-completion {
+  top: $token-height;
+  left: -$token-padding;
+  position: absolute;
+}

@@ -1,8 +1,9 @@
 
 $token-width: 200px;
 $token-inner-height: 32px;
-$token-spacing: 7px;
-$token-height: 2 * $token-spacing + $token-inner-height;
+$token-padding: 7px;
+$token-margin: 5px;
+$token-height: 2 * $token-padding + $token-inner-height;
 $token-default-color: #f9f9f9;
 $token-border-radius: 7px;
 
@@ -12,9 +13,11 @@ $token-border-radius: 7px;
   @include display(flex);
   @include flex-direction(row);
   @include align-items(center);
+  @include flex-shrink(0);
+
   width: $token-width;
   height: $token-height;
-  padding: $token-spacing;
+  padding: $token-padding;
   line-height: $token-inner-height;
   background-color: $token-default-color;
   border-radius: $token-border-radius;
@@ -65,14 +68,16 @@ $token-border-radius: 7px;
 
 .token-row {
   @extend .row;
+  @include align-items(center);
+  @include flex-wrap(wrap);
 
   .token {
-    margin-left: $token-spacing;
+    margin: $token-margin 0 0 $token-margin;
   }
 }
 
 .token-list {
   .token {
-    margin-top: 5px;
+    margin-top: $token-margin;
   }
 }

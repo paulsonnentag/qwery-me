@@ -1,0 +1,9 @@
+.add-variable-button {
+  position: relative;
+  height: $token-height;
+
+  .token-list {
+    position: absolute;
+    top: -$token-margin;
+  }
+}

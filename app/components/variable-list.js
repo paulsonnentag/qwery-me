@@ -6,17 +6,20 @@ export default class VariableList extends React.Component {
     var {variables} = this.props;
 
     return (
-      <ul className="variable-list">
+      <div className="token-list">
         {_.map(variables, getVariable)}
-      </ul>
+      </div>
     );
   }
 }
 
 function getVariable ({type, name, id}) {
   return (
-    <li key={id}>
-      <button className={'variable-list-option variable-type-' + type.toLowerCase()}>{name}</button>
-    </li>
+    <div key={id}>
+      <button className={'token ' + type.toLowerCase()}>
+        <div className={'small icon ' + type.toLowerCase()}/>
+        {name}
+      </button>
+    </div>
   );
 }

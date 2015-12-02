@@ -10,7 +10,7 @@ export default class VariableEditor extends React.Component {
     var {variables} = this.props;
 
     return (
-      <div className="variable-editor">
+      <div className="token-row">
         {_.map(variables, getVariable)}
         <AddVariableButton/>
       </div>

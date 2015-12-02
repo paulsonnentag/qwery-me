@@ -6,14 +6,14 @@ export default class Variable extends React.Component {
     var {type, name, onDelete, onUpdate} = this.props;
 
     return (
-      <div className={'variable variable-type-' + type.toLowerCase()}>
+      <div className={'token ' + type.toLowerCase()}>
+        <div className={'small icon ' + type.toLowerCase()}/>
         <input
-          className="variable-name"
           type="text"
           value={name}
           onChange={(e) => onUpdate({name: e.target.value})}/>
         <button
-          className="close-btn"
+          className="small close icon"
           onClick={onDelete}/>
       </div>
     );

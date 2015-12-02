@@ -2,10 +2,10 @@ import React from 'react';
 
 export default class ToggleButton extends React.Component {
   render () {
-    var {toggle, children} = this.props;
+    var {toggle, children, className} = this.props;
 
     return (
-      <button className="toggle-button"
+      <button className={className}
               onClick={toggle}>
         {children}
       </button>

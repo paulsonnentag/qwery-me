@@ -9,7 +9,7 @@ export default class StatementEditor extends React.Component {
     var {statements, selection} = this.props;
 
     return (
-      <div className="statement-editor">
+      <div className="token-rows">
           {_.map(statements, _.partial(getStatement, selection))}
       </div>
     );
