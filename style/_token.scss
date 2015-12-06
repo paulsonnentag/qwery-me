@@ -1,8 +1,9 @@
 
-$token-width: 200px;
+$token-width: 250px;
 $token-inner-height: 32px;
 $token-padding: 7px;
 $token-margin: 5px;
+$token-inner-width: $token-width - (2*$token-padding);
 $token-height: 2 * $token-padding + $token-inner-height;
 $token-default-color: #f9f9f9;
 $token-border-radius: 7px;
@@ -36,12 +37,31 @@ $token-border-radius: 7px;
       border: 1px solid #000;
     }
   }
-
+  
   .icon {
     @include flex-shrink(0);
   }
 
   /* modifier */
+  &.wiki-data {
+    @include align-items(flex-start);
+    @include flex-direction(column);
+    overflow: hidden;
+
+    padding: $token-padding;
+    .label {
+      font-weight: bold;
+    }
+
+    .label, .description {
+      max-width: $token-inner-width;
+      font-size: 15px;
+      line-height: 1.2em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
 
   &.person {
     background-color: $highlight-color-1;
