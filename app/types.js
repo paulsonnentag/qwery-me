@@ -2,12 +2,13 @@ export const VARIABLE = {
   PERSON: 'Person',
   PLACE: 'Place',
   EVENT: 'Event',
+  WORK: 'Work',
   ANYTHING: 'Anything'
 };
 
 export const WORD = {
-  ITEM: 'Item',
-  PROPERTY: 'Property'
+  ITEM: 'item',
+  PROPERTY: 'property'
 };
 
 export const TOKEN = {

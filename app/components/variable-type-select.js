@@ -34,7 +34,7 @@ export default class VariableTypeSelect extends React.Component {
           Place
         </button>
         <button className="work token"
-                onClick={this.addVariable.bind(this, VARIABLE.PLACE)}>
+                onClick={this.addVariable.bind(this, VARIABLE.WORK)}>
           <div className="small work icon"/>
           Work
         </button>

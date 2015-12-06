@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import fetchJSONP from 'fetch-jsonp';
 
 var API_HOST = 'https://www.wikidata.org/w/api.php';
@@ -7,7 +8,7 @@ var wikiData = {
   getMatches: function (type, search) {
     return fetchJSONP(getMatchesURL(type, search))
       .then((res) => res.json())
-      .then((res) => res.search.map(getItem));
+      .then((res) => ({matches: _.map(res.search, getItem)}));
   },
 
   query: function (query) {

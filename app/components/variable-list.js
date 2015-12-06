@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
+import {TOKEN} from '../types';
 
 export default class VariableList extends React.Component {
   render () {
@@ -13,15 +14,13 @@ export default class VariableList extends React.Component {
   }
 }
 
-function getVariable (onSelect, variable) {
-  var {type, name, id} = variable;
+function getVariable (onSelect, {id, type, name}) {
   return (
-    <div key={id}>
-      <button className={'token ' + type.toLowerCase()}
-              onClick={() => onSelect(variable)}>
-        <div className={'small icon ' + type.toLowerCase()}/>
-        {name}
-      </button>
-    </div>
+    <button key={id}
+            className={'token ' + type.toLowerCase()}
+            onClick={() => onSelect({type: TOKEN.VARIABLE, id})}>
+      <div className={'small icon ' + type.toLowerCase()}/>
+      {name}
+    </button>
   );
 }

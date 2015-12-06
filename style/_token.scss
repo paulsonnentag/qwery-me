@@ -1,5 +1,5 @@
 
-$token-width: 250px;
+$token-width: 225px;
 $token-inner-height: 32px;
 $token-padding: 7px;
 $token-margin: 5px;
@@ -37,7 +37,7 @@ $token-border-radius: 7px;
       border: 1px solid #000;
     }
   }
-  
+
   .icon {
     @include flex-shrink(0);
   }

@@ -2,6 +2,7 @@ import _ from 'lodash';
 import React from 'react';
 import store from '../store';
 import VariableList from './variable-list';
+import WikidataSearchList from './wikidata-search-list';
 import {WORD, TOKEN} from '../types';
 import {setWordToken} from '../actions';
 
@@ -14,21 +15,16 @@ export default class WordCompletion extends React.Component {
         {
           type === WORD.ITEM ?
             <VariableList variables={getVariables(token.value)}
-                          onSelect={_.partial(handleSelect, id)}/>
-            :
-            null
+                          onSelect={(token) => store.dispatch(setWordToken(id, token))}/> : null
+        }
+        {
+          token.type === TOKEN.NONE ?
+            <WikidataSearchList type={type} search={token.value}
+                                onSelect={(token) =>_.partial(handleSelect, id)}/> : null
         }
       </div>
     );
   }
-}
-
-function handleSelect (id, variable) {
-  store.dispatch(setWordToken(id, {
-    type: TOKEN.VARIABLE,
-    value: variable.name,
-    id: variable.id
-  }));
 }
 
 function getVariables (value) {

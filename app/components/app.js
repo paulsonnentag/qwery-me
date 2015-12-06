@@ -47,7 +47,7 @@ function select (state) {
 
         if (word.token.type === TOKEN.VARIABLE) {
           token = variables[word.token.id];
-          word.token.name = token.name;
+          word.token.value = token.name;
           word.token.subType =  token.type;
         }
 
