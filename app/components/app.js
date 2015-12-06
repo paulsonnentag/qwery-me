@@ -5,6 +5,7 @@ import StatementEditor from './statement-editor';
 import ActionButton from './action-button';
 import CancelSelection from '../containers/cancel-selection';
 import {addStatement} from '../actions';
+import {TOKEN} from '../types';
 
 class App extends React.Component {
   render () {
@@ -40,7 +41,18 @@ function select (state) {
   var statements = _.map(state.statements.toJS(), (statement) => {
     return {
       id: statement.id,
-      words: _.map(statement.words, (id) => words[id])
+      words: _.map(statement.words, (id) => {
+        var token;
+        var word = words[id];
+
+        if (word.token.type === TOKEN.VARIABLE) {
+          token = variables[word.token.id];
+          word.token.name = token.name;
+          word.token.subType =  token.type;
+        }
+
+        return word;
+      })
     };
   });
 

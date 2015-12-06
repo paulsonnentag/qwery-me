@@ -1,12 +1,12 @@
 import _ from 'lodash';
-import {WORD} from './types';
+import {WORD, TOKEN} from './types';
 
 export const ADD_VARIABLE = 'ADD_VARIABLE';
 export const UPDATE_VARIABLE = 'UPDATE_VARIABLE';
 export const DELETE_VARIABLE = 'DELETE_VARIABLE';
 
 export const ADD_WORD = 'ADD_WORD';
-export const UPDATE_WORD = 'UPDATE_WORD';
+export const SET_WORD_TOKEN = 'SET_WORD_TOKEN';
 export const DELETE_WORD = 'DELETE_WORD';
 
 export const ADD_STATEMENT = 'ADD_STATEMENT';
@@ -31,8 +31,8 @@ export function addWord (word) {
   return {type: ADD_WORD, word};
 }
 
-export function updateWord (id, word) {
-    return {type: UPDATE_WORD, id, word};
+export function setWordToken (id, token) {
+  return {type: SET_WORD_TOKEN, id, token};
 }
 
 export function deleteWord (id) {
@@ -41,32 +41,23 @@ export function deleteWord (id) {
 
 export function addStatement () {
   return (dispatch) => {
-    var subject = {
-      type: WORD.ITEM,
-      id: _.uniqueId(),
-      value: '',
-      token: null
-    };
-    var predicate = {
-      type: WORD.PROPERTY,
-      id: _.uniqueId(),
-      prev: subject.id,
-      value: '',
-      token: null
-    };
-    var object = {
-      type: WORD.ITEM,
-      id: _.uniqueId(),
-      prev: predicate.id,
-      value: '',
-      token: null
-    };
+    var subject = getEmptyWord(WORD.ITEM);
+    var predicate = getEmptyWord(WORD.PROPERTY);
+    var object = getEmptyWord(WORD.ITEM);
 
     dispatch(addWord(subject));
     dispatch(addWord(predicate));
     dispatch(addWord(object));
     dispatch({type: ADD_STATEMENT, words: [subject.id, predicate.id, object.id]});
   };
+}
+
+function getEmptyWord (wordType) {
+  return {
+    type: wordType,
+    id: _.uniqueId(),
+    token: {type: TOKEN.NONE, value: ''}
+  }
 }
 
 export function deleteStatement (statement) {

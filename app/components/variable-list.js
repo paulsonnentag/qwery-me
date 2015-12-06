@@ -18,7 +18,7 @@ function getVariable (onSelect, variable) {
   return (
     <div key={id}>
       <button className={'token ' + type.toLowerCase()}
-              onClick={() => {onSelect(variable), console.log("foo")}}>
+              onClick={() => onSelect(variable)}>
         <div className={'small icon ' + type.toLowerCase()}/>
         {name}
       </button>
