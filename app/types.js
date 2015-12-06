@@ -13,6 +13,6 @@ export const WORD = {
 
 export const TOKEN = {
   NONE: 'NONE',
-  STRING: 'STRING',
   VARIABLE: 'VARIABLE',
+  OBJECT: 'OBJECT'
 };

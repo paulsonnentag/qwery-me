@@ -20,7 +20,7 @@ export default class WordCompletion extends React.Component {
         {
           token.type === TOKEN.NONE ?
             <WikidataSearchList type={type} search={token.value}
-                                onSelect={(token) =>_.partial(handleSelect, id)}/> : null
+                                onSelect={(token) => {console.log(token), store.dispatch(setWordToken(id, token))}}/> : null
         }
       </div>
     );
