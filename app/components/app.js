@@ -16,20 +16,23 @@ class App extends React.Component {
         <header className="header">
           <h1 className="header-title">qwery.me</h1>
         </header>
-        {JSON.stringify(selection)}
-        <h2>Search for</h2>
-        <VariableEditor variables={variables}/>
+        <div className="content">
+          {JSON.stringify(selection)}
+          <h2>Search for</h2>
+          <VariableEditor variables={variables}/>
 
-        {
-          _.keys(variables).length > 0 ?
-            <div>
-            <h2>Statements</h2>
-            <StatementEditor statements={statements} selection={selection}/>
-            <ActionButton action={addStatement()}>new statement</ActionButton>
-            </div>
-            :
-            null
-        }
+          {
+            _.keys(variables).length > 0 ?
+              <div>
+                <h2>Statements</h2>
+                <StatementEditor statements={statements} selection={selection}/>
+                <br/>
+                <ActionButton action={addStatement()}>new statement</ActionButton>
+              </div>
+              :
+              null
+          }
+        </div>
       </CancelSelection>
     );
   }
@@ -48,7 +51,7 @@ function select (state) {
         if (word.token.type === TOKEN.VARIABLE) {
           token = variables[word.token.id];
           word.token.value = token.name;
-          word.token.subType =  token.type;
+          word.token.subType = token.type;
         }
 
         return word;

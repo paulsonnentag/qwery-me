@@ -9,7 +9,8 @@ export default class CancelSelection extends React.Component {
     var {children, selection} = this.props;
 
     return (
-      <div onClick={() => {
+      <div className="full-screen"
+           onClick={() => {
         if (!_.isEmpty(selection)) store.dispatch(unsetSelection())
       }}>
         {children}

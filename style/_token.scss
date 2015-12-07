@@ -33,8 +33,7 @@ $token-border-radius: 7px;
     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 
     &:focus {
-      outline: 0;
-      border: 1px solid #000;
+      outline: 1px solid grey;
     }
   }
 
@@ -61,6 +60,19 @@ $token-border-radius: 7px;
       white-space: nowrap;
       text-overflow: ellipsis;
     }
+  }
+
+  &.none {
+    background: inherit;
+    border: 1px dashed grey;
+  }
+
+  &.button {
+    width: inherit;
+    min-width: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: $invert-color;
   }
 
   &.person {

@@ -1,8 +1,12 @@
 $header-height: 64px;
 
+html, body, #app {
+  height: 100%;
+}
+
 .header {
   padding: 20px;
-  background: #000;
+  background: $invert-color;
   height: $header-height;
 }
 
@@ -10,4 +14,13 @@ $header-height: 64px;
   margin: 0;
   color: #fff;
   font-size: 1.2em;
+}
+
+.content {
+  position: absolute;
+  top: $header-height;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
 }
