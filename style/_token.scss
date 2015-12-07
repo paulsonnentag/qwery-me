@@ -67,14 +67,6 @@ $token-border-radius: 7px;
     border: 1px dashed grey;
   }
 
-  &.button {
-    width: inherit;
-    min-width: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: $invert-color;
-  }
-
   &.person {
     background-color: $highlight-color-1;
   }
@@ -93,6 +85,10 @@ $token-border-radius: 7px;
 
   &.anything {
     background-color: $highlight-color-5;
+  }
+
+  &.centered {
+    @include justify-content(center);
   }
 }
 

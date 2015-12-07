@@ -36,12 +36,19 @@ export default class Deferred extends React.Component {
     const {children} = this.props;
     const {loading, data} = this.state;
 
-    if (loading) {
-      return null;
+    if (children.length !== 2) {
+      throw new Error (`Deferred expected 2 children, instead got ${children.length}`);
     }
 
-    return <div>
-      {React.cloneElement(children, data)}
+    if (loading) {
+      return children[0]; // display loader
+    }
+
+    // diplay actual content
+    return (
+      <div>
+        {React.cloneElement(children[1], data)}
       </div>
+    );
   }
 }
