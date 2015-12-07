@@ -10,8 +10,7 @@ export default class Deferred extends React.Component {
     this.state = {loading: true};
   }
 
-  waitForData () {
-    const {promise} = this.props;
+  waitForData (promise) {
     const timestamp = Date.now();
 
     if (promise) {
@@ -25,11 +24,11 @@ export default class Deferred extends React.Component {
   }
 
   componentDidMount () {
-    this.waitForData();
+    this.waitForData(this.state.promise);
   }
 
-  componentWillReceiveProps () {
-    this.waitForData();
+  componentWillReceiveProps ({promise}) {
+    this.waitForData(promise);
   }
 
   render () {

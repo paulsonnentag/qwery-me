@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React from 'react';
 import Deferred from '../containers/deferred';
 import MatchList from './match-list';
@@ -7,10 +8,13 @@ import {TOKEN} from '../types';
 export default class WikidataSearchList extends React.Component {
   render () {
     const {type, search, onSelect} = this.props;
-    const matches = (search === '') ? Promise.resolve([]) : api.getMatches(type, search);
+
+    if (search === '') {
+      return null;
+    }
 
     return (
-      <Deferred promise={matches}>
+      <Deferred promise={api.getMatches(type, search)}>
         <div className="centered token">
           <div className="spinning load icon"></div>
         </div>
