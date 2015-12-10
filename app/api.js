@@ -8,7 +8,7 @@ var wikiData = {
   getMatches: function (type, search) {
     return fetchJSONP(getMatchesURL(type, search))
       .then((res) => res.json())
-      .then((res) => ({matches: _.map(res.search, getItem)}));
+      .then((res) => ({matches: _.map(res.search, getItem)}))
   },
 
   query: function (query) {

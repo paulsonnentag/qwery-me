@@ -55,7 +55,7 @@ export function addStatement () {
 function getEmptyWord (wordType) {
   return {
     type: wordType,
-    id: _.uniqueId(),
+    id: _.uniqueId('word_'),
     token: {type: TOKEN.NONE, value: ''}
   }
 }

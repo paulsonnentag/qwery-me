@@ -18,7 +18,7 @@ export default function variables (variables = Immutable.Map(), action) {
 }
 
 function addVariable (variables, {variable}) {
-  var id = _.uniqueId();
+  var id = _.uniqueId('variable_');
   return variables.set(id, Immutable.Map(variable).set('id', id));
 }
 

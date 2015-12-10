@@ -15,7 +15,7 @@ export default function statements (statements = Immutable.Map(), action) {
 }
 
 function addStatement (statements, {words}) {
-  var id = _.uniqueId();
+  var id = _.uniqueId('statement_');
   var statement = Immutable.Map({
     id: id,
     words: words

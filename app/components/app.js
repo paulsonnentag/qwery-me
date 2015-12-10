@@ -4,6 +4,7 @@ import VariableEditor from './variable-editor';
 import StatementEditor from './statement-editor';
 import ActionButton from './action-button';
 import CancelSelection from '../containers/cancel-selection';
+import Result from './result';
 import {addStatement} from '../actions';
 import {TOKEN} from '../types';
 
@@ -17,7 +18,6 @@ class App extends React.Component {
           <h1 className="header-title">qwery.me</h1>
         </header>
         <div className="content">
-          {JSON.stringify(selection)}
           <h2>Search for</h2>
           <VariableEditor variables={variables}/>
 
@@ -32,6 +32,9 @@ class App extends React.Component {
               :
               null
           }
+
+          <h1>Result</h1>
+          <Result variables={variables} statements={statements}></Result>
         </div>
       </CancelSelection>
     );

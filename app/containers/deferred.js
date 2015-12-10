@@ -44,10 +44,6 @@ export default class Deferred extends React.Component {
     }
 
     // diplay actual content
-    return (
-      <div>
-        {React.cloneElement(children[1], data)}
-      </div>
-    );
+    return React.cloneElement(children[1], data)
   }
 }
