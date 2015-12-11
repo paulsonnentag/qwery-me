@@ -2,13 +2,22 @@ import _ from 'lodash';
 import {VARIABLE, TOKEN, WORD} from './types';
 
 export function getQuery(variables, statements) {
-  const declarations = _.map(variables, getDeclaraction);
-  const queryStatements = _(statements)
-    .select(isStatementValid)
-    .map(getQueryStatement)
+  const validStatements = _.select(statements, isStatementValid);
+
+  const declarations = _(variables)
+    .select(_.partial(containsVariable, validStatements))
+    .map(getDeclaraction)
     .value();
 
+  const queryStatements = _.map(statements, getQueryStatement);
+
   return getQueryString(declarations, queryStatements);
+}
+
+function containsVariable (statements, variable) {
+  return _.any(statements, ({words}) => {
+    return _.any(words, ({token}) => token.id === variable.id);
+  });
 }
 
 function getDeclaraction ({id}) {
@@ -48,7 +57,7 @@ function getQueryString (declarations, statements) {
     'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>',
     `SELECT ${declarations.join(' ')} `,
     'WHERE {',
-    statements.join('. \n'),
+    statements.join('\n'),
     'SERVICE wikibase:label {bd:serviceParam wikibase:language "en" .}',
     '}',
     'LIMIT 50'
