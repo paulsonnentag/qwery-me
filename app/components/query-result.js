@@ -2,7 +2,7 @@ import React from 'react';
 import {getQuery, isStatementValid} from '../query-builder';
 import api from '../api';
 import Deferred from '../containers/deferred';
-import JSONOutput from './json-output';
+import ResultTable from './result-table';
 
 export default class QueryResult extends React.Component {
 
@@ -23,7 +23,7 @@ export default class QueryResult extends React.Component {
     return (
       <Deferred promise={query}>
         <div>loading</div>
-        <JSONOutput></JSONOutput>
+        <ResultTable></ResultTable>
       </Deferred>
     );
   }
