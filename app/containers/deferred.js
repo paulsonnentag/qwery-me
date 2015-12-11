@@ -24,7 +24,7 @@ export default class Deferred extends React.Component {
   }
 
   componentDidMount () {
-    this.waitForData(this.state.promise);
+    this.waitForData(this.props.promise);
   }
 
   componentWillReceiveProps ({promise}) {

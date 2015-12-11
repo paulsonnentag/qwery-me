@@ -4,7 +4,7 @@ import VariableEditor from './variable-editor';
 import StatementEditor from './statement-editor';
 import ActionButton from './action-button';
 import CancelSelection from '../containers/cancel-selection';
-import Result from './result';
+import QueryResult from './query-result';
 import {addStatement} from '../actions';
 import {TOKEN} from '../types';
 
@@ -34,7 +34,7 @@ class App extends React.Component {
           }
 
           <h1>Result</h1>
-          <Result variables={variables} statements={statements}></Result>
+          <QueryResult variables={variables} statements={statements}></QueryResult>
         </div>
       </CancelSelection>
     );

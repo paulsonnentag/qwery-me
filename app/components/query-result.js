@@ -6,11 +6,8 @@ import JSONOutput from './json-output';
 
 export default class QueryResult extends React.Component {
 
-  shouldComponentUpdate (nextProps) {
-    var {nextVariables, nextStatements} = nextProps;
-    var {variables, statements} = this.props;
-
-    return getQuery(variables, statements) !== getQuery(nextVariables, nextStatements);
+  shouldComponentUpdate ({variables, statements}) {
+    return getQuery(variables, statements) !== getQuery(this.props.variables, this.props.statements);
   }
 
   render () {
@@ -22,8 +19,6 @@ export default class QueryResult extends React.Component {
     }
 
     query = api.query(getQuery(variables, statements));
-
-    query.then((result) => console.log(result));
 
     return (
       <Deferred promise={query}>
