@@ -1,10 +1,10 @@
 {
   "name": "qwery.me",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "query editor for wikidata",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack",
+    "build": "./scripts/build.sh",
     "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
   },
   "author": "Paul Sonnentag <Paul.Sonnentag@googlemail.com>",

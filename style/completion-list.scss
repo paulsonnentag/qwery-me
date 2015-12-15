@@ -1,0 +1,46 @@
+.completion-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 400px;
+  overflow: hidden;
+
+  &:hover {
+    .selected {
+      background: none;
+    }
+  }
+}
+
+.completion-item {
+  padding: 5px;
+  border-bottom: 1px solid grey;
+  white-space: nowrap;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &.selected {
+    background: #83C7DE;
+  }
+
+  &:hover {
+    background: #83C7DE !important;
+    cursor: pointer;
+  }
+}
+
+.completion-item-label, .completion-item-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.completion-item-label {
+  margin: 0;
+  font-size: 1em;
+}
+
+.completion-item-description {
+  margin: 5px 0 0 0;
+}
