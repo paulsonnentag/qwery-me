@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import fetchJSONP from 'fetch-jsonp';
 
 var API_HOST = 'https://www.wikidata.org/w/api.php';
@@ -7,7 +8,7 @@ var wikiData = {
   getMatches: function (type, search) {
     return fetchJSONP(getMatchesURL(type, search))
       .then((res) => res.json())
-      .then((res) => res.search.map(getItem));
+      .then((res) => ({matches: _.map(res.search, getItem)}))
   },
 
   query: function (query) {
@@ -15,7 +16,7 @@ var wikiData = {
       .catch(() => alert('there seems to be an error with your query!'))
       .then(res => res.json());
   }
-}
+};
 
 function getMatchesURL (type, search) {
   return API_HOST + '?action=wbsearchentities&search=' + search  + '&format=json&callback=callback&language=en&type=' + type;

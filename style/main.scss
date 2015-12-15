@@ -1,13 +1,14 @@
 @import "../node_modules/bourbon/app/assets/stylesheets/_bourbon.scss";
 @import "../node_modules/bourbon-neat/app/assets/stylesheets/_neat.scss";
-
 @import "../node_modules/normalize.css/normalize.css";
-@import "../node_modules/codemirror/lib/codemirror.css";
 
-@import "app.scss";
-@import "query-editor.scss";
-@import "theme.scss";
-@import "hint.scss";
-@import "completion-list.scss";
-@import "query-runner.scss";
-@import "result-table.scss";
+@import "color-scheme";
+@import "base";
+@import "util";
+@import "layout";
+@import "icon";
+@import "token";
+
+@import "app";
+@import "word";
+@import "variable";
