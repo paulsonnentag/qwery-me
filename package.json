@@ -4,8 +4,8 @@
   "description": "query editor for wikidata",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "./scripts/build.sh",
-    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+    "build": "BABEL_ENV=production webpack -p --config webpack.production.config.js",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base public"
   },
   "author": "Paul Sonnentag <Paul.Sonnentag@googlemail.com>",
   "license": "MIT",
@@ -30,6 +30,7 @@
     "immutable": "^3.7.5",
     "lodash": "^3.10.1",
     "normalize.css": "^3.0.3",
+    "parse": "^1.6.9",
     "react": "^0.14.0",
     "react-dom": "^0.14.1",
     "react-redux": "^4.0.0",

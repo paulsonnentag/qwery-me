@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "qwery-me"
+    },
+    "qwery-me": {
+      "applicationId": "CC9DwL1eA8JiQL7eLbt1QG9OspcGNPrYTMsPQJ39"
+    }
+  }
+}
