@@ -1,0 +1,1300 @@
+{
+  "P21": {
+    "popularity": 2810930,
+    "type": "wikibase-item",
+    "label": "sex or gender",
+    "description": "Sexual identity of  subject.",
+    "aliases": [
+      "gender",
+      "sex"
+    ],
+    "suggestedValues": [
+      {
+        "label": "male ",
+        "id": "Q6581097"
+      },
+      {
+        "label": "female ",
+        "id": "Q6581072"
+      },
+      {
+        "label": "intersex ",
+        "id": "Q1097630"
+      },
+      {
+        "label": "hermaphrodite ",
+        "id": "Q303479"
+      },
+      {
+        "label": "transgender ",
+        "id": "Q189125"
+      },
+      {
+        "label": "transgender female ",
+        "id": "Q1052281"
+      },
+      {
+        "label": "transgender male ",
+        "id": "Q2449503"
+      },
+      {
+        "label": "genderqueer ",
+        "id": "Q48270"
+      },
+      {
+        "label": "fa'afafine ",
+        "id": "Q1399232"
+      },
+      {
+        "label": "māhū ",
+        "id": "Q3277905"
+      },
+      {
+        "label": "kathoey ",
+        "id": "Q746411"
+      },
+      {
+        "label": "fakaleiti ",
+        "id": "Q350374"
+      },
+      {
+        "label": "hijra ",
+        "id": "Q660882"
+      },
+      {
+        "label": "travesti ",
+        "id": "Q17148251"
+      }
+    ],
+    "suggestedValuesText": "for persons: male (Q6581097), female (Q6581072), intersex (Q1097630), hermaphrodite (Q303479), transgender (Q189125), transgender female (Q1052281), transgender male (Q2449503), genderqueer (Q48270), fa'afafine (Q1399232), māhū (Q3277905), kathoey (Q746411), fakaleiti (Q350374), hijra (Q660882), travesti (Q17148251) ; for animals: male creature (Q44148) or female creature (Q43445)"
+  },
+  "P569": {
+    "popularity": 2203681,
+    "type": "time",
+    "label": "date of birth",
+    "description": "date on which the subject was born",
+    "aliases": [
+      "born on",
+      "birth date",
+      "birthday",
+      "birthdate"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Past dates"
+  },
+  "P19": {
+    "popularity": 890816,
+    "type": "wikibase-item",
+    "label": "place of birth",
+    "description": "the most specific known",
+    "aliases": [
+      "birthplace",
+      "born in",
+      "birth place",
+      "location born",
+      "born at",
+      "birth location",
+      "location of birth"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "place"
+  },
+  "P1477": {
+    "popularity": 13283,
+    "type": "monolingualtext",
+    "label": "birth name",
+    "description": "full name of a person at birth",
+    "aliases": [
+      "maiden name",
+      "born as",
+      "birth name",
+      "birthname",
+      "name at birth",
+      "full name at birth"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P570": {
+    "popularity": 1112314,
+    "type": "time",
+    "label": "date of death",
+    "description": "date on which the subject died",
+    "aliases": [
+      "death",
+      "death date",
+      "died on",
+      "deathdate"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Past dates, obviously posterior to the date of birth (P569) of the same item"
+  },
+  "P20": {
+    "popularity": 389193,
+    "type": "wikibase-item",
+    "label": "place of death",
+    "description": "the most specific known (e.g. city instead of country, or hospital instead of city)",
+    "aliases": [
+      "deathplace",
+      "died in",
+      "death place",
+      "location of death",
+      "death location"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "place"
+  },
+  "P509": {
+    "popularity": 26345,
+    "type": "wikibase-item",
+    "label": "cause of death",
+    "description": "underlying or immediate cause of death.  Underlying cause (e.g. car accident, stomach cancer) preferred.  Use 'manner of death' (P1196) for broadest category, e.g. natural causes, accident, homicide, suicide",
+    "aliases": [
+      "death cause"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "diseases, medical complications, traumatic events: leukemia, car crash, pneumonia, lung cancer, anaphylactic shock..."
+  },
+  "P1196": {
+    "popularity": 30269,
+    "type": "wikibase-item",
+    "label": "manner of death",
+    "description": "circumstances of a person's death; one of: natural causes, accident, suicide, homicide, pending investigation or special 'unknown value'.  Use 'cause of death' (P509) for more immediate or underlying causes and events, e.g. heart attack, car accident",
+    "aliases": [
+      "circumstance of death",
+      "type of death"
+    ],
+    "suggestedValues": [
+      {
+        "label": "natural causes ",
+        "id": "Q3739104"
+      },
+      {
+        "label": "accident ",
+        "id": "Q171558"
+      },
+      {
+        "label": "suicide ",
+        "id": "Q10737"
+      },
+      {
+        "label": "homicide ",
+        "id": "Q149086"
+      },
+      {
+        "label": "pending investigation ",
+        "id": "Q15729048"
+      },
+      {
+        "label": "capital punishment ",
+        "id": "Q8454"
+      }
+    ],
+    "suggestedValuesText": "one of: natural causes (Q3739104), accident (Q171558), suicide (Q10737), homicide (Q149086), pending investigation (Q15729048), capital punishment (Q8454) or the special 'unknown value'. Do not expand list of allowed values. This property is tied to the US Standard Death Certificate."
+  },
+  "P157": {
+    "popularity": 456,
+    "type": "wikibase-item",
+    "label": "killed by",
+    "description": "person who killed the subject",
+    "aliases": [
+      "killer",
+      "assassin",
+      "murderer",
+      "murdered by",
+      "executioner",
+      "assassinated by",
+      "slain by",
+      "mortally wounded by",
+      "executed by",
+      "slaughtered by"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "people (and maybe, in exceptional cases, entities, but probably not)"
+  },
+  "P119": {
+    "popularity": 39491,
+    "type": "wikibase-item",
+    "label": "place of burial",
+    "description": "location of grave, resting place, place of ash-scattering, etc, (e.g. town/city or cemetery) for a person. There may be several places: e.g. re-burials, cenotaphs, parts of body buried separately.",
+    "aliases": [
+      "burial place",
+      "resting place",
+      "place of grave",
+      "buried in",
+      "grave at",
+      "location of burial",
+      "tomb"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "places, several in case of re-burials, cenotaphs"
+  },
+  "P1442": {
+    "popularity": 8842,
+    "type": "commonsMedia",
+    "label": "image of grave",
+    "description": "picture of a person or animal's grave, gravestone or tomb",
+    "aliases": [
+      "grave image",
+      "grave photo",
+      "grave picture",
+      "headstone image",
+      "headstone photo",
+      "headstone picture"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P1559": {
+    "popularity": 3950,
+    "type": "monolingualtext",
+    "label": "name in native language",
+    "description": "name of a person in their native language",
+    "aliases": [
+      "native name"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P66": {
+    "popularity": 264,
+    "type": "wikibase-item",
+    "label": "ancestral home",
+    "description": "place of origin for ancestors of subject",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "Place"
+  },
+  "P463": {
+    "popularity": 147418,
+    "type": "wikibase-item",
+    "label": "member of",
+    "description": "part of a specific organization or club",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "organization (Q43229)"
+  },
+  "P172": {
+    "popularity": 16058,
+    "type": "wikibase-item",
+    "label": "ethnic group",
+    "description": "subject's ethnicity",
+    "aliases": [
+      "ethnicity"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P103": {
+    "popularity": 50667,
+    "type": "wikibase-item",
+    "label": "native language",
+    "description": "language that a person learned natively",
+    "aliases": [
+      "first language",
+      "mother tongue",
+      "language native"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "language, dialect, languoid (Q17376908)"
+  },
+  "P27": {
+    "popularity": 1787682,
+    "type": "wikibase-item",
+    "label": "country of citizenship",
+    "description": "the object is a country that recognizes the subject as its citizen",
+    "aliases": [
+      "citizenship",
+      "nationality",
+      "citizen of",
+      "subject of country"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "state (Q7275), mainly sovereign state (Q3624078), no value for statelessness"
+  },
+  "P69": {
+    "popularity": 351304,
+    "type": "wikibase-item",
+    "label": "educated at",
+    "description": "educational institution attended by the subject",
+    "aliases": [
+      "education",
+      "alumni of",
+      "alumnus of",
+      "alumna of",
+      "college attended",
+      "university attended",
+      "school attended",
+      "studied at",
+      "alma mater",
+      "graduate of",
+      "graduated from"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "educational institution (Q2385804)"
+  },
+  "P106": {
+    "popularity": 2189117,
+    "type": "wikibase-item",
+    "label": "occupation",
+    "description": "occupation of a person; see also \"field of work\" (Property:P101)",
+    "aliases": [
+      "profession",
+      "job",
+      "work",
+      "career",
+      "employment",
+      "craft"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "term, normally that \"is a(n)\" occupation : instance of (P31) = occupation (Q13516667)"
+  },
+  "P101": {
+    "popularity": 11181,
+    "type": "wikibase-item",
+    "label": "field of work",
+    "description": "fields of work related to this item",
+    "aliases": [
+      "field of study",
+      "fields",
+      "discipline",
+      "subject",
+      "area",
+      "specialism",
+      "domain"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "field : industry (Q8148), academic discipline (Q11862829)..."
+  },
+  "P800": {
+    "popularity": 22790,
+    "type": "wikibase-item",
+    "label": "notable work",
+    "description": "subject's notable scientific work or work of art",
+    "aliases": [
+      "literary works",
+      "bibliography",
+      "work",
+      "works",
+      "major works",
+      "famous works",
+      "significant works",
+      "known for"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P108": {
+    "popularity": 100543,
+    "type": "wikibase-item",
+    "label": "employer",
+    "description": "organization for which the subject works or worked",
+    "aliases": [
+      "workplace",
+      "employed by",
+      "works at",
+      "working for"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "All kinds of employers: businesses, educational facilities, branches of government, non-profit organizations, provider of honorary positions etc."
+  },
+  "P166": {
+    "popularity": 315902,
+    "type": "wikibase-item",
+    "label": "award received",
+    "description": "award or recognition received by a person, organisation or creative work",
+    "aliases": [
+      "prize received",
+      "awards",
+      "honorary title",
+      "recognition title",
+      "award",
+      "honours",
+      "honors",
+      "medals",
+      "awarded"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "award (Q618779)"
+  },
+  "P39": {
+    "popularity": 282626,
+    "type": "wikibase-item",
+    "label": "position held",
+    "description": "subject currently or formerly holds the object position or public office",
+    "aliases": [
+      "political office held",
+      "political seat",
+      "public office",
+      "office held",
+      "position occupied"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "use item for specific public offices in priority. generic office - position (Q4164871), e.g. municipal councillor (Q15113603), member of parliament (Q486839), deputy (Q1055894)"
+  },
+  "P102": {
+    "popularity": 188639,
+    "type": "wikibase-item",
+    "label": "member of political party",
+    "description": "the political party of which this politician is or has been a member",
+    "aliases": [
+      "political party",
+      "party"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Term that normally \"is a\" \"political party\"."
+  },
+  "P263": {
+    "popularity": 323,
+    "type": "wikibase-item",
+    "label": "official residence",
+    "description": "the residence at which heads of government and other senior figures officially reside",
+    "aliases": [],
+    "suggestedValues": [
+      {
+        "label": "building ",
+        "id": "Q41176"
+      },
+      {
+        "label": "official residence ",
+        "id": "Q481289"
+      }
+    ],
+    "suggestedValuesText": "building (Q41176) of any type, with use = official residence (Q481289)"
+  },
+  "P140": {
+    "popularity": 33437,
+    "type": "wikibase-item",
+    "label": "religion",
+    "description": "religion of a person or organization",
+    "aliases": [
+      "faith",
+      "religious affiliation",
+      "denomination",
+      "life stance"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Instances of religions : instance of (P31) = religion (Q9174)"
+  },
+  "P91": {
+    "popularity": 3249,
+    "type": "wikibase-item",
+    "label": "sexual orientation",
+    "description": "the sexual orientation of the person",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "Usual Options: Heterosexual (straight), Homosexual (Gay/Lesbian), Bisexual, Asexual."
+  },
+  "P94": {
+    "popularity": 65329,
+    "type": "commonsMedia",
+    "label": "coat of arms image",
+    "description": "image of the item's coat of arms",
+    "aliases": [
+      "symbol",
+      "heraldic representation",
+      "heraldic emblem",
+      "arms"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Image files. Don't add the ones from c:Category:Coat of arms placeholders (check)"
+  },
+  "P237": {
+    "popularity": 2149,
+    "type": "wikibase-item",
+    "label": "coat of arms",
+    "description": "subject's coat of arms",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "coat of arms (Q14659)"
+  },
+  "P109": {
+    "popularity": 5619,
+    "type": "commonsMedia",
+    "label": "signature",
+    "description": "image of a person's signature",
+    "aliases": [
+      "autograph"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Commons image files"
+  },
+  "P184": {
+    "popularity": 4165,
+    "type": "wikibase-item",
+    "label": "doctoral advisor",
+    "description": "person who supervised the doctorate or PhD thesis of the subject",
+    "aliases": [
+      "advisor"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "human (Q5)"
+  },
+  "P185": {
+    "popularity": 927,
+    "type": "wikibase-item",
+    "label": "doctoral student",
+    "description": "doctoral student(s) of a professor",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "human (Q5)"
+  },
+  "P1066": {
+    "popularity": 5239,
+    "type": "wikibase-item",
+    "label": "student of",
+    "description": "person who has taught this person",
+    "aliases": [
+      "teacher",
+      "professor",
+      "pupil of",
+      "supervisor",
+      "academic supervisor",
+      "disciple of"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "human (Q5)"
+  },
+  "P802": {
+    "popularity": 4716,
+    "type": "wikibase-item",
+    "label": "student",
+    "description": "notable student(s) of a person",
+    "aliases": [
+      "students",
+      "teacher of",
+      "pupil",
+      "pupils",
+      "disciple",
+      "disciples"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person"
+  },
+  "P411": {
+    "popularity": 3649,
+    "type": "wikibase-item",
+    "label": "canonization status",
+    "description": "stage in the process of attaining sainthood per the subject's religious organization.",
+    "aliases": [
+      "sainthood status"
+    ],
+    "suggestedValues": [
+      {
+        "label": "Servant of God",
+        "id": "Q869974"
+      },
+      {
+        "label": "Venerable",
+        "id": "Q51619"
+      },
+      {
+        "label": "Blessed",
+        "id": "Q9591034"
+      },
+      {
+        "label": "Saint",
+        "id": "Q43115"
+      }
+    ],
+    "suggestedValuesText": "types of canonization status (Q15978876), such as Servant of God, Venerable, Blessed, Saint..."
+  },
+  "P412": {
+    "popularity": 9011,
+    "type": "wikibase-item",
+    "label": "voice type",
+    "description": "person's voice type",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "subclasses of tessitura (Q12298060) or voice type (Q1063547) or vocal register (Q178673). Multiple values are possible (general and more specific)."
+  },
+  "P423": {
+    "popularity": 26,
+    "type": "wikibase-item",
+    "label": "shooting handedness",
+    "description": "whether the hockey player passes oŗ shoots left- or right-handed",
+    "aliases": [],
+    "suggestedValues": [
+      {
+        "label": "left-handed shot",
+        "id": "Q10927615"
+      },
+      {
+        "label": "right-handed shot",
+        "id": "Q10927630"
+      }
+    ],
+    "suggestedValuesText": "laterality (Q10927834) : left-handed shot or right-handed shot"
+  },
+  "P450": {
+    "popularity": 1618,
+    "type": "wikibase-item",
+    "label": "astronaut mission",
+    "description": "space mission that the subject is or has been a member of",
+    "aliases": [
+      "cosmonaut mission"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "manned spacecrafts - manned spacecraft (Q7217761)"
+  },
+  "P468": {
+    "popularity": 32,
+    "type": "wikibase-item",
+    "label": "dan/kyu rank",
+    "description": "rank system used in several board games",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "subclasses of dan (Q373498) or Kyū (Q1131276) (e.g. \"9 dan (go)\", \"10 dan (judo)\")"
+  },
+  "P470": {
+    "popularity": 893,
+    "type": "wikibase-item",
+    "label": "Eight Banner register",
+    "description": "Manchu household register for people of the Qing Dynasty",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "Manchu Bordered Yellow Banner, Han Army Bordered Yellow Banner, etc. (see below)"
+  },
+  "P53": {
+    "popularity": 8496,
+    "type": "wikibase-item",
+    "label": "noble family",
+    "description": "include dynasty and nobility houses",
+    "aliases": [
+      "royal house",
+      "dynasty",
+      "house"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "family/dynasty name (generally a single item)"
+  },
+  "P97": {
+    "popularity": 5299,
+    "type": "wikibase-item",
+    "label": "noble title",
+    "description": "titles held by the person",
+    "aliases": [
+      "peerage",
+      "title (hereditary)",
+      "hereditary title",
+      "royal title"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "rank or title (generally a single item)"
+  },
+  "P511": {
+    "popularity": 151,
+    "type": "wikibase-item",
+    "label": "honorific prefix",
+    "description": "word or expression used before a name, in addressing or referring to a person",
+    "aliases": [
+      "style prefix",
+      "pre-nominal"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "title of honor (Q3320743)"
+  },
+  "P512": {
+    "popularity": 22769,
+    "type": "wikibase-item",
+    "label": "academic degree",
+    "description": "academic degree that the person holds",
+    "aliases": [
+      "degree",
+      "diploma"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Academic degree [ academic degree (Q189533) ] such as Doctor of Philosophy, Master, Bachelor etc."
+  },
+  "P552": {
+    "popularity": 736,
+    "type": "wikibase-item",
+    "label": "handedness",
+    "description": "handedness of the person",
+    "aliases": [],
+    "suggestedValues": [
+      {
+        "label": "right-handed ",
+        "id": "Q3039938"
+      },
+      {
+        "label": "left-handedness ",
+        "id": "Q789447"
+      },
+      {
+        "label": "ambidexterity ",
+        "id": "Q457332"
+      }
+    ],
+    "suggestedValuesText": "instances of laterality (Q10927834): right-handed (Q3039938), left-handedness (Q789447), ambidexterity (Q457332)"
+  },
+  "P553": {
+    "popularity": 2921,
+    "type": "wikibase-item",
+    "label": "website account on",
+    "description": "a website that the person or organization has an account on (use with P554) Note: only used with reliable source or if the person or organization disclosed it.",
+    "aliases": [
+      "social media account on",
+      "account on"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "social networking service (Q3220391): LinkedIn, YouTube, Facebook, etc."
+  },
+  "P1035": {
+    "popularity": 11,
+    "type": "wikibase-item",
+    "label": "honorific suffix",
+    "description": "word or expression with connotations conveying esteem or respect when used, after a name, in addressing or referring to a person",
+    "aliases": [
+      "style suffix",
+      "post-nominal",
+      "postnomial",
+      "honourific suffix"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "award (Q618779), order (Q193622), qualification (Q3412758) or other post-nominal letters (Q2330404)"
+  },
+  "P734": {
+    "popularity": 177529,
+    "type": "wikibase-item",
+    "label": "family name",
+    "description": "surname or last name of a person",
+    "aliases": [
+      "last name",
+      "has surname",
+      "surname"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "family names - family name (Q101352)"
+  },
+  "P735": {
+    "popularity": 2212915,
+    "type": "wikibase-item",
+    "label": "given name",
+    "description": "first name or another given name of this person. Values used with the property shouldn't link disambiguations nor family names.",
+    "aliases": [
+      "forename",
+      "first name",
+      "personal name",
+      "christian name",
+      "middle name"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "given name (Q202444)"
+  },
+  "P742": {
+    "popularity": 2733,
+    "type": "string",
+    "label": "pseudonym",
+    "description": "alias used by someone or by which this person is universally known",
+    "aliases": [
+      "nom-de-plume",
+      "alias",
+      "pen name",
+      "stage name"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Instances of any type of person (Q215627) or group of humans (Q16334295)"
+  },
+  "P841": {
+    "popularity": 728,
+    "type": "wikibase-item",
+    "label": "feast day",
+    "description": "saint's principal feast day",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "day"
+  },
+  "P990": {
+    "popularity": 469,
+    "type": "commonsMedia",
+    "label": "audio recording of the subject's spoken voice",
+    "description": "audio file representing the speaking voice of a person; or of an  animated cartoon or other fictitious character",
+    "aliases": [
+      "voice recording",
+      "recording of the subject's spoken voice"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P1037": {
+    "popularity": 902,
+    "type": "wikibase-item",
+    "label": "manager/director",
+    "description": "person who manages any kind of group",
+    "aliases": [
+      "leader"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person items"
+  },
+  "P1283": {
+    "popularity": 79,
+    "type": "wikibase-item",
+    "label": "filmography",
+    "description": "list of films a person has contributed to",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "instance of (P31) => filmography (Q1371849), is a list of (P360) => film (Q11424)"
+  },
+  "P1303": {
+    "popularity": 25936,
+    "type": "wikibase-item",
+    "label": "instrument",
+    "description": "instrument that a person plays",
+    "aliases": [
+      "plays"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "types of musical instruments - musical instrument (Q34379)"
+  },
+  "P1340": {
+    "popularity": 844,
+    "type": "wikibase-item",
+    "label": "eye color",
+    "description": "color of the irises of a person's eyes",
+    "aliases": [
+      "eye colour"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "eye color (Q23786) : one of those items. Overview: reasonator"
+  },
+  "P1344": {
+    "popularity": 159964,
+    "type": "wikibase-item",
+    "label": "participant of",
+    "description": "event a person or an organization was a participant in",
+    "aliases": [
+      "took part",
+      "took part in",
+      "participant in"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "type(s) d'éléments liés (modèle Q ou texte), liste ou intervalle de valeurs permises, format de chaîne de caractères..."
+  },
+  "P1399": {
+    "popularity": 2931,
+    "type": "wikibase-item",
+    "label": "convicted of",
+    "description": "crime a person was convicted of",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "items which are crimes"
+  },
+  "P1412": {
+    "popularity": 227550,
+    "type": "wikibase-item",
+    "label": "languages spoken or written",
+    "description": "language(s) that a person speaks or writes. Can include native languages",
+    "aliases": [
+      "languages spoken",
+      "language spoken",
+      "language of expression",
+      "languages of expression"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "languoid (Q17376908)"
+  },
+  "P1416": {
+    "popularity": 3873,
+    "type": "wikibase-item",
+    "label": "affiliation",
+    "description": "organization that a person is affiliated with",
+    "aliases": [
+      "affiliated with"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "organisations (including projects)"
+  },
+  "P1429": {
+    "popularity": 17,
+    "type": "wikibase-item",
+    "label": "pet",
+    "description": "pet that a person owns",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "individually named animals - say, any Vertebrata (Q25241)"
+  },
+  "P1472": {
+    "popularity": 16906,
+    "type": "string",
+    "label": "Commons Creator page",
+    "description": "name of the person's creator page on Wikimedia Commons (without the prefix \"Creator\")",
+    "aliases": [
+      "creator page"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Creator-space page on Commons"
+  },
+  "P1938": {
+    "popularity": 8742,
+    "type": "string",
+    "label": "Project Gutenberg author ID",
+    "description": "author identifier at Project Gutenberg",
+    "aliases": [
+      "Gutenberg ID",
+      "Project Gutenberg ID (author)"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Stems of Project Gutenberg author URLs"
+  },
+  "P22": {
+    "popularity": 62603,
+    "type": "wikibase-item",
+    "label": "father",
+    "description": "male parent",
+    "aliases": [
+      "dad",
+      "son of",
+      "has father",
+      "daughter of",
+      "child of"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person (Q215627) / fictional character (Q95074):male (Q6581097) / male creature (Q44148)"
+  },
+  "P25": {
+    "popularity": 22819,
+    "type": "wikibase-item",
+    "label": "mother",
+    "description": "female parent",
+    "aliases": [
+      "mum",
+      "mom",
+      "mam",
+      "has mother",
+      "son of",
+      "daughter of",
+      "child of"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "female persons, generally a single item"
+  },
+  "P7": {
+    "popularity": 108249,
+    "type": "wikibase-item",
+    "label": "brother",
+    "description": "subject has the object as their brother",
+    "aliases": [
+      "has brother",
+      "sibling"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "male person (of the same nature)"
+  },
+  "P9": {
+    "popularity": 51415,
+    "type": "wikibase-item",
+    "label": "sister",
+    "description": "subject has the object as their sister (female sibling)",
+    "aliases": [
+      "has sister",
+      "sibling"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Female person (of the same nature)"
+  },
+  "P26": {
+    "popularity": 56447,
+    "type": "wikibase-item",
+    "label": "spouse",
+    "description": "the subject has the object as their spouse (husband, wife, partner, etc.). Use \"cohabitant\" for non-married companions",
+    "aliases": [
+      "husband",
+      "wife",
+      "married to",
+      "consort",
+      "partner"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person"
+  },
+  "P451": {
+    "popularity": 2430,
+    "type": "wikibase-item",
+    "label": "partner",
+    "description": "someone with whom the person is in a relationship without being married.",
+    "aliases": [
+      "partner",
+      "mistress",
+      "domestic partner",
+      "significant other",
+      "life partner",
+      "girlfriend",
+      "boyfriend",
+      "concubine",
+      "lover",
+      "common-law spouse",
+      "cohabitant"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person"
+  },
+  "P40": {
+    "popularity": 85588,
+    "type": "wikibase-item",
+    "label": "child",
+    "description": "subject has the object as their biological offspring",
+    "aliases": [
+      "son",
+      "daughter",
+      "kid",
+      "is parent of",
+      "has child",
+      "children",
+      "father of",
+      "mother of",
+      "parent of",
+      "is father of",
+      "is mother of"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person"
+  },
+  "P43": {
+    "popularity": 97,
+    "type": "wikibase-item",
+    "label": "stepfather",
+    "description": "husband of the subject's mother, who is not the subject's biological father",
+    "aliases": [
+      "step father",
+      "step-father"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "human (Q5)"
+  },
+  "P44": {
+    "popularity": 41,
+    "type": "wikibase-item",
+    "label": "stepmother",
+    "description": "wife of the subject's father, who is not the subject's biological mother",
+    "aliases": [
+      "step-mother"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Person (women)"
+  },
+  "P1038": {
+    "popularity": 2980,
+    "type": "wikibase-item",
+    "label": "relative",
+    "description": "family member (qualify with \"type of kinship\", P1039; for direct family member please use specific property)",
+    "aliases": [
+      "family",
+      "family member"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person - person (Q215627)"
+  },
+  "P1290": {
+    "popularity": 34,
+    "type": "wikibase-item",
+    "label": "godparent",
+    "description": "person who is the godparent of a given person",
+    "aliases": [
+      "godfather",
+      "godmother"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "person"
+  },
+  "P2332": {
+    "popularity": 2412,
+    "type": "string",
+    "label": "Dictionary of Art Historians ID",
+    "description": "identifier for a person in the Dictionary of Art Historians",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "letters"
+  },
+  "P54": {
+    "popularity": 424882,
+    "type": "wikibase-item",
+    "label": "member of sports team",
+    "description": "sports teams or clubs that the subject currently represents or formerly represented",
+    "aliases": [
+      "member of team",
+      "team",
+      "team played for",
+      "played for",
+      "plays for",
+      "teams played for",
+      "of team"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "Organisation"
+  },
+  "P413": {
+    "popularity": 27330,
+    "type": "wikibase-item",
+    "label": "position played on team / speciality",
+    "description": "position or specialism of a player on a team, e.g. Small Forward",
+    "aliases": [
+      "player position",
+      "fielding position",
+      "specialism"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "instances of position (Q1781513): defenceman, pitcher, goalie..."
+  },
+  "P555": {
+    "popularity": 3150,
+    "type": "string",
+    "label": "doubles record",
+    "description": "win/lose balance for a player in doubles tournaments",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "digits dash(\"–\") digits"
+  },
+  "P564": {
+    "popularity": 3153,
+    "type": "string",
+    "label": "singles record",
+    "description": "win/lose balance for a player in singles tournaments",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "digits dash(\"-\") digits"
+  },
+  "P1352": {
+    "popularity": 1087,
+    "type": "quantity",
+    "label": "ranking",
+    "description": "person's or team's ranking in a sport event",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "range(1,100.000)"
+  },
+  "P1532": {
+    "popularity": 444,
+    "type": "wikibase-item",
+    "label": "country for sport",
+    "description": "country a person represents when playing a sport",
+    "aliases": [
+      "sporting nationality",
+      "sports nationality"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "both countries and some additional items like England (Q21) and Chinese Taipei (Q216923)"
+  },
+  "P2323": {
+    "popularity": 238,
+    "type": "string",
+    "label": "Swedish Olympic Committee athlete ID",
+    "description": "entry in the bibliographic database of the Swedish Olympic Committee",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "(first letter of given name)/(given name)-(family name)"
+  },
+  "P345": {
+    "popularity": 382987,
+    "type": "string",
+    "label": "IMDb identifier",
+    "description": "identifier from the Internet Movie Database (IMDb) with prefix (tt-, nm-, ch-, co-, ev-)",
+    "aliases": [
+      "IMDb",
+      "Internet Movie Database",
+      "imdb"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "prefix (tt, nm, ch, co or ev) and 7-digit numerical value, values with prefix ev can additionally have a / and a year appended"
+  },
+  "P1266": {
+    "popularity": 23970,
+    "type": "string",
+    "label": "AlloCiné person ID",
+    "description": "identifier for a person on the AlloCiné film database",
+    "aliases": [
+      "AlloCine person ID"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "unique identifier"
+  },
+  "P1649": {
+    "popularity": 778,
+    "type": "string",
+    "label": "KMDb person ID",
+    "description": "identifier for a person on the Korean Movie Database (KMDb)",
+    "aliases": [
+      "Korean Movie Database person ID"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "number"
+  },
+  "P1969": {
+    "popularity": 10311,
+    "type": "string",
+    "label": "MovieMeter director ID",
+    "description": "identifier for a person on the MovieMeter film database",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": "range of numbers"
+  },
+  "P2019": {
+    "popularity": 17736,
+    "type": "string",
+    "label": "AllMovie artist ID",
+    "description": "identifier for a person on the AllMovie film database",
+    "aliases": [],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  },
+  "P2168": {
+    "popularity": 15047,
+    "type": "string",
+    "label": "SFDb person ID",
+    "description": "identifier for a person on the Swedish Film Database (SFDb)",
+    "aliases": [
+      "Svensk Filmdatabas person ID",
+      "Swedish Film Database person ID"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "digits"
+  },
+  "P241": {
+    "popularity": 29790,
+    "type": "wikibase-item",
+    "label": "military branch",
+    "description": "the branch to which this military unit, award, or person belongs, e.g. Royal Navy",
+    "aliases": [
+      "branch",
+      "formation",
+      "service branch"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "instances of military branch (Q781132)"
+  },
+  "P410": {
+    "popularity": 7357,
+    "type": "wikibase-item",
+    "label": "military rank",
+    "description": "military rank achieved by a person (should usually have a \"start date\" qualifier)",
+    "aliases": [
+      "rank"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "instances of military rank (Q56019). The rank should be specific, such as United States General, not generic General"
+  },
+  "P598": {
+    "popularity": 211,
+    "type": "wikibase-item",
+    "label": "commander of",
+    "description": "for persons who are notable as commanding officers, the units they commanded",
+    "aliases": [
+      "commands"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": "military unit (Q176799)"
+  },
+  "P607": {
+    "popularity": 56887,
+    "type": "wikibase-item",
+    "label": "conflict",
+    "description": "battles, wars or engagements in which the person or item participated",
+    "aliases": [
+      "war",
+      "battle"
+    ],
+    "suggestedValues": [],
+    "suggestedValuesText": ""
+  }
+}
