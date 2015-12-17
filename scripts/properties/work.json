@@ -1,0 +1,1559 @@
+{
+  "P144": {
+    "popularity": 9618,
+    "type": "wikibase-item",
+    "label": "based on",
+    "description": "the work(s) used as basis for subject",
+    "aliases": [
+      "copie of",
+      "fork of",
+      "derived from",
+      "extended from"
+    ]
+  },
+  "P136": {
+    "popularity": 275758,
+    "type": "wikibase-item",
+    "label": "genre",
+    "description": "genre of a creative work or genre in which an artist works",
+    "aliases": [
+      "music genre",
+      "film genre",
+      "artistic genre",
+      "literary genre"
+    ]
+  },
+  "P135": {
+    "popularity": 16426,
+    "type": "wikibase-item",
+    "label": "movement",
+    "description": "literary, artistic or philosophical movement associated with this person or work",
+    "aliases": [
+      "school"
+    ]
+  },
+  "P179": {
+    "popularity": 38736,
+    "type": "wikibase-item",
+    "label": "series",
+    "description": "the subject is part of a series, whose sum constitutes the object",
+    "aliases": []
+  },
+  "P840": {
+    "popularity": 24606,
+    "type": "wikibase-item",
+    "label": "narrative location",
+    "description": "the narrative of the work is set in this location",
+    "aliases": [
+      "setting location",
+      "narrative set in"
+    ]
+  },
+  "P275": {
+    "popularity": 6364,
+    "type": "wikibase-item",
+    "label": "license",
+    "description": "license under which this copyrighted work is released",
+    "aliases": [
+      "licence"
+    ]
+  },
+  "P1476": {
+    "popularity": 71839,
+    "type": "monolingualtext",
+    "label": "title",
+    "description": "the original title of a work such as a newspaper article",
+    "aliases": [
+      "original title",
+      "article"
+    ]
+  },
+  "P364": {
+    "popularity": 254103,
+    "type": "wikibase-item",
+    "label": "original language of work",
+    "description": "language in which a work was originally created",
+    "aliases": [
+      "original language",
+      "language of the original work"
+    ]
+  },
+  "P371": {
+    "popularity": 2094,
+    "type": "wikibase-item",
+    "label": "presenter",
+    "description": "someone who takes a main role in presenting a radio or television program",
+    "aliases": [
+      "host",
+      "hostess",
+      "TV presenter",
+      "TV host"
+    ]
+  },
+  "P407": {
+    "popularity": 217473,
+    "type": "wikibase-item",
+    "label": "language of work or name",
+    "description": "for works (for original language use P364 and for persons P103 and P1412)",
+    "aliases": [
+      "language of the name"
+    ]
+  },
+  "P437": {
+    "popularity": 10883,
+    "type": "wikibase-item",
+    "label": "distribution",
+    "description": "method (or type) of distribution for the subject",
+    "aliases": [
+      "media",
+      "media type",
+      "type of media",
+      "form of publication"
+    ]
+  },
+  "P444": {
+    "popularity": 285,
+    "type": "string",
+    "label": "review score",
+    "description": "review score received by a creative work",
+    "aliases": []
+  },
+  "P447": {
+    "popularity": 5,
+    "type": "wikibase-item",
+    "label": "score by",
+    "description": "issuer of a review score",
+    "aliases": [
+      "reviewer",
+      "score issuer",
+      "publication",
+      "scorer",
+      "by"
+    ]
+  },
+  "P449": {
+    "popularity": 25052,
+    "type": "wikibase-item",
+    "label": "original network",
+    "description": "network(s) the radio or television show was originally aired on. This does not include later re-runs or additional syndication.",
+    "aliases": [
+      "original channel",
+      "channel",
+      "TV channel",
+      "radio network",
+      "network",
+      "television channel",
+      "radio station",
+      "original air channel"
+    ]
+  },
+  "P453": {
+    "popularity": 242,
+    "type": "wikibase-item",
+    "label": "character role",
+    "description": "specific role played or filled by subject -- use only as qualifier of \"cast member\" (P161) or \"voice actor\" (P725)",
+    "aliases": [
+      "role",
+      "as"
+    ]
+  },
+  "P495": {
+    "popularity": 208999,
+    "type": "wikibase-item",
+    "label": "country of origin",
+    "description": "country of origin of the creative work or subject item",
+    "aliases": [
+      "place of origin"
+    ]
+  },
+  "P674": {
+    "popularity": 5200,
+    "type": "wikibase-item",
+    "label": "characters",
+    "description": "characters which appear in this item (plays, operas, operettas, books...)",
+    "aliases": []
+  },
+  "P736": {
+    "popularity": 215,
+    "type": "wikibase-item",
+    "label": "cover artist",
+    "description": "name of person or team creating cover artwork for album, single, book, etc.",
+    "aliases": []
+  },
+  "P767": {
+    "popularity": 1471,
+    "type": "wikibase-item",
+    "label": "contributor",
+    "description": "person or organization that contributed to a subject: co-creator of a creative work; a player assisted to score a point or a goal in a game etc.",
+    "aliases": [
+      "assistant"
+    ]
+  },
+  "P747": {
+    "popularity": 2279,
+    "type": "wikibase-item",
+    "label": "edition(s)",
+    "description": "linking to an edition of this item",
+    "aliases": [
+      "has edition",
+      "editions",
+      "translation(s)"
+    ]
+  },
+  "P750": {
+    "popularity": 1569,
+    "type": "wikibase-item",
+    "label": "distributor",
+    "description": "distributor of a creative work",
+    "aliases": [
+      "distributed by"
+    ]
+  },
+  "P825": {
+    "popularity": 765,
+    "type": "wikibase-item",
+    "label": "dedicated to",
+    "description": "person or organization to whom the subject was dedicated",
+    "aliases": []
+  },
+  "P1240": {
+    "popularity": 13747,
+    "type": "string",
+    "label": "Danish Bibliometric Research Indicator level",
+    "description": null,
+    "aliases": [
+      "BFI level"
+    ]
+  },
+  "P1299": {
+    "popularity": 161,
+    "type": "wikibase-item",
+    "label": "depicted by",
+    "description": "object depicting this subject",
+    "aliases": []
+  },
+  "P1316": {
+    "popularity": 189,
+    "type": "string",
+    "label": "SMDB ID",
+    "description": "identifier in the Swedish Media Database",
+    "aliases": []
+  },
+  "P528": {
+    "popularity": 103060,
+    "type": "string",
+    "label": "catalog code",
+    "description": "catalog name of an object, use with qualifier P972",
+    "aliases": [
+      "astronomical catalog",
+      "register",
+      "opus number",
+      "catalogue code"
+    ]
+  },
+  "P1436": {
+    "popularity": 21,
+    "type": "quantity",
+    "label": "collection or exhibition size",
+    "description": "number of items in a collection or exhibition",
+    "aliases": []
+  },
+  "P1462": {
+    "popularity": 565,
+    "type": "wikibase-item",
+    "label": "standards body",
+    "description": "body or organisation responsible for publication and maintenance of standard",
+    "aliases": [
+      "standards organisation",
+      "standards setting organization",
+      "standards setting organisation",
+      "standards developing organization",
+      "standards developing organisation"
+    ]
+  },
+  "P1557": {
+    "popularity": 32,
+    "type": "wikibase-item",
+    "label": "manifestation of",
+    "description": "physical embodiment of a given concept",
+    "aliases": []
+  },
+  "P1638": {
+    "popularity": 16,
+    "type": "monolingualtext",
+    "label": "working title",
+    "description": "temporary name of a product or project used during its development",
+    "aliases": [
+      "production title"
+    ]
+  },
+  "P1712": {
+    "popularity": 4340,
+    "type": "string",
+    "label": "Metacritic ID",
+    "description": "identifier in Metacritic",
+    "aliases": [
+      "Metacritic"
+    ]
+  },
+  "P1809": {
+    "popularity": 130,
+    "type": "wikibase-item",
+    "label": "choreographer",
+    "description": "person(s) who did the choreography",
+    "aliases": []
+  },
+  "P1811": {
+    "popularity": 307,
+    "type": "wikibase-item",
+    "label": "list of episodes",
+    "description": "link to the article with the list of episodes for this series",
+    "aliases": [
+      "episode list"
+    ]
+  },
+  "P1874": {
+    "popularity": 268,
+    "type": "string",
+    "label": "Netflix identifier",
+    "description": "identifier for a creative work on Netflix",
+    "aliases": []
+  },
+  "P1932": {
+    "popularity": 1,
+    "type": "string",
+    "label": "stated as",
+    "description": "use as qualifier to indicate how certain information was spelled or printed in the source",
+    "aliases": [
+      "originally printed as",
+      "author statement",
+      "printed as",
+      "original wording"
+    ]
+  },
+  "P170": {
+    "popularity": 131214,
+    "type": "wikibase-item",
+    "label": "creator",
+    "description": "maker of a creative work or other object (where no more specific property exists)",
+    "aliases": [
+      "artist (non-musical)",
+      "created by",
+      "painter",
+      "sculptor",
+      "inventor"
+    ]
+  },
+  "P84": {
+    "popularity": 16176,
+    "type": "wikibase-item",
+    "label": "architect",
+    "description": "person or architectural firm that designed this building",
+    "aliases": []
+  },
+  "P466": {
+    "popularity": 10097,
+    "type": "wikibase-item",
+    "label": "occupant",
+    "description": "person or organization occupying a building or facility",
+    "aliases": [
+      "occupied by",
+      "tenant",
+      "inhabitant"
+    ]
+  },
+  "P88": {
+    "popularity": 729,
+    "type": "wikibase-item",
+    "label": "commissioned by",
+    "description": "person or organization that commissioned this work",
+    "aliases": [
+      "client",
+      "commissioner",
+      "made for",
+      "built for"
+    ]
+  },
+  "P149": {
+    "popularity": 21684,
+    "type": "wikibase-item",
+    "label": "architectural style",
+    "description": "architectural style of a structure or architect",
+    "aliases": []
+  },
+  "P180": {
+    "popularity": 84908,
+    "type": "wikibase-item",
+    "label": "depicts",
+    "description": "depicted entity (see also P921: subject heading)",
+    "aliases": [
+      "depiction of",
+      "painting of",
+      "motif",
+      "portrait of",
+      "landscape of"
+    ]
+  },
+  "P186": {
+    "popularity": 96329,
+    "type": "wikibase-item",
+    "label": "material used",
+    "description": "material the subject is made of",
+    "aliases": [
+      "medium",
+      "made from",
+      "constructed from",
+      "constructed out of",
+      "construction material",
+      "media",
+      "built from",
+      "built out of",
+      "manufactured from",
+      "manufactured out of",
+      "crafted from",
+      "crafted out of",
+      "formed from",
+      "formed out of",
+      "ingredients",
+      "made of"
+    ]
+  },
+  "P189": {
+    "popularity": 456,
+    "type": "wikibase-item",
+    "label": "location of discovery",
+    "description": "where the item was located when discovered",
+    "aliases": [
+      "findspot",
+      "location of discovered object",
+      "discovery place",
+      "place of discovery"
+    ]
+  },
+  "P195": {
+    "popularity": 124181,
+    "type": "wikibase-item",
+    "label": "collection",
+    "description": "art, museum or bibliographic collection the subject is part of",
+    "aliases": [
+      "art collection",
+      "museum collection"
+    ]
+  },
+  "P217": {
+    "popularity": 110716,
+    "type": "string",
+    "label": "inventory number",
+    "description": "identifier for a physical object or a set of physical objects in a collection",
+    "aliases": [
+      "reference",
+      "accession number",
+      "shelfmark",
+      "call number"
+    ]
+  },
+  "P276": {
+    "popularity": 314057,
+    "type": "wikibase-item",
+    "label": "location",
+    "description": "location the item, physical object or event is within.  In case of an administrative entity use P131. In case of a distinct terrain feature use P706.",
+    "aliases": [
+      "moveable object location",
+      "located in",
+      "event location",
+      "venue",
+      "is in",
+      "location of item"
+    ]
+  },
+  "P1684": {
+    "popularity": 235,
+    "type": "monolingualtext",
+    "label": "inscription",
+    "description": "inscriptions, markings and signatures on an object",
+    "aliases": []
+  },
+  "P438": {
+    "popularity": 683,
+    "type": "string",
+    "label": "(OBSOLETE) inscription (use P1684)",
+    "description": "inscriptions, markings and signatures on an object",
+    "aliases": []
+  },
+  "P1189": {
+    "popularity": 7,
+    "type": "string",
+    "label": "Chinese Library Classification",
+    "description": "identifier used for this class in the CLC",
+    "aliases": []
+  },
+  "P1639": {
+    "popularity": 296,
+    "type": "wikibase-item",
+    "label": "pendant of",
+    "description": "other work in a pair of opposing artworks, such as wedding portraits, commissioned together, but not always",
+    "aliases": [
+      "pendant to"
+    ]
+  },
+  "P1773": {
+    "popularity": 14,
+    "type": "wikibase-item",
+    "label": "attributed to",
+    "description": "uncertain but likely creator of an artwork",
+    "aliases": []
+  },
+  "P1774": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "workshop of",
+    "description": "artist whose work group are the likely creator of an artwork",
+    "aliases": [
+      "studio of"
+    ]
+  },
+  "P1775": {
+    "popularity": 7,
+    "type": "wikibase-item",
+    "label": "follower of",
+    "description": "for unknown artists who work in the manner of the named artist",
+    "aliases": []
+  },
+  "P1776": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "circle of",
+    "description": "for unknown artists who lived in the same time as the named author in a similar style, possibly a follower or someone who had contact with the named artist",
+    "aliases": []
+  },
+  "P1777": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "manner of",
+    "description": "for unknown artists who worked in a similar style as the named author, but not necessary from the same period",
+    "aliases": [
+      "style of"
+    ]
+  },
+  "P1778": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "forgery after",
+    "description": "for an artwork trying to appear to be the work of the named author",
+    "aliases": []
+  },
+  "P1779": {
+    "popularity": 10,
+    "type": "wikibase-item",
+    "label": "possible creator",
+    "description": "for a creative work with considerable uncertainty about the author",
+    "aliases": [
+      "creator (possible)"
+    ]
+  },
+  "P1780": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "school of",
+    "description": "for a creative work with author with a style influenced by the known author or circle, active in the same period, but a student or follower",
+    "aliases": []
+  },
+  "P347": {
+    "popularity": 3114,
+    "type": "string",
+    "label": "Joconde ID",
+    "description": "identifier in the Joconde database of the French Ministry of Culture",
+    "aliases": []
+  },
+  "P350": {
+    "popularity": 1905,
+    "type": "string",
+    "label": "RKDimages",
+    "description": "identifier per RKDimages of the Netherlands Institute for Art History",
+    "aliases": []
+  },
+  "P359": {
+    "popularity": 66882,
+    "type": "string",
+    "label": "Rijksmonument identifier",
+    "description": "identifier for a monument assigned by the Rijksdienst voor het Cultureel Erfgoed",
+    "aliases": [
+      "Rijksmonument ID"
+    ]
+  },
+  "P380": {
+    "popularity": 19969,
+    "type": "string",
+    "label": "Mérimée identifier",
+    "description": "identifier for a monument per the Mérimée database of French cultural heritage",
+    "aliases": []
+  },
+  "P381": {
+    "popularity": 2548,
+    "type": "string",
+    "label": "PCP reference number",
+    "description": "identifier for cultural properties in Switzerland",
+    "aliases": [
+      "PCP ref. no.",
+      "PCP no.",
+      "KGS identifier",
+      "PCP identifier"
+    ]
+  },
+  "P477": {
+    "popularity": 1548,
+    "type": "string",
+    "label": "Canadian Register of Historic Places identifier",
+    "description": "identifier in the Canadian Register of Historic Places",
+    "aliases": [
+      "Historic Places identifier"
+    ]
+  },
+  "P632": {
+    "popularity": 56,
+    "type": "string",
+    "label": "cultural properties of Belarus reference number",
+    "description": "identifier for a cultural property of Belarus",
+    "aliases": []
+  },
+  "P633": {
+    "popularity": 364,
+    "type": "string",
+    "label": "Québec cultural heritage directory identifier",
+    "description": "identifier in the directory of the cultural heritage of Quebec",
+    "aliases": [
+      "Répertoire du patrimoine culturel du Québec",
+      "RPCQ"
+    ]
+  },
+  "P757": {
+    "popularity": 1270,
+    "type": "string",
+    "label": "World Heritage Site id",
+    "description": "identifier for a site as assigned by UNESCO. Use on one item per site, link parts with property \"has part\" (P527)",
+    "aliases": [
+      "UNESCO WHS"
+    ]
+  },
+  "P758": {
+    "popularity": 2177,
+    "type": "string",
+    "label": "Kulturminne identifier",
+    "description": "Norwegian heritage property identification number of Riksantikvaren (the Directorate for Cultural Heritage)",
+    "aliases": [
+      "Lokalitets ID"
+    ]
+  },
+  "P759": {
+    "popularity": 53,
+    "type": "string",
+    "label": "Alberta Register of Historic Places identifier",
+    "description": "identifier of historic resources in the Alberta Register of Historic Places",
+    "aliases": []
+  },
+  "P763": {
+    "popularity": 18,
+    "type": "string",
+    "label": "PEI Register of Historic Places identifier",
+    "description": "identifier of a historic place in Prince Edward Island, Canada",
+    "aliases": []
+  },
+  "P808": {
+    "popularity": 2317,
+    "type": "string",
+    "label": "code Bien de Interés Cultural",
+    "description": "identifier for an item in the Spanish heritage register. Format is RI-XX-nnnnnnn-n?n?n?nnnn",
+    "aliases": [
+      "BIC"
+    ]
+  },
+  "P845": {
+    "popularity": 34,
+    "type": "string",
+    "label": "Saskatchewan Register of Heritage Property identifier",
+    "description": "identifier of the Saskatchewan Register of Heritage Property",
+    "aliases": []
+  },
+  "P1133": {
+    "popularity": 345,
+    "type": "string",
+    "label": "DGO4 identifier",
+    "description": "identifier per Direction générale opérationelle (Wallonia)",
+    "aliases": []
+  },
+  "P1212": {
+    "popularity": 1890,
+    "type": "string",
+    "label": "Atlas ID",
+    "description": "identifier in the Atlas database of the Louvre Museum",
+    "aliases": []
+  },
+  "P1230": {
+    "popularity": 3,
+    "type": "string",
+    "label": "JSTOR journal code",
+    "description": "identifier for a journal in JSTOR",
+    "aliases": []
+  },
+  "P1257": {
+    "popularity": 2331,
+    "type": "string",
+    "label": "depicts Iconclass notation",
+    "description": "Iconclass code depicted in an artwork. For linking Iconclass codes with their corresponding artistic themes or concepts, use P1256 (Iconclass notation).",
+    "aliases": [
+      "Iconclass ID (of artwork)",
+      "Iconclass notation (of artwork)"
+    ]
+  },
+  "P1300": {
+    "popularity": 1,
+    "type": "string",
+    "label": "bibcode",
+    "description": "bibcode for a journal",
+    "aliases": []
+  },
+  "P1428": {
+    "popularity": 4,
+    "type": "string",
+    "label": "Lost Art-ID",
+    "description": "identifier in the Lost Art Internet Database",
+    "aliases": []
+  },
+  "P1483": {
+    "popularity": 1535,
+    "type": "string",
+    "label": "kulturnoe-nasledie.ru ID",
+    "description": "identifier for an item in a Russian cultural heritage register",
+    "aliases": []
+  },
+  "P1551": {
+    "popularity": 68,
+    "type": "string",
+    "label": "Exceptional heritage of Wallonia identifier",
+    "description": "The unique identifier of the \"Patrimoine immobilier exceptionnel de la Région wallonne\"",
+    "aliases": []
+  },
+  "P1700": {
+    "popularity": 37,
+    "type": "string",
+    "label": "SIPA identifier",
+    "description": "identifier in the SIPA (Sistema de Informação para o Património Arquitectónico) database of heritage sites in Portugal",
+    "aliases": []
+  },
+  "P1708": {
+    "popularity": 6,
+    "type": "string",
+    "label": "LfDS object ID",
+    "description": "identifer for national heritage sites issued by the Landesamt für Denkmalpflege Sachsen",
+    "aliases": []
+  },
+  "P1726": {
+    "popularity": 17,
+    "type": "string",
+    "label": "Florentine musea Inventario 1890  ID",
+    "description": "national florentine musea inventory from 1890 identifier",
+    "aliases": []
+  },
+  "P1822": {
+    "popularity": 2,
+    "type": "string",
+    "label": "DSH object ID",
+    "description": "identifier for cultural monuments in Hamburg, Germany",
+    "aliases": []
+  },
+  "P50": {
+    "popularity": 139437,
+    "type": "wikibase-item",
+    "label": "author",
+    "description": "main creator(s) of a written work",
+    "aliases": [
+      "written by",
+      "writer (of written work)"
+    ]
+  },
+  "P655": {
+    "popularity": 719,
+    "type": "wikibase-item",
+    "label": "translator",
+    "description": "adapts a creative work to another language",
+    "aliases": [
+      "translated by"
+    ]
+  },
+  "P98": {
+    "popularity": 4814,
+    "type": "wikibase-item",
+    "label": "editor",
+    "description": "editor of a compiled work such as a book or academic journal",
+    "aliases": []
+  },
+  "P110": {
+    "popularity": 2089,
+    "type": "wikibase-item",
+    "label": "illustrator",
+    "description": "illustrator of a book",
+    "aliases": [
+      "illustration by",
+      "illustrated by"
+    ]
+  },
+  "P393": {
+    "popularity": 1823,
+    "type": "string",
+    "label": "edition number",
+    "description": "number of edition (first, second,... as 1, 2 ...) for a book or event",
+    "aliases": []
+  },
+  "P291": {
+    "popularity": 2960,
+    "type": "wikibase-item",
+    "label": "place of publication",
+    "description": "geographical place of publication of the edition (use 1st edition when referring to works)",
+    "aliases": [
+      "release region",
+      "publication region",
+      "published in (place)",
+      "publication place"
+    ]
+  },
+  "P123": {
+    "popularity": 43006,
+    "type": "wikibase-item",
+    "label": "publisher",
+    "description": "organization responsible for publishing books, periodicals or software",
+    "aliases": [
+      "book publisher",
+      "video game publisher",
+      "software publisher",
+      "publishing house"
+    ]
+  },
+  "P957": {
+    "popularity": 11505,
+    "type": "string",
+    "label": "ISBN-10",
+    "description": "identifier for a book (edition), ten digit",
+    "aliases": [
+      "isbn-10",
+      "International Standard Book Number-10"
+    ]
+  },
+  "P212": {
+    "popularity": 9294,
+    "type": "string",
+    "label": "ISBN-13",
+    "description": "identifier for a book (edition), thirteen digit",
+    "aliases": [
+      "isbn-13",
+      "International Standard Book Number-13",
+      "Bookland"
+    ]
+  },
+  "P236": {
+    "popularity": 46020,
+    "type": "string",
+    "label": "ISSN",
+    "description": "International Standard Serial Number (print or electronic)",
+    "aliases": [
+      "International Standard Serial Number"
+    ]
+  },
+  "P1144": {
+    "popularity": 2027,
+    "type": "string",
+    "label": "LCOC LCCN (bibliographic)",
+    "description": "Library of Congress ID for bibliographic records (for books etc only; for authors use P244)",
+    "aliases": [
+      "LCCN editions",
+      "LoC editions",
+      "LCOC number",
+      "LCCN (LCOC)",
+      "Library of Congress Control Number (bibliographic)",
+      "Library of Congress Catalog Card Number (bibliographic)",
+      "LC Control Number"
+    ]
+  },
+  "P243": {
+    "popularity": 25463,
+    "type": "string",
+    "label": "OCLC control number",
+    "description": "identifier from the Online Computer Library Center",
+    "aliases": [
+      "oclc",
+      "Online Computer Library Center",
+      "ocn"
+    ]
+  },
+  "P356": {
+    "popularity": 19240,
+    "type": "string",
+    "label": "DOI",
+    "description": "identifer for objects / Digital Object Identifier",
+    "aliases": [
+      "Digital Object Identifier"
+    ]
+  },
+  "P577": {
+    "popularity": 251804,
+    "type": "time",
+    "label": "publication date",
+    "description": "date or point in time a work is first published or released",
+    "aliases": [
+      "release date",
+      "date published",
+      "date released",
+      "published",
+      "dop",
+      "year of publication",
+      "initial release",
+      "date of release",
+      "date of publication",
+      "released",
+      "time of publication",
+      "publication"
+    ]
+  },
+  "P648": {
+    "popularity": 56972,
+    "type": "string",
+    "label": "Open Library identifier",
+    "description": "identifier for works, editions and authors",
+    "aliases": [
+      "Open Library ID",
+      "OLID",
+      "OpenLibrary ID",
+      "OpenLibrary identifier"
+    ]
+  },
+  "P1104": {
+    "popularity": 812,
+    "type": "quantity",
+    "label": "number of pages",
+    "description": "number of pages in an edition of a written work",
+    "aliases": [
+      "page count",
+      "pages"
+    ]
+  },
+  "P1190": {
+    "popularity": 92,
+    "type": "string",
+    "label": "Universal Decimal Classification",
+    "description": "type of library classification",
+    "aliases": [
+      "UDC"
+    ]
+  },
+  "P1085": {
+    "popularity": 88,
+    "type": "string",
+    "label": "LibraryThing work identifier",
+    "description": "LibraryThing (LT) control number",
+    "aliases": [
+      "LT work identifier"
+    ]
+  },
+  "P1242": {
+    "popularity": 1,
+    "type": "string",
+    "label": "Theatricalia play ID",
+    "description": "identifier for a theatrical work, in the Theatricalia database - http://theatricalia.com/",
+    "aliases": []
+  },
+  "P1441": {
+    "popularity": 12998,
+    "type": "wikibase-item",
+    "label": "present in work",
+    "description": "work in which this fictional entity (Q14897293) is present. See also P:1080 for in-universe information",
+    "aliases": [
+      "from work",
+      "from narrative",
+      "featured in work",
+      "in work",
+      "in narrative",
+      "appears in"
+    ]
+  },
+  "P1191": {
+    "popularity": 1582,
+    "type": "time",
+    "label": "first performance",
+    "description": "date a work was first performed",
+    "aliases": [
+      "air date",
+      "premiere",
+      "broadcast date",
+      "time of first performance",
+      "premiere date"
+    ]
+  },
+  "P2034": {
+    "popularity": 16,
+    "type": "string",
+    "label": "Project Gutenberg ebook ID",
+    "description": "ebook identifier at Project Gutenberg",
+    "aliases": [
+      "Gutenberg ID",
+      "Project Gutenberg ID (ebook)"
+    ]
+  },
+  "P175": {
+    "popularity": 152794,
+    "type": "wikibase-item",
+    "label": "performer",
+    "description": "musician, music group, or other performer associated with this work",
+    "aliases": [
+      "band",
+      "musician",
+      "music group",
+      "musical artist",
+      "group",
+      "singer"
+    ]
+  },
+  "P86": {
+    "popularity": 14469,
+    "type": "wikibase-item",
+    "label": "composer",
+    "description": "person(s) who wrote the music; also use P676 for lyricist",
+    "aliases": [
+      "songwriter",
+      "composed by",
+      "musical score by",
+      "music by"
+    ]
+  },
+  "P87": {
+    "popularity": 1980,
+    "type": "wikibase-item",
+    "label": "librettist",
+    "description": "author of the libretto (words) of an opera",
+    "aliases": []
+  },
+  "P162": {
+    "popularity": 48285,
+    "type": "wikibase-item",
+    "label": "producer",
+    "description": "producer(s) of this film or music work (film: not executive producers, associate producers, etc.)",
+    "aliases": [
+      "record producer",
+      "film producer"
+    ]
+  },
+  "P264": {
+    "popularity": 112921,
+    "type": "wikibase-item",
+    "label": "record label",
+    "description": "brand and trademark associated with the marketing of subject music recordings and music videos",
+    "aliases": [
+      "label"
+    ]
+  },
+  "P358": {
+    "popularity": 3261,
+    "type": "wikibase-item",
+    "label": "discography",
+    "description": "link to discography in artist or band page",
+    "aliases": [
+      "discography link"
+    ]
+  },
+  "P434": {
+    "popularity": 123069,
+    "type": "string",
+    "label": "MusicBrainz artist ID",
+    "description": "identifier for an artist per the MusicBrainz open music encyclopedia",
+    "aliases": [
+      "artist MBID",
+      "artist id",
+      "BBC Music artist ID",
+      "MBID artist"
+    ]
+  },
+  "P436": {
+    "popularity": 86356,
+    "type": "string",
+    "label": "MusicBrainz release group ID",
+    "description": "identifier for a release group per the MusicBrainz open music encyclopedia (album)",
+    "aliases": [
+      "release group MBID",
+      "album MBID",
+      "single MBID",
+      "EP MBID",
+      "MusicBrainz album",
+      "album ID",
+      "release group ID",
+      "single ID",
+      "EP ID",
+      "MBID release group"
+    ]
+  },
+  "P435": {
+    "popularity": 19077,
+    "type": "string",
+    "label": "MusicBrainz work ID",
+    "description": "identifier for a work per the MusicBrainz open music encyclopedia",
+    "aliases": [
+      "work MBID",
+      "song MBID",
+      "work ID",
+      "song ID",
+      "MusicBrainz work MBID",
+      "MBID work"
+    ]
+  },
+  "P658": {
+    "popularity": 1139,
+    "type": "wikibase-item",
+    "label": "tracklist",
+    "description": "songs contained in this item",
+    "aliases": []
+  },
+  "P676": {
+    "popularity": 5899,
+    "type": "wikibase-item",
+    "label": "lyrics by",
+    "description": "author of song lyrics; also use P86 for music composer",
+    "aliases": [
+      "lyricist",
+      "lyracist",
+      "words by",
+      "writer (of song lyrics)"
+    ]
+  },
+  "P826": {
+    "popularity": 1943,
+    "type": "wikibase-item",
+    "label": "tonality",
+    "description": "key of a musical composition",
+    "aliases": [
+      "musical key",
+      "key of musical composition"
+    ]
+  },
+  "P839": {
+    "popularity": 5633,
+    "type": "string",
+    "label": "IMSLP ID",
+    "description": "identifier for a page on the International Music Score Library Project",
+    "aliases": [
+      "IMSLP"
+    ]
+  },
+  "P1236": {
+    "popularity": 44,
+    "type": "string",
+    "label": "Parsons code",
+    "description": "identifier for melodic contours of music",
+    "aliases": [
+      "Parsons Code for Melodic Contours"
+    ]
+  },
+  "P1432": {
+    "popularity": 6,
+    "type": "wikibase-item",
+    "label": "b-side",
+    "description": "song/track which is the b-side of this single",
+    "aliases": []
+  },
+  "P57": {
+    "popularity": 136963,
+    "type": "wikibase-item",
+    "label": "director",
+    "description": "director(s) of this motion picture, play, video game or similar",
+    "aliases": [
+      "directed by",
+      "film director"
+    ]
+  },
+  "P58": {
+    "popularity": 56937,
+    "type": "wikibase-item",
+    "label": "screenwriter",
+    "description": "author(s) of the screenplay or script for this work",
+    "aliases": [
+      "scriptwriter",
+      "screenplay by",
+      "teleplay by",
+      "writer (of screenplays)"
+    ]
+  },
+  "P1431": {
+    "popularity": 531,
+    "type": "wikibase-item",
+    "label": "executive producer",
+    "description": "executive producer of a movie or TV show",
+    "aliases": []
+  },
+  "P344": {
+    "popularity": 30664,
+    "type": "wikibase-item",
+    "label": "director of photography",
+    "description": "person responsible for the framing, lighting and filtration of the subject work",
+    "aliases": [
+      "cinematographer"
+    ]
+  },
+  "P1040": {
+    "popularity": 7632,
+    "type": "wikibase-item",
+    "label": "film editor",
+    "description": "person who worked with the raw footage, selecting shots and combining them into sequences to create a finished motion picture",
+    "aliases": [
+      "picture editor",
+      "Edited by"
+    ]
+  },
+  "P406": {
+    "popularity": 274,
+    "type": "wikibase-item",
+    "label": "soundtrack album",
+    "description": "album that incorporates music directly recorded from the soundtrack of a film or video game",
+    "aliases": []
+  },
+  "P161": {
+    "popularity": 618585,
+    "type": "wikibase-item",
+    "label": "cast member",
+    "description": "production's cast members; to add the roles, use \"character role\" (P453) as qualifier",
+    "aliases": [
+      "film starring",
+      "actor",
+      "actress",
+      "starring"
+    ]
+  },
+  "P725": {
+    "popularity": 1717,
+    "type": "wikibase-item",
+    "label": "voice actor",
+    "description": "the person who dubbed a role of a creative work (like TV series, movie or video game)",
+    "aliases": [
+      "voice dubber",
+      "dubbed by",
+      "VO",
+      "Seiyu",
+      "voiced by",
+      "CV"
+    ]
+  },
+  "P272": {
+    "popularity": 30751,
+    "type": "wikibase-item",
+    "label": "production company",
+    "description": "company that produced this film, audio or performing arts work",
+    "aliases": [
+      "film studio",
+      "studio",
+      "motion picture studio",
+      "movie studio",
+      "production house",
+      "theatre company",
+      "theater company",
+      "theatrical troupe",
+      "ballet company",
+      "broadcasting company"
+    ]
+  },
+  "P1265": {
+    "popularity": 21290,
+    "type": "string",
+    "label": "AlloCiné movie ID",
+    "description": "identifier for a movie in the AlloCiné film database",
+    "aliases": [
+      "AlloCine movie ID",
+      "AlloCine film ID"
+    ]
+  },
+  "P1237": {
+    "popularity": 5923,
+    "type": "string",
+    "label": "Box Office Mojo film ID",
+    "description": "identifier for a movie at the website Box Office Mojo",
+    "aliases": [
+      "boxofficemojo"
+    ]
+  },
+  "P480": {
+    "popularity": 5892,
+    "type": "string",
+    "label": "FilmAffinity identifier",
+    "description": "FilmAffinity identification number of a creative work",
+    "aliases": [
+      "Filmaffinity",
+      "filmaffinity"
+    ]
+  },
+  "P345": {
+    "popularity": 385948,
+    "type": "string",
+    "label": "IMDb identifier",
+    "description": "identifier from the Internet Movie Database (IMDb) with prefix (tt-, nm-, ch-, co-, ev-)",
+    "aliases": [
+      "IMDb",
+      "Internet Movie Database",
+      "imdb"
+    ]
+  },
+  "P1810": {
+    "popularity": 6,
+    "type": "string",
+    "label": "named as",
+    "description": "credit name for an individual that participated in the production of the product",
+    "aliases": [
+      "credited as"
+    ]
+  },
+  "P1934": {
+    "popularity": 1142,
+    "type": "string",
+    "label": "Animator.ru film ID",
+    "description": "ID of animated film in Animator.ru database",
+    "aliases": [
+      "Animator.ru work ID"
+    ]
+  },
+  "P905": {
+    "popularity": 2964,
+    "type": "string",
+    "label": "PORT film ID",
+    "description": "PORT-network film database: identifier for a film or television program",
+    "aliases": [
+      "PORT film identifier"
+    ]
+  },
+  "P1258": {
+    "popularity": 15136,
+    "type": "string",
+    "label": "Rotten Tomatoes identifier",
+    "description": "identifier on Rotten Tomatoes: must use prefix \"m/\" for movies, \"tv/\" for TV series (remove /s number on end unless the item is a specific season), \"celebrity/\" for celebrities, \"critic/\" for film critics, \"source-\" for review sources",
+    "aliases": []
+  },
+  "P1970": {
+    "popularity": 7777,
+    "type": "string",
+    "label": "MovieMeter movie ID",
+    "description": "idMovieMeter movie identifier for a movie on the website MovieMeter",
+    "aliases": [
+      "MovieMeter movie identifier"
+    ]
+  },
+  "P1562": {
+    "popularity": 26043,
+    "type": "string",
+    "label": "AllMovie movie ID",
+    "description": "identifier for a movie on the site AllMovie",
+    "aliases": []
+  },
+  "P2168": {
+    "popularity": 19124,
+    "type": "string",
+    "label": "SFDb person ID",
+    "description": "identifier for a person on the Swedish Film Database (SFDb)",
+    "aliases": [
+      "Svensk Filmdatabas person ID",
+      "Swedish Film Database person ID"
+    ]
+  },
+  "P2334": {
+    "popularity": 2968,
+    "type": "string",
+    "label": "SFDb movie ID",
+    "description": "identifier for a movie on the Swedish Film Database (SFDb)",
+    "aliases": [
+      "Swedish Film Database film ID"
+    ]
+  },
+  "P2335": {
+    "popularity": 5,
+    "type": "string",
+    "label": "SFDb-identifier of company",
+    "description": "company identifier in the Swedish Film Database (SFDb)",
+    "aliases": []
+  },
+  "P2336": {
+    "popularity": 1,
+    "type": "string",
+    "label": "SFDb-identifier of soundtrack",
+    "description": "soundtrack identifier in the Swedish Film Database (SFDb)",
+    "aliases": []
+  },
+  "P2337": {
+    "popularity": 1,
+    "type": "string",
+    "label": "SFDb-identifier of group",
+    "description": "group identifier in the Swedish Film Database (SFDb)",
+    "aliases": []
+  },
+  "P1981": {
+    "popularity": 67,
+    "type": "wikibase-item",
+    "label": "FSK film rating",
+    "description": "permitted audience of a film, according to the German film-rating system",
+    "aliases": []
+  },
+  "P1657": {
+    "popularity": 36,
+    "type": "wikibase-item",
+    "label": "MPAA film rating",
+    "description": "US film-rating system",
+    "aliases": []
+  },
+  "P415": {
+    "popularity": 289,
+    "type": "wikibase-item",
+    "label": "radio format",
+    "description": "describes the overall content broadcast on a radio station",
+    "aliases": []
+  },
+  "P464": {
+    "popularity": 32,
+    "type": "string",
+    "label": "NOR",
+    "description": "identifier for French official texts",
+    "aliases": []
+  },
+  "P467": {
+    "popularity": 205,
+    "type": "wikibase-item",
+    "label": "legislated by",
+    "description": "indicates that an act or bill was passed by a legislature.  The value can be a particular session of the legislature",
+    "aliases": [
+      "enacted by",
+      "passed by"
+    ]
+  },
+  "P1031": {
+    "popularity": 284,
+    "type": "string",
+    "label": "legal citation of this text",
+    "description": "legal citation of legislation or a court decision",
+    "aliases": [
+      "case citation",
+      "neutral citation",
+      "parallel citation",
+      "statute citation",
+      "regulation citation",
+      "citation"
+    ]
+  },
+  "P1620": {
+    "popularity": 6,
+    "type": "wikibase-item",
+    "label": "plaintiff",
+    "description": "the party who initiates a lawsuit",
+    "aliases": [
+      "claimant",
+      "pursuer"
+    ]
+  },
+  "P1591": {
+    "popularity": 8,
+    "type": "wikibase-item",
+    "label": "defendant",
+    "description": "person or organization accused, at a trial",
+    "aliases": []
+  },
+  "P1595": {
+    "popularity": 6,
+    "type": "wikibase-item",
+    "label": "charge",
+    "description": "offence with which someone is charged, at a trial",
+    "aliases": []
+  },
+  "P1437": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "plea",
+    "description": "whether a person pleaded guilty, not guilty, etc.",
+    "aliases": []
+  },
+  "P1596": {
+    "popularity": 263,
+    "type": "wikibase-item",
+    "label": "penalty",
+    "description": "penalty passed, at a trial",
+    "aliases": []
+  },
+  "P1594": {
+    "popularity": 9,
+    "type": "wikibase-item",
+    "label": "judge",
+    "description": "Judge, magistrate or equivalent, presiding at a trial",
+    "aliases": []
+  },
+  "P1593": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "defender",
+    "description": "Person representing the defendant, at a trial",
+    "aliases": []
+  },
+  "P1592": {
+    "popularity": 7,
+    "type": "wikibase-item",
+    "label": "prosecutor",
+    "description": "person representing the prosecuting authority, at a trial",
+    "aliases": []
+  },
+  "P852": {
+    "popularity": 3485,
+    "type": "wikibase-item",
+    "label": "ESRB rating",
+    "description": "North American video game content rating - appropriate values are on property's talk page",
+    "aliases": [
+      "Entertainment Software Rating Board rating"
+    ]
+  },
+  "P853": {
+    "popularity": 1377,
+    "type": "wikibase-item",
+    "label": "CERO rating",
+    "description": "Japanese video game rating system - see talk page for appropriate values",
+    "aliases": [
+      "Computer Entertainment Rating Organization rating"
+    ]
+  },
+  "P908": {
+    "popularity": 2935,
+    "type": "wikibase-item",
+    "label": "PEGI rating",
+    "description": "European video game rating system - see talk page for appropriate values",
+    "aliases": []
+  },
+  "P914": {
+    "popularity": 1698,
+    "type": "wikibase-item",
+    "label": "USK rating",
+    "description": "German video game content rating - see talk page for appropriate values",
+    "aliases": [
+      "Unterhaltungssoftware Selbstkontrolle rating"
+    ]
+  },
+  "P916": {
+    "popularity": 10,
+    "type": "wikibase-item",
+    "label": "GSRR rating",
+    "description": "Taiwanese video game content rating system",
+    "aliases": [
+      "CSRR rating",
+      "GSRMR rating"
+    ]
+  },
+  "P1733": {
+    "popularity": 260,
+    "type": "string",
+    "label": "Steam ID",
+    "description": "identifier for an application on the Steam website",
+    "aliases": [
+      "steampowered.com ID"
+    ]
+  },
+  "P1933": {
+    "popularity": 378,
+    "type": "string",
+    "label": "MobyGames ID",
+    "description": "identifier for MobyGames",
+    "aliases": []
+  }
+}

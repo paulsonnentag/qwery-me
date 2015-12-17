@@ -1,0 +1,512 @@
+{
+  "P94": {
+    "popularity": 65511,
+    "type": "commonsMedia",
+    "label": "coat of arms image",
+    "description": "image of the item's coat of arms",
+    "aliases": [
+      "symbol",
+      "heraldic representation",
+      "heraldic emblem",
+      "arms"
+    ]
+  },
+  "P237": {
+    "popularity": 2152,
+    "type": "wikibase-item",
+    "label": "coat of arms",
+    "description": "subject's coat of arms",
+    "aliases": []
+  },
+  "P154": {
+    "popularity": 11263,
+    "type": "commonsMedia",
+    "label": "logo image",
+    "description": "graphic mark or emblem commonly used by commercial enterprises, organizations and products",
+    "aliases": []
+  },
+  "P159": {
+    "popularity": 72064,
+    "type": "wikibase-item",
+    "label": "headquarters location",
+    "description": "specific location where an organization's HQ is or has been situated",
+    "aliases": [
+      "head office location",
+      "HQ",
+      "garrison",
+      "admin HQ"
+    ]
+  },
+  "P452": {
+    "popularity": 8730,
+    "type": "wikibase-item",
+    "label": "industry",
+    "description": "industry of company or organization",
+    "aliases": [
+      "field of action",
+      "field of exercise",
+      "sector"
+    ]
+  },
+  "P807": {
+    "popularity": 47,
+    "type": "wikibase-item",
+    "label": "separated from",
+    "description": "subject was founded or started by separating from identified object",
+    "aliases": [
+      "forked from",
+      "schism from",
+      "seceded from"
+    ]
+  },
+  "P1056": {
+    "popularity": 1077,
+    "type": "wikibase-item",
+    "label": "product",
+    "description": "material or product produced by a business or industry",
+    "aliases": [
+      "material produced",
+      "ore",
+      "produces",
+      "manufactures",
+      "makes"
+    ]
+  },
+  "P18": {
+    "popularity": 1095397,
+    "type": "commonsMedia",
+    "label": "image",
+    "description": "image of relevant illustration of the subject; if available, use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image); only images which exist on Wikimedia Commons are acceptable",
+    "aliases": [
+      "portrait",
+      "illustration",
+      "picture",
+      "drawing",
+      "photo"
+    ]
+  },
+  "P31": {
+    "popularity": 15119570,
+    "type": "wikibase-item",
+    "label": "instance of",
+    "description": "this item is a specific example and a member of that class. Not to be confused with Property:P279 (subclass of).",
+    "aliases": [
+      "is a",
+      "is an",
+      "rdf:type"
+    ]
+  },
+  "P457": {
+    "popularity": 98,
+    "type": "wikibase-item",
+    "label": "foundational text",
+    "description": "text through which an institution has been created",
+    "aliases": [
+      "establishing document"
+    ]
+  },
+  "P571": {
+    "popularity": 197463,
+    "type": "time",
+    "label": "inception",
+    "description": "date or point in time when the organization/object was founded/created",
+    "aliases": [
+      "date founded",
+      "date created",
+      "incorporated",
+      "foundation",
+      "founded",
+      "created",
+      "date of foundation",
+      "date of creation",
+      "established",
+      "establishment date",
+      "foundation date",
+      "creation date",
+      "incorporation date",
+      "date incorporated",
+      "date of incorporation",
+      "date of establishment",
+      "founding date",
+      "date of founding",
+      "date formed",
+      "formation date",
+      "formed on date",
+      "founded on date",
+      "incorporated on date",
+      "established on date",
+      "created on date",
+      "commencement date",
+      "date commenced",
+      "commenced on date",
+      "date of commencement",
+      "foundation/creation date",
+      "time of foundation or creation",
+      "date of foundation or creation",
+      "written",
+      "written on date",
+      "time of inception"
+    ]
+  },
+  "P856": {
+    "popularity": 282035,
+    "type": "url",
+    "label": "official website",
+    "description": "URL to the website of this item",
+    "aliases": [
+      "official site",
+      "homepage",
+      "home page",
+      "official page",
+      "official web site",
+      "official url",
+      "official homepage",
+      "web address",
+      "website (official)",
+      "url (official)"
+    ]
+  },
+  "P576": {
+    "popularity": 19565,
+    "type": "time",
+    "label": "dissolved or abolished",
+    "description": "date or point in time on which the organisation was dissolved",
+    "aliases": [
+      "defunct date",
+      "dissolution date",
+      "dissolved on date",
+      "wound up on date",
+      "date of dissolution",
+      "date dissolved",
+      "date disbanded",
+      "date disestablished",
+      "disestablished",
+      "abolished",
+      "abolishment date",
+      "disbanded on",
+      "time dissolved",
+      "time of dissolution",
+      "time abolished",
+      "time of abolishment"
+    ]
+  },
+  "P112": {
+    "popularity": 9686,
+    "type": "wikibase-item",
+    "label": "founder",
+    "description": "founder or co-founder of this organization, religion or place",
+    "aliases": [
+      "founded by",
+      "is founded by"
+    ]
+  },
+  "P740": {
+    "popularity": 1421,
+    "type": "wikibase-item",
+    "label": "location of formation",
+    "description": "location where a group or organization was formed",
+    "aliases": [
+      "originates from",
+      "comes from",
+      "place of foundation",
+      "founded in",
+      "formation location",
+      "source location of group/organisation"
+    ]
+  },
+  "P1342": {
+    "popularity": 188,
+    "type": "quantity",
+    "label": "number of seats",
+    "description": "number of seats/members in an assembly (legislative house or similar)",
+    "aliases": [
+      "number of seats (members)",
+      "seats (members)",
+      "quantity of members",
+      "membership quantity"
+    ]
+  },
+  "P1387": {
+    "popularity": 106,
+    "type": "wikibase-item",
+    "label": "political alignment",
+    "description": "political position within the political spectrum",
+    "aliases": [
+      "political position"
+    ]
+  },
+  "P1408": {
+    "popularity": 5209,
+    "type": "wikibase-item",
+    "label": "licensed to broadcast to",
+    "description": "place that a radio/TV station is licensed/required to broadcast to",
+    "aliases": [
+      "city of license",
+      "community of license"
+    ]
+  },
+  "P1410": {
+    "popularity": 20,
+    "type": "quantity",
+    "label": "number of seats of the organization in legislature",
+    "description": "number of seats a political party has in a given legislature",
+    "aliases": []
+  },
+  "P1313": {
+    "popularity": 2241,
+    "type": "wikibase-item",
+    "label": "office held by head of government",
+    "description": "political office that is fulfilled by the head of the government of this item",
+    "aliases": [
+      "office of head of government",
+      "position of head of government"
+    ]
+  },
+  "P113": {
+    "popularity": 2070,
+    "type": "wikibase-item",
+    "label": "airline hub",
+    "description": "airport that serves as a hub for an airline",
+    "aliases": [
+      "hub"
+    ]
+  },
+  "P114": {
+    "popularity": 248,
+    "type": "wikibase-item",
+    "label": "airline alliance",
+    "description": "the alliance the airline belongs to",
+    "aliases": []
+  },
+  "P121": {
+    "popularity": 3551,
+    "type": "wikibase-item",
+    "label": "item operated",
+    "description": "object used by the subject",
+    "aliases": [
+      "fleet",
+      "aircraft in fleet",
+      "aircraft operated",
+      "equipment operated",
+      "facility operated",
+      "service operated",
+      "operator of",
+      "operated",
+      "operates",
+      "eq",
+      "item operated"
+    ]
+  },
+  "P229": {
+    "popularity": 2065,
+    "type": "string",
+    "label": "IATA airline designator",
+    "description": "two-character identifier for an airline (for airports, see P:238)",
+    "aliases": [
+      "IATA reservation code",
+      "International Air Transport Association airline designator"
+    ]
+  },
+  "P230": {
+    "popularity": 2458,
+    "type": "string",
+    "label": "ICAO airline designator",
+    "description": "three letter identifier for an airline (for airports, see P239)",
+    "aliases": [
+      "International Civil Aviation Organization airline designator"
+    ]
+  },
+  "P432": {
+    "popularity": 2329,
+    "type": "string",
+    "label": "callsign of airline",
+    "description": "identifier used in radio transmissions to refer to the subject airline",
+    "aliases": [
+      "airline code",
+      "airline callsign",
+      "airline call sign"
+    ]
+  },
+  "P115": {
+    "popularity": 5833,
+    "type": "wikibase-item",
+    "label": "home venue",
+    "description": "home stadium or venue of a sports team or applicable performing arts organization",
+    "aliases": [
+      "ground",
+      "home field",
+      "arena",
+      "home ground",
+      "stadium",
+      "ballpark",
+      "home water"
+    ]
+  },
+  "P118": {
+    "popularity": 11626,
+    "type": "wikibase-item",
+    "label": "league",
+    "description": "league in which the team plays or has played in",
+    "aliases": [
+      "division"
+    ]
+  },
+  "P286": {
+    "popularity": 2740,
+    "type": "wikibase-item",
+    "label": "head coach",
+    "description": "on-field manager or head coach of a sports club (not to be confused with a general manager P505, which is not a coaching position) or person",
+    "aliases": [
+      "manager",
+      "club manager",
+      "senior coach",
+      "team manager",
+      "coach"
+    ]
+  },
+  "P505": {
+    "popularity": 625,
+    "type": "wikibase-item",
+    "label": "general manager",
+    "description": "general manager of a sports team. If he is also an on-field manager use P286 instead",
+    "aliases": []
+  },
+  "P634": {
+    "popularity": 62,
+    "type": "wikibase-item",
+    "label": "captain",
+    "description": "captain of this sports team",
+    "aliases": []
+  },
+  "P822": {
+    "popularity": 86,
+    "type": "wikibase-item",
+    "label": "mascot",
+    "description": "mascot of an organization, e.g. a sports team or university",
+    "aliases": []
+  },
+  "P241": {
+    "popularity": 29924,
+    "type": "wikibase-item",
+    "label": "military branch",
+    "description": "the branch to which this military unit, award, or person belongs, e.g. Royal Navy",
+    "aliases": [
+      "branch",
+      "formation",
+      "service branch"
+    ]
+  },
+  "P169": {
+    "popularity": 458,
+    "type": "wikibase-item",
+    "label": "chief executive officer",
+    "description": "highest-ranking corporate officer appointed as the CEO within an organization",
+    "aliases": [
+      "CEO",
+      "chief executive",
+      "ceo"
+    ]
+  },
+  "P488": {
+    "popularity": 3294,
+    "type": "wikibase-item",
+    "label": "chairperson",
+    "description": "presiding member of an organization, group or body",
+    "aliases": [
+      "chairman",
+      "chairwoman",
+      "president",
+      "leader"
+    ]
+  },
+  "P199": {
+    "popularity": 491,
+    "type": "wikibase-item",
+    "label": "business division",
+    "description": "divisions of this organization",
+    "aliases": [
+      "divisions"
+    ]
+  },
+  "P355": {
+    "popularity": 2921,
+    "type": "wikibase-item",
+    "label": "subsidiaries",
+    "description": "subsidiary of a company or organization, opposite of parent company (P749)",
+    "aliases": [
+      "subsidiary company",
+      "Parent company of",
+      "subsidiary entities"
+    ]
+  },
+  "P1268": {
+    "popularity": 61,
+    "type": "wikibase-item",
+    "label": "represents organisation",
+    "description": "organization that an entity represents",
+    "aliases": []
+  },
+  "P1278": {
+    "popularity": 42,
+    "type": "string",
+    "label": "Legal Entity Identifier",
+    "description": "identifier for a legally distinct entity per ISO 17442",
+    "aliases": [
+      "Global Legal Entity Identifier",
+      "LEI",
+      "ISO 17442 code"
+    ]
+  },
+  "P1308": {
+    "popularity": 252,
+    "type": "wikibase-item",
+    "label": "officeholder",
+    "description": "person who holds an office",
+    "aliases": [
+      "incumbent"
+    ]
+  },
+  "P1128": {
+    "popularity": 2419,
+    "type": "quantity",
+    "label": "employees",
+    "description": "total number of employees of a company at a given point in time",
+    "aliases": [
+      "number of employees"
+    ]
+  },
+  "P249": {
+    "popularity": 64,
+    "type": "string",
+    "label": "ticker symbol",
+    "description": "identifier for a publicly traded share of a particular stock on a particular stock market",
+    "aliases": [
+      "stock code"
+    ]
+  },
+  "P414": {
+    "popularity": 4929,
+    "type": "wikibase-item",
+    "label": "stock exchange",
+    "description": "exchange on which this company is traded",
+    "aliases": []
+  },
+  "P1320": {
+    "popularity": 664,
+    "type": "string",
+    "label": "OpenCorporates ID",
+    "description": "identifier for a corporation, in the OpenCorporates database",
+    "aliases": [
+      "Open Corporates ID"
+    ]
+  },
+  "P1454": {
+    "popularity": 7677,
+    "type": "wikibase-item",
+    "label": "legal form",
+    "description": "legal form of an organization",
+    "aliases": [
+      "type of business entity"
+    ]
+  }
+}

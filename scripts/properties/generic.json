@@ -1,0 +1,1452 @@
+{
+  "P31": {
+    "popularity": 15119600,
+    "type": "wikibase-item",
+    "label": "instance of",
+    "description": "this item is a specific example and a member of that class. Not to be confused with Property:P279 (subclass of).",
+    "aliases": [
+      "is a",
+      "is an",
+      "rdf:type"
+    ]
+  },
+  "P279": {
+    "popularity": 474511,
+    "type": "wikibase-item",
+    "label": "subclass of",
+    "description": "all instances of these items are instances of those items; this item is a class of that item. Not to be confused with Property:P31 (instance of).",
+    "aliases": [
+      "rdfs:subClassOf",
+      "hyponym of",
+      "is a",
+      "type of",
+      "is a type of",
+      "branch of"
+    ]
+  },
+  "P361": {
+    "popularity": 153214,
+    "type": "wikibase-item",
+    "label": "part of",
+    "description": "subject is a part of that object",
+    "aliases": [
+      "meronym of",
+      "section of",
+      "system of",
+      "subsystem of",
+      "subassembly of",
+      "merged into",
+      "contained within",
+      "assembly of",
+      "within a set"
+    ]
+  },
+  "P527": {
+    "popularity": 74291,
+    "type": "wikibase-item",
+    "label": "has part",
+    "description": "object that is part of this subject",
+    "aliases": [
+      "have part",
+      "composed of",
+      "contains",
+      "formed from",
+      "formed out of",
+      "assembled from",
+      "assembled out of",
+      "created from",
+      "created out of",
+      "amalgamation of",
+      "set of",
+      "consists of",
+      "members",
+      "holonym of",
+      "includes",
+      "ingredient",
+      "member",
+      "include",
+      "parts",
+      "has member",
+      "comprised of",
+      "has add-on"
+    ]
+  },
+  "P138": {
+    "popularity": 51199,
+    "type": "wikibase-item",
+    "label": "named after",
+    "description": "entity or event that inspired the subject's name, or namesake (in at least one language)",
+    "aliases": [
+      "eponym",
+      "named for",
+      "namesake",
+      "etymology",
+      "toponym"
+    ]
+  },
+  "P127": {
+    "popularity": 29321,
+    "type": "wikibase-item",
+    "label": "owned by",
+    "description": "owner of the subject",
+    "aliases": [
+      "is owned by",
+      "owner",
+      "belongs to",
+      "shareholder",
+      "stockholder"
+    ]
+  },
+  "P790": {
+    "popularity": 188,
+    "type": "wikibase-item",
+    "label": "approved by",
+    "description": "item is approved by other item(s) [qualifier: statement is approved by other item(s)]",
+    "aliases": []
+  },
+  "P301": {
+    "popularity": 441601,
+    "type": "wikibase-item",
+    "label": "category's main topic",
+    "description": "primary topic of the subject category",
+    "aliases": [
+      "main article in category",
+      "main category topic",
+      "topic",
+      "main topic of category",
+      "category's main article",
+      "main article"
+    ]
+  },
+  "P910": {
+    "popularity": 415597,
+    "type": "wikibase-item",
+    "label": "topic's main category",
+    "description": "main category of this topic",
+    "aliases": [
+      "main category",
+      "category for this topic"
+    ]
+  },
+  "P61": {
+    "popularity": 60327,
+    "type": "wikibase-item",
+    "label": "discoverer or inventor",
+    "description": "discovered, first described, or invented by",
+    "aliases": [
+      "inventor",
+      "discovered by",
+      "invented by",
+      "discoverer",
+      "coined by",
+      "first described by"
+    ]
+  },
+  "P360": {
+    "popularity": 165642,
+    "type": "wikibase-item",
+    "label": "is a list of",
+    "description": "this is a list of the following items",
+    "aliases": [
+      "main topic of list",
+      "list of",
+      "main article of list"
+    ]
+  },
+  "P155": {
+    "popularity": 212575,
+    "type": "wikibase-item",
+    "label": "follows",
+    "description": "The immediately prior item in some series of which the subject is part. Use P1365 (replaces) if the preceding item was replaced, e.g. political offices, states and there is no identity between precedent and following geographic unit",
+    "aliases": [
+      "succeeds to",
+      "previous is",
+      "before was",
+      "predecessor",
+      "preceded by",
+      "prequel is",
+      "sequel of"
+    ]
+  },
+  "P156": {
+    "popularity": 211777,
+    "type": "wikibase-item",
+    "label": "followed by",
+    "description": "The immediately following item in some series of which the subject is part. Use P1366 (replaced by) if the item is replaced, e.g. political offices, states",
+    "aliases": [
+      "succeded by",
+      "next is",
+      "precedes",
+      "sequel is",
+      "prequel of"
+    ]
+  },
+  "P416": {
+    "popularity": 47,
+    "type": "string",
+    "label": "quantity symbol",
+    "description": "symbol for a physical quantity",
+    "aliases": [
+      "symbol"
+    ]
+  },
+  "P461": {
+    "popularity": 2774,
+    "type": "wikibase-item",
+    "label": "opposite of",
+    "description": "item that is the opposite of this item",
+    "aliases": [
+      "antonym",
+      "inverse"
+    ]
+  },
+  "P460": {
+    "popularity": 34466,
+    "type": "wikibase-item",
+    "label": "said to be the same as",
+    "description": "this item is said to be the same as that item, but the statement is disputed",
+    "aliases": [
+      "same as",
+      "disputed equivalence"
+    ]
+  },
+  "P462": {
+    "popularity": 1120,
+    "type": "wikibase-item",
+    "label": "color",
+    "description": "color of subject",
+    "aliases": [
+      "colour"
+    ]
+  },
+  "P465": {
+    "popularity": 140,
+    "type": "string",
+    "label": "sRGB color hex triplet",
+    "description": "sRGB hex triplet format for subject color (e.g. 7FFFD4)",
+    "aliases": [
+      "colour (hex triplet)",
+      "color hex triplet",
+      "RGB",
+      "sRGB",
+      "color triplet"
+    ]
+  },
+  "P485": {
+    "popularity": 636,
+    "type": "wikibase-item",
+    "label": "archives at",
+    "description": "the institution holding the subject's archives",
+    "aliases": [
+      "papers at",
+      "correspondence at"
+    ]
+  },
+  "P487": {
+    "popularity": 2333,
+    "type": "string",
+    "label": "Unicode character",
+    "description": "Unicode character representing the item",
+    "aliases": [
+      "Unicode code point"
+    ]
+  },
+  "P518": {
+    "popularity": 64,
+    "type": "wikibase-item",
+    "label": "applies to part",
+    "description": "part of the item for which the claim is valid",
+    "aliases": [
+      "valid for part"
+    ]
+  },
+  "P366": {
+    "popularity": 18160,
+    "type": "wikibase-item",
+    "label": "use",
+    "description": "main use of the subject (includes current and former usage)",
+    "aliases": [
+      "function",
+      "role",
+      "mission",
+      "purpose",
+      "utility"
+    ]
+  },
+  "P575": {
+    "popularity": 51256,
+    "type": "time",
+    "label": "time of discovery",
+    "description": "date or point in time when the item was discovered",
+    "aliases": [
+      "date discovered",
+      "discovery date",
+      "date of discovery"
+    ]
+  },
+  "P1246": {
+    "popularity": 15,
+    "type": "string",
+    "label": "patent number",
+    "description": "identifier for a patented invention",
+    "aliases": []
+  },
+  "P1269": {
+    "popularity": 12030,
+    "type": "wikibase-item",
+    "label": "facet of",
+    "description": "the main aspect of this topic",
+    "aliases": [
+      "aspect of",
+      "subitem of",
+      "topic of",
+      "subtopic of"
+    ]
+  },
+  "P1318": {
+    "popularity": 43,
+    "type": "wikibase-item",
+    "label": "proved by",
+    "description": "person who proved something",
+    "aliases": []
+  },
+  "P1343": {
+    "popularity": 127289,
+    "type": "wikibase-item",
+    "label": "described by source",
+    "description": "dictionary, encyclopaedia, etc. where this item is described",
+    "aliases": [
+      "DNB entry"
+    ]
+  },
+  "P1419": {
+    "popularity": 161,
+    "type": "wikibase-item",
+    "label": "shape",
+    "description": "geometric shape of an object",
+    "aliases": []
+  },
+  "P1480": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "sourcing circumstances",
+    "description": "qualifiers for claims: circa, misprint, presumably...",
+    "aliases": [
+      "circa",
+      "about"
+    ]
+  },
+  "P1814": {
+    "popularity": 24878,
+    "type": "string",
+    "label": "name in kana",
+    "description": "the reading of a Japanese name in kana",
+    "aliases": [
+      "kana",
+      "furigana"
+    ]
+  },
+  "P1889": {
+    "popularity": 21396,
+    "type": "wikibase-item",
+    "label": "different from",
+    "description": "item that is different from another item, but they are often confused",
+    "aliases": [
+      "not",
+      "is not",
+      "not to be confused with",
+      "distinct from",
+      "distinguish from"
+    ]
+  },
+  "P227": {
+    "popularity": 390739,
+    "type": "string",
+    "label": "GND identifier",
+    "description": "identifier from an international authority file of names, subjects, and organizations (please don't use type n = name, disambiguation)",
+    "aliases": [
+      "GND",
+      "Universal Authority File",
+      "Integrated Authority File",
+      "dbpedia:IndividualisedGnd",
+      "PND",
+      "DNB authorities"
+    ]
+  },
+  "P213": {
+    "popularity": 275093,
+    "type": "string",
+    "label": "ISNI",
+    "description": "identifier for an identity. (Only when displayed preceded by the letters ISNI and a space; the digits are displayed as 4 blocks of 4 digits)",
+    "aliases": [
+      "ISO 27729",
+      "International Standard Name Identifier"
+    ]
+  },
+  "P244": {
+    "popularity": 295876,
+    "type": "string",
+    "label": "LCAuth identifier",
+    "description": "Library of Congress ID for authority control (for books use P1144)",
+    "aliases": [
+      "Library of Congress Control Number",
+      "LCCN identifier",
+      "LoC Authorities",
+      "LCAuth",
+      "LCSH",
+      "LCNAF",
+      "Library of Congress Name Authority File",
+      "Library of Congress Subject Headings"
+    ]
+  },
+  "P245": {
+    "popularity": 53147,
+    "type": "string",
+    "label": "ULAN identifier",
+    "description": "identifier from the Getty Union List of Artist Names",
+    "aliases": [
+      "ULAN",
+      "Getty ULAN",
+      "Union List of Artist Names",
+      "JPG"
+    ]
+  },
+  "P214": {
+    "popularity": 935561,
+    "type": "string",
+    "label": "VIAF identifier",
+    "description": "identifier in the Virtual International Authority File",
+    "aliases": [
+      "Virtual International Authority File",
+      "VIAF"
+    ]
+  },
+  "P268": {
+    "popularity": 345037,
+    "type": "string",
+    "label": "BnF identifier",
+    "description": "identifier for the subject issued by BNF (Bibliothèque nationale de France)",
+    "aliases": [
+      "BnF"
+    ]
+  },
+  "P269": {
+    "popularity": 319629,
+    "type": "string",
+    "label": "SUDOC authorities",
+    "description": "identifier for authority control in the French collaborative library catalog (see also P1025)",
+    "aliases": [
+      "IdRef"
+    ]
+  },
+  "P270": {
+    "popularity": 163,
+    "type": "string",
+    "label": "CALIS",
+    "description": "identifier for authority control per CALIS (China Academic Library & Information System)",
+    "aliases": []
+  },
+  "P271": {
+    "popularity": 3116,
+    "type": "string",
+    "label": "CiNii author identifier",
+    "description": "identifier for an author in CiNii (Scholarly and Academic Information Navigator)  (\"DA\" + 8 digits)",
+    "aliases": []
+  },
+  "P349": {
+    "popularity": 53772,
+    "type": "string",
+    "label": "NDL identifier",
+    "description": "identifier for authority control per the National Diet Library of Japan",
+    "aliases": [
+      "NDL Authorities",
+      "ndl"
+    ]
+  },
+  "P396": {
+    "popularity": 16604,
+    "type": "string",
+    "label": "SBN identifier",
+    "description": "identifier issued by National Library Service (SBN) of Italy",
+    "aliases": [
+      "ICCU",
+      "SBN"
+    ]
+  },
+  "P409": {
+    "popularity": 20619,
+    "type": "string",
+    "label": "NLA (Australia) identifier",
+    "description": "identifier issued by the National Library of Australia (see also P1315 for the newer People Australia identifier)",
+    "aliases": [
+      "AuCNLKIN",
+      "AuCNLKIN ID",
+      "AuCNLKIN identifier",
+      "Libraries Australia identifier",
+      "Australian National Bibliographic Database identifier",
+      "NLA Kinetica Service identifier",
+      "CNLKIN",
+      "CNLKIN identifier",
+      "CNL Kinetica Service identifier"
+    ]
+  },
+  "P502": {
+    "popularity": 5,
+    "type": "string",
+    "label": "HURDAT identifier",
+    "description": "identifier per HURDAT (North Atlantic hurricane database)",
+    "aliases": [
+      "HURDAT"
+    ]
+  },
+  "P503": {
+    "popularity": 108,
+    "type": "string",
+    "label": "ISO standard",
+    "description": "number of the ISO standard which normalizes the object",
+    "aliases": [
+      "ISO"
+    ]
+  },
+  "P496": {
+    "popularity": 834,
+    "type": "string",
+    "label": "ORCID",
+    "description": "identifier for a person",
+    "aliases": [
+      "Open Research Contributor ID"
+    ]
+  },
+  "P497": {
+    "popularity": 145,
+    "type": "string",
+    "label": "CBDB ID",
+    "description": "identifer for a person in the China Biographical Database",
+    "aliases": []
+  },
+  "P508": {
+    "popularity": 9096,
+    "type": "string",
+    "label": "BNCF Thesaurus",
+    "description": "identifier in the subject indexing tool of the National Central Library of Florence",
+    "aliases": [
+      "BNCF"
+    ]
+  },
+  "P640": {
+    "popularity": 7203,
+    "type": "string",
+    "label": "Léonore ID",
+    "description": "identifier of a person in the Léonore database",
+    "aliases": [
+      "Léonore identifier"
+    ]
+  },
+  "P646": {
+    "popularity": 1156643,
+    "type": "string",
+    "label": "Freebase identifier",
+    "description": "identifer for a page in the Freebase open knowledge graph",
+    "aliases": [
+      "Freebase ID",
+      "mid"
+    ]
+  },
+  "P691": {
+    "popularity": 29637,
+    "type": "string",
+    "label": "NKC identifier",
+    "description": "identifier in the National authority file of the Czech Republic (National Library of CR)",
+    "aliases": [
+      "Czech national authority file",
+      "NK ČR"
+    ]
+  },
+  "P709": {
+    "popularity": 41424,
+    "type": "string",
+    "label": "Historic Scotland ID",
+    "description": "identifier for a building in the Historic Scotland database",
+    "aliases": []
+  },
+  "P718": {
+    "popularity": 14,
+    "type": "string",
+    "label": "Canmore ID",
+    "description": "identifier in the Royal Commission on the Ancient and Historical Monuments of Scotland's Canmore database",
+    "aliases": [
+      "RCAHMS"
+    ]
+  },
+  "P723": {
+    "popularity": 8605,
+    "type": "string",
+    "label": "DBNL ID",
+    "description": "identifier for an author on the DBNL-website for Dutch language authors",
+    "aliases": [
+      "Digitale Bibliotheek voor de Nederlandse Letteren identifier",
+      "Digital Library for Dutch Literature identifier"
+    ]
+  },
+  "P724": {
+    "popularity": 2687,
+    "type": "string",
+    "label": "Internet Archive identifier",
+    "description": "identifer for an item on archive.org",
+    "aliases": [
+      "IAid"
+    ]
+  },
+  "P727": {
+    "popularity": 75578,
+    "type": "string",
+    "label": "Europeana ID",
+    "description": "identifier in europeana.eu for books, paintings, films, museum objects and archival records that have been digitised throughout Europe",
+    "aliases": []
+  },
+  "P745": {
+    "popularity": 27,
+    "type": "string",
+    "label": "Low German Bibliography and Biography ID",
+    "description": "identifier",
+    "aliases": [
+      "PBB ID"
+    ]
+  },
+  "P760": {
+    "popularity": 3,
+    "type": "string",
+    "label": "DPLA ID",
+    "description": "identifier for books, paintings, films, museum objects and archival records that have been digitised throughout United States",
+    "aliases": []
+  },
+  "P791": {
+    "popularity": 1107,
+    "type": "string",
+    "label": "ISIL ID",
+    "description": "identifier for a library or related organization",
+    "aliases": [
+      "ISIL",
+      "International Standard Identifier for Libraries and Related Organizations"
+    ]
+  },
+  "P648": {
+    "popularity": 56972,
+    "type": "string",
+    "label": "Open Library identifier",
+    "description": "identifier for works, editions and authors",
+    "aliases": [
+      "Open Library ID",
+      "OLID",
+      "OpenLibrary ID",
+      "OpenLibrary identifier"
+    ]
+  },
+  "P947": {
+    "popularity": 915,
+    "type": "string",
+    "label": "RSL identifier (person)",
+    "description": "identifier of the Russian State Library",
+    "aliases": [
+      "RSL identifier",
+      "RSL name authority"
+    ]
+  },
+  "P1005": {
+    "popularity": 7341,
+    "type": "string",
+    "label": "PTBNP identifier",
+    "description": "identifier for the Portuguese National Library",
+    "aliases": []
+  },
+  "P1006": {
+    "popularity": 139308,
+    "type": "string",
+    "label": "NTA identifier (Netherlands)",
+    "description": "identifier from the National Thesaurus for Author names (Dutch author-name thesaurus)",
+    "aliases": [
+      "Nationale Thesaurus voor Auteurs",
+      "NTA"
+    ]
+  },
+  "P1017": {
+    "popularity": 13904,
+    "type": "string",
+    "label": "BAV (Vatican Library) identifier",
+    "description": "identifier for authority control used at the Vatican Library",
+    "aliases": [
+      "BAV"
+    ]
+  },
+  "P1043": {
+    "popularity": 10,
+    "type": "string",
+    "label": "IDEO Job ID",
+    "description": "identifier for an occupation on IDEO",
+    "aliases": []
+  },
+  "P1051": {
+    "popularity": 4662,
+    "type": "string",
+    "label": "PSH ID",
+    "description": "identifier in the authority database of the Czech Technical Library",
+    "aliases": [
+      "PSH",
+      "Czech Technical Library ID",
+      "PSH identifier"
+    ]
+  },
+  "P1052": {
+    "popularity": 4,
+    "type": "string",
+    "label": "Portuguese Job Code CPP-2010",
+    "description": null,
+    "aliases": []
+  },
+  "P1053": {
+    "popularity": 200,
+    "type": "string",
+    "label": "ResearcherID",
+    "description": "identifier for a researcher in a system for scientific authors",
+    "aliases": [
+      "RID"
+    ]
+  },
+  "P1054": {
+    "popularity": 31,
+    "type": "string",
+    "label": "NDL editions",
+    "description": "identifier in the National Diet Library (see also P349)",
+    "aliases": [
+      "NDL catalog ID"
+    ]
+  },
+  "P1058": {
+    "popularity": 22498,
+    "type": "string",
+    "label": "ERA Journal ID",
+    "description": "identifier for academic journals",
+    "aliases": []
+  },
+  "P1187": {
+    "popularity": 2,
+    "type": "string",
+    "label": "Dharma Drum Buddhist College person ID",
+    "description": "identifier for a person in DDBC",
+    "aliases": []
+  },
+  "P1188": {
+    "popularity": 6,
+    "type": "string",
+    "label": "Dharma Drum Buddhist College place ID",
+    "description": "identifier for a place in DDBC",
+    "aliases": []
+  },
+  "P1208": {
+    "popularity": 1,
+    "type": "string",
+    "label": "ISMN",
+    "description": "International Standard Music Number",
+    "aliases": []
+  },
+  "P1209": {
+    "popularity": 29,
+    "type": "string",
+    "label": "CN",
+    "description": "identifier for a newspaper or magazine issued by State Administration of Press, Publication, Radio, Film and Television of the People’s Republic of China",
+    "aliases": [
+      "GAPP Identifier",
+      "SAPPRFT Identified",
+      "SAPPRFT Id."
+    ]
+  },
+  "P1216": {
+    "popularity": 53626,
+    "type": "string",
+    "label": "National Heritage List for England number",
+    "description": "number on the National Heritage List for England",
+    "aliases": [
+      "EH list number",
+      "English Heritage list number",
+      "NHLE number",
+      "HE list number",
+      "Historic England list number"
+    ]
+  },
+  "P1217": {
+    "popularity": 38,
+    "type": "string",
+    "label": "Internet Broadway Database venue ID",
+    "description": "identifier for a theatre or other venue in the IBDB",
+    "aliases": [
+      "IBDB venue ID",
+      "IBDB venue identifier",
+      "IBDB identifier venue"
+    ]
+  },
+  "P1218": {
+    "popularity": 71,
+    "type": "string",
+    "label": "Internet Broadway Database production ID",
+    "description": "identifier for a specific run of a show",
+    "aliases": [
+      "IBDB production ID",
+      "IBDB identifier production"
+    ]
+  },
+  "P1219": {
+    "popularity": 33,
+    "type": "string",
+    "label": "Internet Broadway Database show ID",
+    "description": "identifier for a play or other work (which may have had 1 or more productions)",
+    "aliases": [
+      "IBDB show ID",
+      "IBDB identifier show"
+    ]
+  },
+  "P1220": {
+    "popularity": 3428,
+    "type": "string",
+    "label": "Internet Broadway Database person ID",
+    "description": "identifier for personnel on Broadway",
+    "aliases": [
+      "IBDB person ID",
+      "IBDB person identifier",
+      "IBDB identifier person"
+    ]
+  },
+  "P1232": {
+    "popularity": 25,
+    "type": "string",
+    "label": "Linguist list code",
+    "description": "identifier for a language per Linguist list",
+    "aliases": [
+      "multitree code"
+    ]
+  },
+  "P1233": {
+    "popularity": 3518,
+    "type": "string",
+    "label": "ISFDB author ID",
+    "description": "identifier for a person in the Internet Speculative Fiction Database",
+    "aliases": []
+  },
+  "P1234": {
+    "popularity": 5,
+    "type": "string",
+    "label": "ISFDB publication ID",
+    "description": "identifier for an edition of a publication in the Internet Speculative Fiction Database",
+    "aliases": []
+  },
+  "P1235": {
+    "popularity": 73,
+    "type": "string",
+    "label": "ISFDB series ID",
+    "description": "identifier for a series, periodical or franchise in the Internet Speculative Fiction Database",
+    "aliases": []
+  },
+  "P1238": {
+    "popularity": 22,
+    "type": "string",
+    "label": "Swedish Football Association ID",
+    "description": "identifier for Swedish soccer players",
+    "aliases": []
+  },
+  "P1239": {
+    "popularity": 17,
+    "type": "string",
+    "label": "ISFDB publisher ID",
+    "description": "identifier for a publisher in the Internet Speculative Fiction Database",
+    "aliases": []
+  },
+  "P1243": {
+    "popularity": 21,
+    "type": "string",
+    "label": "International Standard Recording Code",
+    "description": "identifier",
+    "aliases": [
+      "ISRC"
+    ]
+  },
+  "P1245": {
+    "popularity": 562,
+    "type": "string",
+    "label": "OmegaWiki Defined Meaning",
+    "description": "\"Defined Meaning\" on the site OmegaWiki",
+    "aliases": []
+  },
+  "P1250": {
+    "popularity": 13749,
+    "type": "string",
+    "label": "Danish Bibliometric Research Indicator (BFI) SNO/CNO",
+    "description": "serial & conference identifier",
+    "aliases": [
+      "BFI SNO",
+      "BFI CNO"
+    ]
+  },
+  "P1251": {
+    "popularity": 14,
+    "type": "string",
+    "label": "ABS ASCL code",
+    "description": "Australian Standard Classification of Languages ID for languages",
+    "aliases": []
+  },
+  "P1252": {
+    "popularity": 18,
+    "type": "string",
+    "label": "AUSTLANG code",
+    "description": "identifier for a language in the Australian Indigenous Languages Database",
+    "aliases": [
+      "AIATSIS code"
+    ]
+  },
+  "P1253": {
+    "popularity": 339,
+    "type": "string",
+    "label": "BCU Ecrivainsvd",
+    "description": "identifier in the database of writers from the canton of Vaud",
+    "aliases": []
+  },
+  "P1255": {
+    "popularity": 46,
+    "type": "string",
+    "label": "Helveticarchives ID",
+    "description": "identifier in the Swiss National Library's archive database",
+    "aliases": []
+  },
+  "P1270": {
+    "popularity": 2,
+    "type": "string",
+    "label": "Norway Database for Statistics on Higher education periodical ID",
+    "description": "identifier for academic journals",
+    "aliases": []
+  },
+  "P1271": {
+    "popularity": 1,
+    "type": "string",
+    "label": "Norway Database for Statistics on Higher education publisher ID",
+    "description": "identifier",
+    "aliases": []
+  },
+  "P1272": {
+    "popularity": 2,
+    "type": "string",
+    "label": "Norway Import Service and Registration Authority periodical code",
+    "description": null,
+    "aliases": []
+  },
+  "P1273": {
+    "popularity": 23347,
+    "type": "string",
+    "label": "CANTIC",
+    "description": "identifier for authority control managed by the National Library of Catalonia (BNC)",
+    "aliases": [
+      "BNC"
+    ]
+  },
+  "P1274": {
+    "popularity": 299,
+    "type": "string",
+    "label": "ISFDB title ID",
+    "description": "identifier for a title in the Internet Speculative Fiction Database",
+    "aliases": []
+  },
+  "P1275": {
+    "popularity": 1,
+    "type": "string",
+    "label": "Norway Import Service and Registration Authority publisher code",
+    "description": "identifier",
+    "aliases": []
+  },
+  "P1277": {
+    "popularity": 2,
+    "type": "string",
+    "label": "Jufo ID",
+    "description": "identifier in a Finnish Publication Forum",
+    "aliases": []
+  },
+  "P1280": {
+    "popularity": 1159,
+    "type": "string",
+    "label": "CONOR identifier",
+    "description": "identifier in the CONOR.SI database",
+    "aliases": [
+      "CONOR.SI"
+    ]
+  },
+  "P1281": {
+    "popularity": 22,
+    "type": "string",
+    "label": "WOEID",
+    "description": "identifier for a location on Yahoo! GeoPlanet and Flickr",
+    "aliases": [
+      "Where On Earth Identifier",
+      "woe_id",
+      "GeoPlanet location ID",
+      "Flickr location ID"
+    ]
+  },
+  "P1284": {
+    "popularity": 16197,
+    "type": "string",
+    "label": "Munzinger IBA",
+    "description": "identifier on the Munzinger Archiv",
+    "aliases": []
+  },
+  "P1285": {
+    "popularity": 1334,
+    "type": "string",
+    "label": "Munzinger Sport",
+    "description": "identifer on the Munzinger Archiv",
+    "aliases": []
+  },
+  "P1286": {
+    "popularity": 1621,
+    "type": "string",
+    "label": "Munzinger Pop identifier",
+    "description": "identifer on the Munzinger Archiv",
+    "aliases": [
+      "Munzinger Pop"
+    ]
+  },
+  "P1287": {
+    "popularity": 744,
+    "type": "string",
+    "label": "KDG Komponisten der Gegenwart",
+    "description": "identifier on the Munzinger Archiv",
+    "aliases": []
+  },
+  "P1288": {
+    "popularity": 807,
+    "type": "string",
+    "label": "KLG Kritisches Lexikon der Gegenwartsliteratur",
+    "description": "identifier on the Munzinger Archiv",
+    "aliases": []
+  },
+  "P1289": {
+    "popularity": 653,
+    "type": "string",
+    "label": "KLfG Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur",
+    "description": null,
+    "aliases": []
+  },
+  "P1292": {
+    "popularity": 94,
+    "type": "string",
+    "label": "DNB editions",
+    "description": "identifier in the German National Library catalogue (see also authority data P227)",
+    "aliases": []
+  },
+  "P1293": {
+    "popularity": 61,
+    "type": "string",
+    "label": "Royal Aero Club Aviator's Certificate ID",
+    "description": "identifier",
+    "aliases": []
+  },
+  "P1296": {
+    "popularity": 19076,
+    "type": "string",
+    "label": "Gran Enciclopèdia Catalana ID",
+    "description": "identifier for an item in the Gran Enciclopèdia Catalana",
+    "aliases": [
+      "GEC ID",
+      "Enciclopèdia Catalana ID",
+      "Encyclopedia Catalana ID",
+      "Catalan encyclopedia ID"
+    ]
+  },
+  "P1297": {
+    "popularity": 29,
+    "type": "string",
+    "label": "IRS Employer Identification Number",
+    "description": "number given to businesses by the United States Internal Revenue Service",
+    "aliases": [
+      "FEIN",
+      "US EIN",
+      "IRS EIN",
+      "EIN"
+    ]
+  },
+  "P1309": {
+    "popularity": 890,
+    "type": "string",
+    "label": "EGAXA identifier",
+    "description": "identifier in Bibliotheca Alexandrina",
+    "aliases": []
+  },
+  "P1310": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "statement disputed by",
+    "description": "entity that disputes a given statement",
+    "aliases": [
+      "disputed by",
+      "rejected by",
+      "opposed by"
+    ]
+  },
+  "P1375": {
+    "popularity": 1729,
+    "type": "string",
+    "label": "NSK identifier",
+    "description": "identifier for an item in the National and University Library in Zagreb (including leading zeroes)",
+    "aliases": []
+  },
+  "P1385": {
+    "popularity": 30,
+    "type": "string",
+    "label": "Enciclopédia Açoriana ID",
+    "description": "identifier for an item in Enciclopédia Açoriana",
+    "aliases": [
+      "EA",
+      "Azores encyclopedia",
+      "Encyclopedia of the Azores"
+    ]
+  },
+  "P1386": {
+    "popularity": 4,
+    "type": "string",
+    "label": "Japanese High School Code",
+    "description": "identifier for a high school in Japan",
+    "aliases": []
+  },
+  "P1391": {
+    "popularity": 69408,
+    "type": "string",
+    "label": "Index Fungorum ID",
+    "description": "identifier in Index Fungorum (see Q1860469)",
+    "aliases": []
+  },
+  "P1392": {
+    "popularity": 13,
+    "type": "string",
+    "label": "ComicBookDB ID",
+    "description": "identifier in a comic book database",
+    "aliases": []
+  },
+  "P1394": {
+    "popularity": 258,
+    "type": "string",
+    "label": "Glottolog code",
+    "description": "identifier for a language in the Glottolog database",
+    "aliases": []
+  },
+  "P1395": {
+    "popularity": 15,
+    "type": "string",
+    "label": "National Cancer Institute ID",
+    "description": "identifier at www.cancer.gov",
+    "aliases": [
+      "NCI ID",
+      "cancer.gov"
+    ]
+  },
+  "P1400": {
+    "popularity": 4,
+    "type": "string",
+    "label": "FCC Facility ID",
+    "description": "U.S. ID number for broadcast stations",
+    "aliases": [
+      "Facility ID Number",
+      "FIN",
+      "facility_id",
+      "facid"
+    ]
+  },
+  "P1415": {
+    "popularity": 58546,
+    "type": "string",
+    "label": "Oxford Biography Index Number",
+    "description": "identifier for authority control used by Oxford University Press for online biographical resources, predominantly the Oxford Dictionary of National Biography",
+    "aliases": [
+      "Oxford Dictionary of National Biography ID",
+      "OBIN",
+      "ODNB ID"
+    ]
+  },
+  "P1438": {
+    "popularity": 1363,
+    "type": "string",
+    "label": "Jewish Encyclopedia ID (Russian)",
+    "description": "identifier on the Electronic Jewish Encyclopedia (Elektronnaja Evrejskaja Entsiklopedia)",
+    "aliases": []
+  },
+  "P1439": {
+    "popularity": 629,
+    "type": "string",
+    "label": "Norsk filmografi ID",
+    "description": "identifier from Norsk filmografi, published by the National Library of Norway",
+    "aliases": []
+  },
+  "P1447": {
+    "popularity": 39277,
+    "type": "string",
+    "label": "Sports Reference ID",
+    "description": "identifier on the website sports-reference.com",
+    "aliases": []
+  },
+  "P1453": {
+    "popularity": 2,
+    "type": "string",
+    "label": "catholic.ru identifier",
+    "description": "identifier on the site catholic.ru",
+    "aliases": []
+  },
+  "P1461": {
+    "popularity": 773,
+    "type": "string",
+    "label": "Patientplus ID",
+    "description": "identifier of disease at Patient UK",
+    "aliases": [
+      "Patient UK"
+    ]
+  },
+  "P1466": {
+    "popularity": 4,
+    "type": "string",
+    "label": "WALS lect code",
+    "description": "identifier for a language",
+    "aliases": []
+  },
+  "P1601": {
+    "popularity": 140,
+    "type": "string",
+    "label": "Esperantist ID",
+    "description": "number in the address book of early Esperanto speakers by Zamenhof",
+    "aliases": [
+      "Esperantist number",
+      "address book of Esperantists"
+    ]
+  },
+  "P1254": {
+    "popularity": 1445,
+    "type": "string",
+    "label": "Slovenska biografija ID",
+    "description": "identifier in the \"Slovenska biografija\" reference project",
+    "aliases": []
+  },
+  "P1263": {
+    "popularity": 12394,
+    "type": "string",
+    "label": "NNDB people ID",
+    "description": "identifier in the Notable Names Database, a biographical database: only for people entries",
+    "aliases": [
+      "NNDB ID",
+      "Notable Names Database ID",
+      "Notable Names Database people ID"
+    ]
+  },
+  "P1291": {
+    "popularity": 680,
+    "type": "string",
+    "label": "Association Authors of Switzerland ID",
+    "description": "identifier in a Swiss database of modern writers",
+    "aliases": [
+      "ADS ID"
+    ]
+  },
+  "P1307": {
+    "popularity": 668,
+    "type": "string",
+    "label": "Swiss parliament identifier",
+    "description": "identifier for a member of the Swiss Parliament since 1848",
+    "aliases": [
+      "parliament.ch",
+      "id parliament.ch",
+      "parlement.ch",
+      "parlament.ch"
+    ]
+  },
+  "P1331": {
+    "popularity": 44,
+    "type": "string",
+    "label": "PACE member ID",
+    "description": "identifier for a member of the Parliamentary Assembly of the Council of Europe",
+    "aliases": []
+  },
+  "P1749": {
+    "popularity": 3847,
+    "type": "string",
+    "label": "Parlement & Politiek ID",
+    "description": "entry of described object on Parlement & Politiek, website describing Dutch politic",
+    "aliases": []
+  },
+  "P1803": {
+    "popularity": 3,
+    "type": "string",
+    "label": "Masaryk University person ID",
+    "description": "identifer for a person affiliated with Masaryk University (staff, alumnus, student…)",
+    "aliases": [
+      "Masaryk University učo"
+    ]
+  },
+  "P18": {
+    "popularity": 1095397,
+    "type": "commonsMedia",
+    "label": "image",
+    "description": "image of relevant illustration of the subject; if available, use more specific properties (sample: coat of arms image, locator map, flag image, signature image, logo image); only images which exist on Wikimedia Commons are acceptable",
+    "aliases": [
+      "portrait",
+      "illustration",
+      "picture",
+      "drawing",
+      "photo"
+    ]
+  },
+  "P51": {
+    "popularity": 1108,
+    "type": "commonsMedia",
+    "label": "audio",
+    "description": "relevant sound",
+    "aliases": [
+      "song",
+      "recording",
+      "audio file",
+      "audio recording",
+      "sound recording"
+    ]
+  },
+  "P10": {
+    "popularity": 615,
+    "type": "commonsMedia",
+    "label": "video",
+    "description": "relevant video",
+    "aliases": [
+      "media"
+    ]
+  },
+  "P373": {
+    "popularity": 1346766,
+    "type": "string",
+    "label": "Commons category",
+    "description": "name of the Wikimedia Commons category containing files related to this item (without the prefix \"Category\")",
+    "aliases": [
+      "commonscat",
+      "category Commons"
+    ]
+  },
+  "P443": {
+    "popularity": 3283,
+    "type": "commonsMedia",
+    "label": "pronunciation audio",
+    "description": "audio file with pronunciation",
+    "aliases": []
+  },
+  "P989": {
+    "popularity": 360,
+    "type": "commonsMedia",
+    "label": "spoken text audio",
+    "description": "audio file for the spoken work or Wikipedia article",
+    "aliases": []
+  },
+  "P996": {
+    "popularity": 851,
+    "type": "commonsMedia",
+    "label": "scan file (Commons)",
+    "description": "file on Wikimedia Commons related to the content of the source/book/report",
+    "aliases": []
+  },
+  "P675": {
+    "popularity": 359,
+    "type": "string",
+    "label": "Google Books identifier",
+    "description": "identifier for a book that Google has scanned",
+    "aliases": []
+  },
+  "P580": {
+    "popularity": 11728,
+    "type": "time",
+    "label": "start time",
+    "description": "indicates the time an item begins to exist or a statement starts being valid, usually used as a qualifier",
+    "aliases": [
+      "from",
+      "starting",
+      "beginning",
+      "began",
+      "from time",
+      "since",
+      "start time",
+      "from date",
+      "start date",
+      "building date",
+      "starttime"
+    ]
+  },
+  "P582": {
+    "popularity": 10841,
+    "type": "time",
+    "label": "end time",
+    "description": "indicates the time an item ceases to exist or a statement stops being valid, used as a qualifier",
+    "aliases": [
+      "to",
+      "to time",
+      "left office",
+      "until",
+      "ending",
+      "divorced",
+      "enddate",
+      "end time",
+      "closed",
+      "end date",
+      "fall date"
+    ]
+  },
+  "P585": {
+    "popularity": 28768,
+    "type": "time",
+    "label": "point in time",
+    "description": "time and date something took place, existed or a statement was true",
+    "aliases": [
+      "date",
+      "as of",
+      "time of event",
+      "at time",
+      "when",
+      "year",
+      "time"
+    ]
+  },
+  "P1264": {
+    "popularity": 36,
+    "type": "wikibase-item",
+    "label": "valid in period",
+    "description": "time period when a statement is valid",
+    "aliases": [
+      "applies to period",
+      "time period"
+    ]
+  },
+  "P625": {
+    "popularity": 2378080,
+    "type": "globe-coordinate",
+    "label": "coordinate location",
+    "description": "geocoordinates of the subject",
+    "aliases": [
+      "coordinates",
+      "co-ordinate location",
+      "co-ordinates",
+      "coords",
+      "co-ords",
+      "geographic coordinate",
+      "gps coordinate",
+      "gps co-ordinate",
+      "gps coordinates",
+      "gps co-ordinates",
+      "gps location",
+      "geotag",
+      "wgs 84",
+      "wgs-84",
+      "wgs84",
+      "position",
+      "longitude",
+      "latitude",
+      "gps",
+      "coordinate location",
+      "geographical coordinates",
+      "geo",
+      "location"
+    ]
+  }
+}

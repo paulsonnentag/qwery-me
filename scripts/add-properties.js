@@ -5,50 +5,72 @@ var config = require('./config.json');
 
 const HOST = 'https://api.parse.com';
 
+var limiter = new RateLimiter(40, 'second');
 
-var properties = require('./properties/person.json');
+const types = {
+  EVENT: require('./properties/event.json'),
+  GENERIC: require('./properties/generic.json'),
+  ORGANIZATION: require('./properties/organization.json'),
+  PLACE: require('./properties/place.json'),
+  WORK: require('./properties/work.json'),
+  PERSON: require('./properties/person.json')
+};
 
 
-var limiter = new RateLimiter(50, 'second');
+var created = 0;
 
-var props = _(properties)
-  .map(function (prop, id) {
-        return [getPropObj(prop.label)].concat(_.map(prop.aliases, getPropObj));
+var total = _(types)
+  .map(function (properties, type) {
 
-    function getPropObj(name) {
-      return {
-        name: name,
-        description: prop.description,
-        type: prop.type,
-        popularity: prop.popularity,
-        wikiDataID: id
-      };
-    }
-  })
-  .flatten()
-  .each(function (prop) {
 
-    limiter.removeTokens(1, function () {
+    return _(properties)
+      .map(function (prop, id) {
 
-      axios({
-        method: 'post',
-        headers: {
-          'X-Parse-Application-Id': config.PARSE_APP_ID,
-          'X-Parse-REST-API-Key': config.PARSE_API_KEY
-        },
-        url: HOST + '/1/classes/Property',
-        data: prop
+        return [_.assign(getPropObj(prop.label), {primary: true})].concat(_.map(prop.aliases, getPropObj));
 
+        function getPropObj (name) {
+          return {
+            type: type,
+            primary: false,
+            name: name,
+            description: prop.description,
+            valueType: prop.type,
+            popularity: prop.popularity,
+            wikiDataID: id
+          };
+        }
       })
-        .then((result) => {
-          console.log('created ' + prop.name);
+      .flatten()
+      .each(function (prop) {
 
-        })
-        .catch((res) => {
-          console.log(res);
+        limiter.removeTokens(1, function () {
+
+          axios({
+            method: 'post',
+            headers: {
+              'X-Parse-Application-Id': config.PARSE_APP_ID,
+              'X-Parse-Master-Key': config.PARSE_MASTER_KEY
+            },
+            url: HOST + '/1/classes/Property',
+            data: prop
+
+          })
+            .then((result) => {
+              created++;
+              console.log('created (' + created + '/' + total +') ' + type + ' ' + prop.name);
+
+
+            })
+            .catch((res) => {
+              throw new Error(res);
+            });
+
         });
 
-    });
+      })
+      .value().length;
 
   })
-  .value();
+  .reduce(function (sum, length) {
+    return sum + length;
+  }, 0);

@@ -1,0 +1,169 @@
+{
+  "P664": {
+    "popularity": 1248,
+    "type": "wikibase-item",
+    "label": "organizer",
+    "description": "person or institution organizing an event",
+    "aliases": []
+  },
+  "P710": {
+    "popularity": 17911,
+    "type": "wikibase-item",
+    "label": "participant",
+    "description": "person, group of people or organization that actively takes/took part in the event",
+    "aliases": [
+      "artist",
+      "artists",
+      "performer",
+      "performers",
+      "participants",
+      "athlete",
+      "athletes",
+      "attendee",
+      "player",
+      "team",
+      "competitor",
+      "candidate",
+      "party",
+      "event participant",
+      "agent"
+    ]
+  },
+  "P832": {
+    "popularity": 337,
+    "type": "wikibase-item",
+    "label": "public holiday",
+    "description": "official public holiday that occurs in this place in its honor, usually a non-working day",
+    "aliases": [
+      "bank holiday",
+      "legal holiday",
+      "national holiday",
+      "independance day"
+    ]
+  },
+  "P1110": {
+    "popularity": 225,
+    "type": "quantity",
+    "label": "attendance",
+    "description": "number of people (spectators, ticket holders) at an event or exhibition",
+    "aliases": [
+      "spectators"
+    ]
+  },
+  "P1346": {
+    "popularity": 14800,
+    "type": "wikibase-item",
+    "label": "winner",
+    "description": "winner of an event",
+    "aliases": [
+      "won by",
+      "victor",
+      "champion",
+      "winners"
+    ]
+  },
+  "P1446": {
+    "popularity": 8,
+    "type": "quantity",
+    "label": "number of missing",
+    "description": "number of people missing after an event - qualify with \"point in time (P585)\"",
+    "aliases": [
+      "people missing",
+      "number of missing people",
+      "number missing",
+      "missing"
+    ]
+  },
+  "P1478": {
+    "popularity": 60,
+    "type": "wikibase-item",
+    "label": "has immediate cause",
+    "description": "nearest, proximate thing that directly resulted in this outcome or effect. Used in conjunction with 'has cause' (i.e. underlying cause) and 'has contributing factor'. See 'Help:Modeling causes'.",
+    "aliases": [
+      "has immediate causes",
+      "immediate cause",
+      "immediate effect of",
+      "immediate result of",
+      "immediate outcome of",
+      "has proximate cause"
+    ]
+  },
+  "P1479": {
+    "popularity": 33,
+    "type": "wikibase-item",
+    "label": "has contributing factor",
+    "description": "thing that significantly influenced, but did not directly cause, this outcome or effect.  Used in conjunction with 'has cause' and 'has immediate cause'.  See 'Help:Modeling causes'.",
+    "aliases": [
+      "has contributing factors",
+      "contributing factor",
+      "significant contributing factor"
+    ]
+  },
+  "P1534": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "end cause",
+    "description": "qualifier to use together with the end date qualifier (P582) to specify the cause",
+    "aliases": []
+  },
+  "P1535": {
+    "popularity": 114,
+    "type": "wikibase-item",
+    "label": "used by",
+    "description": "item that makes use of the subject (use sub-properties when appropriate)",
+    "aliases": [
+      "user"
+    ]
+  },
+  "P1536": {
+    "popularity": 5,
+    "type": "wikibase-item",
+    "label": "immediate cause of",
+    "description": "immediate cause of this effect",
+    "aliases": []
+  },
+  "P1537": {
+    "popularity": 4,
+    "type": "wikibase-item",
+    "label": "contributing factor of",
+    "description": "thing that is significantly influenced by this cause, but does not directly result from it.  See 'Help:Modeling causes' for examples and discussion.",
+    "aliases": []
+  },
+  "P276": {
+    "popularity": 314057,
+    "type": "wikibase-item",
+    "label": "location",
+    "description": "location the item, physical object or event is within.  In case of an administrative entity use P131. In case of a distinct terrain feature use P706.",
+    "aliases": [
+      "moveable object location",
+      "located in",
+      "event location",
+      "venue",
+      "is in",
+      "location of item"
+    ]
+  },
+  "P726": {
+    "popularity": 430,
+    "type": "wikibase-item",
+    "label": "candidate",
+    "description": "person or party listed as an option for office in an election",
+    "aliases": []
+  },
+  "P991": {
+    "popularity": 6981,
+    "type": "wikibase-item",
+    "label": "successful candidate",
+    "description": "person(s) elected after the election",
+    "aliases": [
+      "elected person"
+    ]
+  },
+  "P1111": {
+    "popularity": 0,
+    "type": "quantity",
+    "label": "votes received",
+    "description": "number of votes for a candidate in an election",
+    "aliases": []
+  }
+}

@@ -1,0 +1,1574 @@
+{
+  "P242": {
+    "popularity": 57022,
+    "type": "commonsMedia",
+    "label": "locator map image",
+    "description": "geographic map image which highlights the location of the subject",
+    "aliases": [
+      "map",
+      "locator map"
+    ]
+  },
+  "P1621": {
+    "popularity": 95,
+    "type": "commonsMedia",
+    "label": "detail map",
+    "description": "a map containing details about the entire location",
+    "aliases": []
+  },
+  "P41": {
+    "popularity": 23102,
+    "type": "commonsMedia",
+    "label": "flag image",
+    "description": "image of the item's flag",
+    "aliases": [
+      "image flag",
+      "image of flag"
+    ]
+  },
+  "P163": {
+    "popularity": 2052,
+    "type": "wikibase-item",
+    "label": "flag",
+    "description": "subject's flag",
+    "aliases": []
+  },
+  "P94": {
+    "popularity": 65511,
+    "type": "commonsMedia",
+    "label": "coat of arms image",
+    "description": "image of the item's coat of arms",
+    "aliases": [
+      "symbol",
+      "heraldic representation",
+      "heraldic emblem",
+      "arms"
+    ]
+  },
+  "P237": {
+    "popularity": 2152,
+    "type": "wikibase-item",
+    "label": "coat of arms",
+    "description": "subject's coat of arms",
+    "aliases": []
+  },
+  "P158": {
+    "popularity": 2085,
+    "type": "commonsMedia",
+    "label": "seal image",
+    "description": "image of subject's seal (emblem)",
+    "aliases": [
+      "emblem"
+    ]
+  },
+  "P418": {
+    "popularity": 16,
+    "type": "wikibase-item",
+    "label": "seal description",
+    "description": "description of a subject's seal",
+    "aliases": []
+  },
+  "P948": {
+    "popularity": 10240,
+    "type": "commonsMedia",
+    "label": "Wikivoyage banner",
+    "description": "banner for the related Wikivoyage page",
+    "aliases": []
+  },
+  "P417": {
+    "popularity": 1649,
+    "type": "wikibase-item",
+    "label": "patron saint",
+    "description": "patron saint adopted by the subject",
+    "aliases": []
+  },
+  "P1249": {
+    "popularity": 247,
+    "type": "time",
+    "label": "time of earliest written record",
+    "description": "first time a subject was mentioned in writing",
+    "aliases": [
+      "date of first written record",
+      "first historic record",
+      "earliest record",
+      "first recorded in"
+    ]
+  },
+  "P1740": {
+    "popularity": 1190,
+    "type": "wikibase-item",
+    "label": "category for films shot at this location",
+    "description": "the object is a category for films shot at/in the subject",
+    "aliases": [
+      "cat films shot",
+      "cfsi",
+      "cff"
+    ]
+  },
+  "P402": {
+    "popularity": 16123,
+    "type": "string",
+    "label": "OpenStreetMap Relation identifier",
+    "description": "identifer for a relation in OpenStreetMap",
+    "aliases": [
+      "OSM Relation ID",
+      "OpenStreetMap relation",
+      "OSM relation"
+    ]
+  },
+  "P590": {
+    "popularity": 4699,
+    "type": "string",
+    "label": "GNIS ID",
+    "description": "identifier for geographic objects in the US issued by the USGS. For Antarctica, use Property:P804",
+    "aliases": [
+      "Geographic Names Information System ID",
+      "USGS GNIS ID"
+    ]
+  },
+  "P804": {
+    "popularity": 145,
+    "type": "string",
+    "label": "GNIS Antarctica ID",
+    "description": "identifier for geographic objects in Antarctica, used in the US Geological Survey's Geographic Names Information System. For U.S. IDs, use Property:P590",
+    "aliases": [
+      "USGS GNIS Antarctica ID"
+    ]
+  },
+  "P1397": {
+    "popularity": 5,
+    "type": "string",
+    "label": "State Catalogue of Geographical Names identifier (Russia)",
+    "description": "identifier in State Catalogue of Geographical Names (Russia)",
+    "aliases": []
+  },
+  "P1464": {
+    "popularity": 16762,
+    "type": "wikibase-item",
+    "label": "category for people born here",
+    "description": "category item that groups people born in this place",
+    "aliases": []
+  },
+  "P1465": {
+    "popularity": 8428,
+    "type": "wikibase-item",
+    "label": "category for people who died here",
+    "description": "category item for people who died in this location",
+    "aliases": []
+  },
+  "P30": {
+    "popularity": 31171,
+    "type": "wikibase-item",
+    "label": "continent",
+    "description": "continent of which the subject is a part. Use for countries, locations in Antarctica, and items located in countries that belong to more than one continent, e.g. Russian cities.",
+    "aliases": []
+  },
+  "P17": {
+    "popularity": 3858552,
+    "type": "wikibase-item",
+    "label": "country",
+    "description": "sovereign state of this item",
+    "aliases": [
+      "sovereign state",
+      "nation"
+    ]
+  },
+  "P131": {
+    "popularity": 2660744,
+    "type": "wikibase-item",
+    "label": "located in the administrative territorial entity",
+    "description": "the item is located on the territory of the following administrative entity",
+    "aliases": [
+      "located in the administrative unit",
+      "located in administrative unit",
+      "is in administrative unit",
+      "is located in",
+      "is in the state of",
+      "is in the province of",
+      "is in the county of",
+      "is in the district of",
+      "is in the department of",
+      "is in the region of",
+      "is in the borough of",
+      "is in the city of",
+      "is in the town of",
+      "is in the village of",
+      "is in the municipality of",
+      "is in the territory of",
+      "is in the prefecture of",
+      "is in the voivodeship of",
+      "is in the Indian reservation of",
+      "is in the Indian reserve of",
+      "is in the ward of",
+      "is in the administrative region of",
+      "is in the settlement of",
+      "is in the local government area of",
+      "is in the rural city of",
+      "is in the shire of",
+      "happens in",
+      "is in the commune of",
+      "in administrative unit",
+      "in",
+      "is in the administrative unit",
+      "administrative territorial entity",
+      "city",
+      "town",
+      "state",
+      "Indian reservation",
+      "in the administrative unit",
+      "locality",
+      "is in the parish of"
+    ]
+  },
+  "P1082": {
+    "popularity": 83060,
+    "type": "quantity",
+    "label": "population",
+    "description": "number of people inhabiting the place; number of people of subject",
+    "aliases": [
+      "inhabitants"
+    ]
+  },
+  "P421": {
+    "popularity": 44078,
+    "type": "wikibase-item",
+    "label": "located in time zone",
+    "description": "time zone for this item",
+    "aliases": [
+      "timezone",
+      "tz",
+      "time zone"
+    ]
+  },
+  "P654": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "direction relative to location",
+    "description": "qualifier for geographical locations to express relative direction",
+    "aliases": [
+      "DRTL"
+    ]
+  },
+  "P706": {
+    "popularity": 12202,
+    "type": "wikibase-item",
+    "label": "located on terrain feature",
+    "description": "located on the specified landform or body of water. Should not be used when the value is only political/administrative (provinces, states, countries, etc.).",
+    "aliases": [
+      "takes place in",
+      "on geographical feature",
+      "on natural feature",
+      "is on",
+      "is in",
+      "location (terrain feature)",
+      "island"
+    ]
+  },
+  "P669": {
+    "popularity": 45939,
+    "type": "wikibase-item",
+    "label": "located on street",
+    "description": "street, or road, where the item is located. To add the number, use Property:P670 \"street number\" as qualifier",
+    "aliases": [
+      "is on",
+      "street",
+      "adress street"
+    ]
+  },
+  "P1332": {
+    "popularity": 116,
+    "type": "globe-coordinate",
+    "label": "coordinate of northernmost point",
+    "description": "northernmost point of a location. For an administrative entity this includes offshore islands",
+    "aliases": [
+      "most northerly",
+      "farthest north",
+      "extreme point north"
+    ]
+  },
+  "P1333": {
+    "popularity": 114,
+    "type": "globe-coordinate",
+    "label": "coordinate of southernmost point",
+    "description": "southernmost point of a place. For administrative entities this includes offshore islands",
+    "aliases": [
+      "southerly",
+      "most south",
+      "farthest south",
+      "extreme point south"
+    ]
+  },
+  "P1334": {
+    "popularity": 114,
+    "type": "globe-coordinate",
+    "label": "coordinate of easternmost point",
+    "description": "easternmost point of a location",
+    "aliases": [
+      "easterly",
+      "most eastern",
+      "farthest east",
+      "extreme point east"
+    ]
+  },
+  "P1335": {
+    "popularity": 115,
+    "type": "globe-coordinate",
+    "label": "coordinate of westernmost point",
+    "description": "westernmost point of a location",
+    "aliases": [
+      "westerly point",
+      "extreme west",
+      "most western",
+      "extreme point west"
+    ]
+  },
+  "P1766": {
+    "popularity": 407,
+    "type": "commonsMedia",
+    "label": "place name sign",
+    "description": "image of road sign with place name on it",
+    "aliases": []
+  },
+  "P1879": {
+    "popularity": 73,
+    "type": "wikibase-item",
+    "label": "income classification (Philippines)",
+    "description": "income classification for a city, municipality or province in the Philippines, on a scale of 1 to 6",
+    "aliases": []
+  },
+  "P36": {
+    "popularity": 29962,
+    "type": "wikibase-item",
+    "label": "capital",
+    "description": "location (city, municipality) of governmental seat of the country, or administrative territorial entity",
+    "aliases": [
+      "capital city",
+      "capital town",
+      "chef-lieu",
+      "principal place",
+      "county seat",
+      "administrative centre"
+    ]
+  },
+  "P38": {
+    "popularity": 1059,
+    "type": "wikibase-item",
+    "label": "currency",
+    "description": "currency used by item",
+    "aliases": [
+      "base currency"
+    ]
+  },
+  "P37": {
+    "popularity": 3443,
+    "type": "wikibase-item",
+    "label": "official language",
+    "description": "language designated as official by this item",
+    "aliases": [
+      "language official"
+    ]
+  },
+  "P85": {
+    "popularity": 549,
+    "type": "wikibase-item",
+    "label": "anthem",
+    "description": "name of the subject's anthem",
+    "aliases": []
+  },
+  "P122": {
+    "popularity": 676,
+    "type": "wikibase-item",
+    "label": "basic form of government",
+    "description": "the subject's government",
+    "aliases": [
+      "type of government",
+      "form of government",
+      "government"
+    ]
+  },
+  "P35": {
+    "popularity": 582,
+    "type": "wikibase-item",
+    "label": "head of state",
+    "description": "official with the highest formal authority in a country",
+    "aliases": [
+      "chief of state",
+      "president",
+      "king",
+      "queen",
+      "emperor",
+      "monarch"
+    ]
+  },
+  "P78": {
+    "popularity": 310,
+    "type": "wikibase-item",
+    "label": "top-level domain",
+    "description": "Internet domain name system top-level code",
+    "aliases": [
+      "TLD",
+      "top level domain"
+    ]
+  },
+  "P194": {
+    "popularity": 1136,
+    "type": "wikibase-item",
+    "label": "legislative body",
+    "description": "legislative body governing this entity; political institution with elected representatives, such as a parliament/legislature or council",
+    "aliases": [
+      "representative body",
+      "parliament",
+      "council",
+      "assembly",
+      "diet",
+      "legislature",
+      "rural council",
+      "district council",
+      "municipal council",
+      "aboriginal council",
+      "indigenous council",
+      "city council"
+    ]
+  },
+  "P150": {
+    "popularity": 870774,
+    "type": "wikibase-item",
+    "label": "contains administrative territorial entity",
+    "description": "(list of) direct subdivisions of an administrative entity",
+    "aliases": [
+      "contains",
+      "consists of",
+      "divides into",
+      "divided into",
+      "composed of",
+      "has towns",
+      "has shires",
+      "has cities",
+      "has rural cities",
+      "has municipalities",
+      "has wards",
+      "has local government areas",
+      "has districts",
+      "has boroughs",
+      "has administrative division",
+      "comprises",
+      "subdivided into",
+      "has counties"
+    ]
+  },
+  "P1383": {
+    "popularity": 19343,
+    "type": "wikibase-item",
+    "label": "contains settlement",
+    "description": "settlement which an administrative division contains",
+    "aliases": []
+  },
+  "P1001": {
+    "popularity": 8060,
+    "type": "wikibase-item",
+    "label": "applies to jurisdiction",
+    "description": "the item (an institution, law, public office ...) belongs to or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)",
+    "aliases": [
+      "of jurisdiction",
+      "linked to jurisdiction",
+      "belongs to jurisdiction",
+      "jurisdiction"
+    ]
+  },
+  "P6": {
+    "popularity": 11200,
+    "type": "wikibase-item",
+    "label": "head of government",
+    "description": "head of the executive power of a town, city, municipality, state, country, or other governmental body",
+    "aliases": [
+      "mayor",
+      "prime minister",
+      "premier",
+      "first minister",
+      "head of national government"
+    ]
+  },
+  "P1336": {
+    "popularity": 52,
+    "type": "wikibase-item",
+    "label": "territory claimed by",
+    "description": "administrative divisions that claim control of a given area",
+    "aliases": []
+  },
+  "P210": {
+    "popularity": 31,
+    "type": "wikibase-item",
+    "label": "party chief representative",
+    "description": "chief representative of a party in an institution or an administrative unit (use qualifier to identify the party)",
+    "aliases": [
+      "party chief",
+      "communist party chief",
+      "party secretary",
+      "Communist Party Secretary"
+    ]
+  },
+  "P47": {
+    "popularity": 224370,
+    "type": "wikibase-item",
+    "label": "shares border with",
+    "description": "countries or administrative subdivisions, of equal level, that this item borders, either by land or water",
+    "aliases": [
+      "borders",
+      "bordered by",
+      "adjacent to",
+      "next to"
+    ]
+  },
+  "P500": {
+    "popularity": 99,
+    "type": "wikibase-item",
+    "label": "exclave of",
+    "description": "territory is legally or politically attached to a main territory with which it is not physically contiguous because of surrounding alien territory. It may also be an enclave.",
+    "aliases": []
+  },
+  "P501": {
+    "popularity": 168,
+    "type": "wikibase-item",
+    "label": "enclave within",
+    "description": "territory is entirely surrounded by the other (enclaved)",
+    "aliases": [
+      "enclaved by"
+    ]
+  },
+  "P190": {
+    "popularity": 39152,
+    "type": "wikibase-item",
+    "label": "sister city",
+    "description": "twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments",
+    "aliases": [
+      "twin town",
+      "sister cities",
+      "sister town",
+      "twin cities",
+      "twin towns",
+      "sister towns",
+      "twin city",
+      "partner city",
+      "partner town"
+    ]
+  },
+  "P297": {
+    "popularity": 251,
+    "type": "string",
+    "label": "ISO 3166-1 alpha-2 code",
+    "description": "identifier for a country in two-letter format per ISO 3166-1",
+    "aliases": [
+      "country code ISO 3166-1 alpha-2"
+    ]
+  },
+  "P298": {
+    "popularity": 250,
+    "type": "string",
+    "label": "ISO 3166-1 alpha-3 code",
+    "description": "identifier for a country in three-letter format per ISO 3166-1",
+    "aliases": [
+      "country code ISO 3166-1 alpha-3"
+    ]
+  },
+  "P299": {
+    "popularity": 250,
+    "type": "string",
+    "label": "ISO 3166-1 numeric code",
+    "description": "identifier for a country in numeric format per ISO 3166-1",
+    "aliases": [
+      "country code ISO 3166-1 numeric"
+    ]
+  },
+  "P474": {
+    "popularity": 280,
+    "type": "string",
+    "label": "country calling code",
+    "description": "identifier for a country - dialed on phone after the international dialing prefix (precede value by +)",
+    "aliases": [
+      "country dialing code",
+      "dialing code",
+      "calling code"
+    ]
+  },
+  "P984": {
+    "popularity": 237,
+    "type": "string",
+    "label": "IOC country code",
+    "description": "three-letter abbreviation country code by the International Olympic Committee",
+    "aliases": []
+  },
+  "P473": {
+    "popularity": 40984,
+    "type": "string",
+    "label": "local dialing code",
+    "description": "identifier dedicated to subject city by the area communication network",
+    "aliases": [
+      "area code",
+      "local calling code",
+      "telephone numbering plan",
+      "STD code",
+      "telephone code",
+      "telephone prefix"
+    ]
+  },
+  "P281": {
+    "popularity": 656562,
+    "type": "string",
+    "label": "postal code",
+    "description": "identifier assigned by postal authorities for the subject area",
+    "aliases": [
+      "post code",
+      "zip code",
+      "postcode",
+      "zipcode",
+      "ZIP+4"
+    ]
+  },
+  "P395": {
+    "popularity": 9935,
+    "type": "string",
+    "label": "licence plate code",
+    "description": "distinguishing signs or parts of license plate associated with the subject. For countries: international licence plate country code or distinguishing sign of vehicles",
+    "aliases": [
+      "license plate code"
+    ]
+  },
+  "P300": {
+    "popularity": 4921,
+    "type": "string",
+    "label": "ISO 3166-2 code",
+    "description": "identifier for a country subdivision per ISO 3166-2 (include country code)",
+    "aliases": [
+      "subdivision code ISO 3166-2"
+    ]
+  },
+  "P605": {
+    "popularity": 1378,
+    "type": "string",
+    "label": "NUTS code",
+    "description": "identifier for a region per NUTS",
+    "aliases": []
+  },
+  "P374": {
+    "popularity": 36798,
+    "type": "string",
+    "label": "INSEE municipality code",
+    "description": "identifier for a municipality per the National Institute of Statistics and Economic Studies in France",
+    "aliases": [
+      "municipality code (France)"
+    ]
+  },
+  "P901": {
+    "popularity": 4204,
+    "type": "string",
+    "label": "FIPS 10-4 (countries and regions)",
+    "description": "identifier for countries and regions per former Federal Information Processing Standard FIPS 10-4",
+    "aliases": [
+      "fips country codes"
+    ]
+  },
+  "P442": {
+    "popularity": 742291,
+    "type": "string",
+    "label": "China administrative division code",
+    "description": "identifier for administrative divisions of People's Republic of China (with spaces)",
+    "aliases": []
+  },
+  "P1067": {
+    "popularity": 7088,
+    "type": "string",
+    "label": "Thailand central administrative unit code",
+    "description": "identifier for each of the Thai central administrative units",
+    "aliases": [
+      "TIS 1099"
+    ]
+  },
+  "P988": {
+    "popularity": 174,
+    "type": "string",
+    "label": "Philippine Standard Geographic Code",
+    "description": "systematic classification and coding of geographic areas of the Philippines.",
+    "aliases": [
+      "PSGC"
+    ]
+  },
+  "P429": {
+    "popularity": 1966,
+    "type": "string",
+    "label": "dantai code",
+    "description": "identifier for administrative division in 6-digit format assigned by the interior ministry of Japan",
+    "aliases": [
+      "municipality code (Japan)",
+      "Japanese municipality identifier"
+    ]
+  },
+  "P382": {
+    "popularity": 401,
+    "type": "string",
+    "label": "CBS municipality code",
+    "description": "identifier for a Dutch municipality as defined by Statistics Netherlands (CBS)",
+    "aliases": [
+      "municipality code (Netherlands)"
+    ]
+  },
+  "P439": {
+    "popularity": 11227,
+    "type": "string",
+    "label": "German municipality key",
+    "description": "identifier for municipalities and independent towns in Germany",
+    "aliases": [
+      "municipality key (Germany)",
+      "Gemeindeschlüssel"
+    ]
+  },
+  "P440": {
+    "popularity": 304,
+    "type": "string",
+    "label": "German district key",
+    "description": "identifier for districts (Landkreise) and independent towns in Germany",
+    "aliases": [
+      "district key (Germany)"
+    ]
+  },
+  "P1388": {
+    "popularity": 94,
+    "type": "string",
+    "label": "German regional key",
+    "description": "identifier for municipalities and unincorporated areas in Germany",
+    "aliases": []
+  },
+  "P507": {
+    "popularity": 25,
+    "type": "string",
+    "label": "Swedish county code",
+    "description": "identifier for a county in Sweden \"länskod\" (two-digit)",
+    "aliases": [
+      "länskod",
+      "county code (Sweden)"
+    ]
+  },
+  "P525": {
+    "popularity": 402,
+    "type": "string",
+    "label": "Swedish municipality code",
+    "description": "identifier for a municipality in Sweden \"kommunkod\" (four-digit)",
+    "aliases": []
+  },
+  "P635": {
+    "popularity": 8113,
+    "type": "string",
+    "label": "ISTAT ID",
+    "description": "identifier for municipalities in Italy",
+    "aliases": []
+  },
+  "P806": {
+    "popularity": 8095,
+    "type": "string",
+    "label": "Italian cadastre code",
+    "description": "identifier for Italian comunes in the cadastre",
+    "aliases": [
+      "codice catastale"
+    ]
+  },
+  "P721": {
+    "popularity": 111329,
+    "type": "string",
+    "label": "OKATO identifier",
+    "description": "identifier for every administrative unit in Russia",
+    "aliases": []
+  },
+  "P764": {
+    "popularity": 118075,
+    "type": "string",
+    "label": "OKTMO identifier",
+    "description": "identifier in Classification on Objects territory of municipal formations (Russia)",
+    "aliases": []
+  },
+  "P1077": {
+    "popularity": 28016,
+    "type": "string",
+    "label": "KOATUU identifier",
+    "description": "identifier for each of the Ukrainian administrative units",
+    "aliases": []
+  },
+  "P1172": {
+    "popularity": 5,
+    "type": "string",
+    "label": "Geokod",
+    "description": "identifier for historical administrative division of Sweden (1862-1951)",
+    "aliases": []
+  },
+  "P1168": {
+    "popularity": 98,
+    "type": "string",
+    "label": "municipality code (Denmark)",
+    "description": "identifier for municipalities in Denmark",
+    "aliases": []
+  },
+  "P1116": {
+    "popularity": 17672,
+    "type": "string",
+    "label": "ELSTAT geographical code",
+    "description": "identifier for administrative regions of Greece by the Greek Statistical Authority (starting 2010)",
+    "aliases": []
+  },
+  "P964": {
+    "popularity": 2415,
+    "type": "string",
+    "label": "Austrian municipality key",
+    "description": "identifier for municipalities in Austria",
+    "aliases": []
+  },
+  "P1115": {
+    "popularity": 683,
+    "type": "string",
+    "label": "ATVK ID",
+    "description": "identifier for each of the Latvian administrative units, i.e. municipality, parish, city under state jurisdiction and city under municipality jurisdiction. Based on the {{Q|15621843}}.",
+    "aliases": []
+  },
+  "P939": {
+    "popularity": 3178,
+    "type": "string",
+    "label": "KSH code",
+    "description": "identifier for every municipality (town and commune) in Hungary issued by the Hungarian Central Statistical Office",
+    "aliases": []
+  },
+  "P843": {
+    "popularity": 16937,
+    "type": "string",
+    "label": "SIRUTA code",
+    "description": "identifier for an area of Romania per National Institute of Statistics",
+    "aliases": []
+  },
+  "P772": {
+    "popularity": 8195,
+    "type": "string",
+    "label": "INE municipality code",
+    "description": "identifier for Spanish municipalities, by the Spanish Statistical Office (INE)",
+    "aliases": []
+  },
+  "P882": {
+    "popularity": 3296,
+    "type": "string",
+    "label": "FIPS 6-4 (US counties)",
+    "description": "identifier for US counties per former Federal Information Processing Standard FIPS 6-4. Use two-digit state code followed by three digit county code",
+    "aliases": [
+      "FIPS 6-4",
+      "FIPS US counties",
+      "INCITS 31-2009"
+    ]
+  },
+  "P774": {
+    "popularity": 825,
+    "type": "string",
+    "label": "FIPS 55-3 (locations in the US)",
+    "description": "identifier for places in the United States per former Federal Information Processing Standard FIPS 55-3",
+    "aliases": [
+      "Federal Information Processing Standard 55-3",
+      "FIPS 55-3",
+      "fips code for US locations"
+    ]
+  },
+  "P883": {
+    "popularity": 129,
+    "type": "string",
+    "label": "FIPS 5-2 (code for US states)",
+    "description": "identifier for US states and other associated areas (numeric or alpha) per Federal Information Processing Standard FIPS 5-2",
+    "aliases": [
+      "FIPS 5-2",
+      "FIPS code for US states"
+    ]
+  },
+  "P1370": {
+    "popularity": 28,
+    "type": "string",
+    "label": "IHSI ID",
+    "description": "identifier for an administrative territorial entity in Haiti",
+    "aliases": []
+  },
+  "P84": {
+    "popularity": 16176,
+    "type": "wikibase-item",
+    "label": "architect",
+    "description": "person or architectural firm that designed this building",
+    "aliases": []
+  },
+  "P631": {
+    "popularity": 478,
+    "type": "wikibase-item",
+    "label": "structural engineer",
+    "description": "person, group or organisation responsible for the structural engineering of a building or structure",
+    "aliases": []
+  },
+  "P167": {
+    "popularity": 90,
+    "type": "wikibase-item",
+    "label": "structure replaced by",
+    "description": "the item which replaced this building or structure, at the same geographic location",
+    "aliases": [
+      "replaced by (structure)"
+    ]
+  },
+  "P186": {
+    "popularity": 96329,
+    "type": "wikibase-item",
+    "label": "material used",
+    "description": "material the subject is made of",
+    "aliases": [
+      "medium",
+      "made from",
+      "constructed from",
+      "constructed out of",
+      "construction material",
+      "media",
+      "built from",
+      "built out of",
+      "manufactured from",
+      "manufactured out of",
+      "crafted from",
+      "crafted out of",
+      "formed from",
+      "formed out of",
+      "ingredients",
+      "made of"
+    ]
+  },
+  "P193": {
+    "popularity": 683,
+    "type": "wikibase-item",
+    "label": "main building contractor",
+    "description": "the main organization responsible for construction of this structure or building",
+    "aliases": [
+      "building contractor",
+      "built by",
+      "constructed by",
+      "builder"
+    ]
+  },
+  "P454": {
+    "popularity": 5620,
+    "type": "string",
+    "label": "Structurae ID (structure)",
+    "description": "identifier for a building in the Structurae database",
+    "aliases": []
+  },
+  "P455": {
+    "popularity": 562,
+    "type": "string",
+    "label": "Emporis building ID",
+    "description": "identifier for a building in the Emporis database (for building complexes, see P2270)",
+    "aliases": [
+      "EBN"
+    ]
+  },
+  "P580": {
+    "popularity": 11728,
+    "type": "time",
+    "label": "start time",
+    "description": "indicates the time an item begins to exist or a statement starts being valid, usually used as a qualifier",
+    "aliases": [
+      "from",
+      "starting",
+      "beginning",
+      "began",
+      "from time",
+      "since",
+      "start time",
+      "from date",
+      "start date",
+      "building date",
+      "starttime"
+    ]
+  },
+  "P582": {
+    "popularity": 10841,
+    "type": "time",
+    "label": "end time",
+    "description": "indicates the time an item ceases to exist or a statement stops being valid, used as a qualifier",
+    "aliases": [
+      "to",
+      "to time",
+      "left office",
+      "until",
+      "ending",
+      "divorced",
+      "enddate",
+      "end time",
+      "closed",
+      "end date",
+      "fall date"
+    ]
+  },
+  "P585": {
+    "popularity": 28768,
+    "type": "time",
+    "label": "point in time",
+    "description": "time and date something took place, existed or a statement was true",
+    "aliases": [
+      "date",
+      "as of",
+      "time of event",
+      "at time",
+      "when",
+      "year",
+      "time"
+    ]
+  },
+  "P762": {
+    "popularity": 237,
+    "type": "string",
+    "label": "Czech cultural heritage ID",
+    "description": "identifier for cultural heritage properties in the Czech Republic",
+    "aliases": []
+  },
+  "P1101": {
+    "popularity": 316,
+    "type": "quantity",
+    "label": "floors above ground",
+    "description": "above ground floor count of a building (ground floor and attic included)",
+    "aliases": [
+      "number of floors",
+      "storeys",
+      "stories"
+    ]
+  },
+  "P1139": {
+    "popularity": 44,
+    "type": "quantity",
+    "label": "floors below ground",
+    "description": "the total number of below ground floors of the building",
+    "aliases": [
+      "underground floors",
+      "basement floors"
+    ]
+  },
+  "P1301": {
+    "popularity": 34,
+    "type": "quantity",
+    "label": "number of elevators",
+    "description": "number of elevators in a building",
+    "aliases": [
+      "elevators",
+      "lifts"
+    ]
+  },
+  "P1369": {
+    "popularity": 21357,
+    "type": "string",
+    "label": "Iranian National Heritage registration number",
+    "description": "identifier in the Iranian National Heritage database",
+    "aliases": [
+      "CHRC",
+      "Cultural Heritage Registration Code (Iran)",
+      "ICHTO"
+    ]
+  },
+  "P1483": {
+    "popularity": 1535,
+    "type": "string",
+    "label": "kulturnoe-nasledie.ru ID",
+    "description": "identifier for an item in a Russian cultural heritage register",
+    "aliases": []
+  },
+  "P14": {
+    "popularity": 4788,
+    "type": "commonsMedia",
+    "label": "highway marker",
+    "description": "graphic representing the highway",
+    "aliases": [
+      "motorway sign",
+      "shield",
+      "highway shield",
+      "road marker"
+    ]
+  },
+  "P15": {
+    "popularity": 3376,
+    "type": "commonsMedia",
+    "label": "road map",
+    "description": "map of the road",
+    "aliases": [
+      "route map",
+      "street map",
+      "road atlas",
+      "highway map"
+    ]
+  },
+  "P16": {
+    "popularity": 19026,
+    "type": "wikibase-item",
+    "label": "highway system",
+    "description": "system of which the highway is a part",
+    "aliases": []
+  },
+  "P126": {
+    "popularity": 14178,
+    "type": "wikibase-item",
+    "label": "maintained by",
+    "description": "organization in charge of keeping the subject (for instance an infrastructure) in functioning order",
+    "aliases": [
+      "maintenance",
+      "curator",
+      "administered by"
+    ]
+  },
+  "P127": {
+    "popularity": 29321,
+    "type": "wikibase-item",
+    "label": "owned by",
+    "description": "owner of the subject",
+    "aliases": [
+      "is owned by",
+      "owner",
+      "belongs to",
+      "shareholder",
+      "stockholder"
+    ]
+  },
+  "P833": {
+    "popularity": 176,
+    "type": "wikibase-item",
+    "label": "interchange station",
+    "description": "station to which passengers can transfer to from this station, normally without extra expense",
+    "aliases": [
+      "OSI",
+      "out of station interchange"
+    ]
+  },
+  "P1302": {
+    "popularity": 99,
+    "type": "wikibase-item",
+    "label": "primary destinations",
+    "description": "major cities that a road serves",
+    "aliases": []
+  },
+  "P1382": {
+    "popularity": 742,
+    "type": "wikibase-item",
+    "label": "coincident with",
+    "description": "an object that is partially part of, but not fully part of (P361), the subject",
+    "aliases": [
+      "partially overlaps",
+      "partial concurrency",
+      "concurrent with",
+      "partially in",
+      "concurrency"
+    ]
+  },
+  "P177": {
+    "popularity": 3385,
+    "type": "wikibase-item",
+    "label": "crosses",
+    "description": "obstacle (body of water, road, ...) which this bridge crosses over or this tunnel goes under",
+    "aliases": [
+      "bridge over",
+      "tunnel under"
+    ]
+  },
+  "P1311": {
+    "popularity": 38,
+    "type": "string",
+    "label": "lostbridges.org ID",
+    "description": "identifier from database of covered bridges in the United States and Canada",
+    "aliases": []
+  },
+  "P1314": {
+    "popularity": 988,
+    "type": "quantity",
+    "label": "number of spans",
+    "description": "number of spans a bridge has. To enter the number manually add \"+-0\" after the number",
+    "aliases": [
+      "spans",
+      "number of arches of a bridge"
+    ]
+  },
+  "P238": {
+    "popularity": 8126,
+    "type": "string",
+    "label": "IATA airport code",
+    "description": "three-letter identifier for designating airports (for airlines, see P229)",
+    "aliases": [
+      "International Air Transport Association airport code",
+      "uio"
+    ]
+  },
+  "P239": {
+    "popularity": 10832,
+    "type": "string",
+    "label": "ICAO airport code",
+    "description": "four-character alphanumeric identifier for designating airports (for airlines, see P:230)",
+    "aliases": [
+      "International Civil Aviation Organization airport code",
+      "ICAO aerodrome code",
+      "ICAO airfield code"
+    ]
+  },
+  "P240": {
+    "popularity": 2283,
+    "type": "string",
+    "label": "FAA airport code",
+    "description": "three-letter or four-letter alphanumeric code identifying United States airports",
+    "aliases": [
+      "FAA LID"
+    ]
+  },
+  "P529": {
+    "popularity": 403,
+    "type": "string",
+    "label": "runway",
+    "description": "name (direction) of runway at airport/airfield/airstrip",
+    "aliases": [
+      "RWY"
+    ]
+  },
+  "P81": {
+    "popularity": 20180,
+    "type": "wikibase-item",
+    "label": "connecting line",
+    "description": "railway or public transport line(s) subject is directly connected to",
+    "aliases": [
+      "railway line",
+      "rapid transit line"
+    ]
+  },
+  "P137": {
+    "popularity": 41381,
+    "type": "wikibase-item",
+    "label": "operator",
+    "description": "person or organization that operates the equipment, facility, or service",
+    "aliases": [
+      "service operator",
+      "facility operator",
+      "operated by",
+      "managed by",
+      "administrator",
+      "item operator",
+      "user"
+    ]
+  },
+  "P197": {
+    "popularity": 29213,
+    "type": "wikibase-item",
+    "label": "adjacent station",
+    "description": "the stations next to this station, sharing the same line(s)",
+    "aliases": [
+      "next station",
+      "previous station",
+      "next stop",
+      "neighbouring station"
+    ]
+  },
+  "P296": {
+    "popularity": 2228,
+    "type": "string",
+    "label": "station code",
+    "description": "identifier for a railway station",
+    "aliases": []
+  },
+  "P1103": {
+    "popularity": 4308,
+    "type": "quantity",
+    "label": "number of platform tracks",
+    "description": "number of tracks serving a platform in a railway station",
+    "aliases": [
+      "platforms",
+      "railway station platforms",
+      "metro platforms"
+    ]
+  },
+  "P1192": {
+    "popularity": 1893,
+    "type": "wikibase-item",
+    "label": "connecting service",
+    "description": "service stopping at a station",
+    "aliases": []
+  },
+  "P1064": {
+    "popularity": 5275,
+    "type": "wikibase-item",
+    "label": "track gauge",
+    "description": "spacing of the rails on a railway track",
+    "aliases": [
+      "gauge"
+    ]
+  },
+  "P403": {
+    "popularity": 33974,
+    "type": "wikibase-item",
+    "label": "mouth of the watercourse",
+    "description": "the body of water to which the watercourse drains",
+    "aliases": [
+      "watercourse outflow",
+      "watercourse drain",
+      "tributary of",
+      "outflow",
+      "drain",
+      "river mouth",
+      "outlet"
+    ]
+  },
+  "P469": {
+    "popularity": 982,
+    "type": "wikibase-item",
+    "label": "lakes on river",
+    "description": "lakes and reservoirs the river flows through, flows into or flows out of",
+    "aliases": []
+  },
+  "P1200": {
+    "popularity": 2012,
+    "type": "wikibase-item",
+    "label": "bodies of water basin category",
+    "description": "the Wikimedia category associated with the basin of a bodies of water",
+    "aliases": [
+      "category associated with the basin of the bodies of water",
+      "water system category"
+    ]
+  },
+  "P2053": {
+    "popularity": 32,
+    "type": "quantity",
+    "label": "watershed area",
+    "description": "size of a stream's watershed (drainage basin)",
+    "aliases": [
+      "drainage basin",
+      "catchment basin"
+    ]
+  },
+  "P200": {
+    "popularity": 773,
+    "type": "wikibase-item",
+    "label": "lake inflows",
+    "description": "major inflow sources — rivers, aquifers, glacial runoff, etc. Some terms may not be place names, e.g. none",
+    "aliases": [
+      "inflow",
+      "inflows",
+      "lake inflow"
+    ]
+  },
+  "P201": {
+    "popularity": 1069,
+    "type": "wikibase-item",
+    "label": "lake outflow",
+    "description": "rivers and other outflows waterway names. If evaporation or seepage are notable outflows, they may be included. Some terms may not be place names, e.g. evaporation",
+    "aliases": [
+      "outflows",
+      "outflow"
+    ]
+  },
+  "P205": {
+    "popularity": 172,
+    "type": "wikibase-item",
+    "label": "basin country",
+    "description": "countries that have drainage to/from or border the lake",
+    "aliases": [
+      "basin countries"
+    ]
+  },
+  "P206": {
+    "popularity": 2175,
+    "type": "wikibase-item",
+    "label": "located next to body of water",
+    "description": "sea, lake or river",
+    "aliases": [
+      "on lake",
+      "next to lake",
+      "located on body of water",
+      "On river",
+      "on bay",
+      "on harbour",
+      "on shore of",
+      "on the shore of",
+      "on the coast of",
+      "on coast of"
+    ]
+  },
+  "P207": {
+    "popularity": 6,
+    "type": "commonsMedia",
+    "label": "bathymetry image",
+    "description": "image showing bathymetric chart, bathymetric map",
+    "aliases": [
+      "bathymetric chart",
+      "bathymetric map",
+      "file bathymetry"
+    ]
+  },
+  "P761": {
+    "popularity": 57335,
+    "type": "string",
+    "label": "WISS_ID",
+    "description": "Identifier in the Water Information System Sweden (WISS)",
+    "aliases": [
+      "EU_CD"
+    ]
+  },
+  "P1404": {
+    "popularity": 15,
+    "type": "string",
+    "label": "World Glacier Inventory ID",
+    "description": "identifier in the World Glacier Inventory database",
+    "aliases": [
+      "Glacier ID"
+    ]
+  },
+  "P59": {
+    "popularity": 20119,
+    "type": "wikibase-item",
+    "label": "constellation",
+    "description": "the area of the celestial sphere of which the subject is a part (from a scientific standpoint, not an astrological one)",
+    "aliases": []
+  },
+  "P65": {
+    "popularity": 45846,
+    "type": "wikibase-item",
+    "label": "site of astronomical discovery",
+    "description": "the place where an astronomical object was discovered (observatory, satellite)",
+    "aliases": []
+  },
+  "P196": {
+    "popularity": 90409,
+    "type": "wikibase-item",
+    "label": "minor planet group",
+    "description": "is in grouping of minor planets according to similar orbital characteristics",
+    "aliases": [
+      "asteroid group"
+    ]
+  },
+  "P215": {
+    "popularity": 7844,
+    "type": "string",
+    "label": "spectral class",
+    "description": "spectral class of an astronomical object",
+    "aliases": [
+      "is an object of class",
+      "is a star of class"
+    ]
+  },
+  "P223": {
+    "popularity": 2393,
+    "type": "string",
+    "label": "galaxy morphological type",
+    "description": "galaxy morphological classification code",
+    "aliases": [
+      "is a galaxy of type",
+      "De Vaucouleurs classification system",
+      "Hubble sequence"
+    ]
+  },
+  "P367": {
+    "popularity": 30,
+    "type": "commonsMedia",
+    "label": "astronomic symbol image",
+    "description": "image of the symbol that identify a planet or an asteroid of the solar system",
+    "aliases": []
+  },
+  "P376": {
+    "popularity": 3737,
+    "type": "wikibase-item",
+    "label": "located on astronomical body",
+    "description": "astronomical body on which features or places are situated",
+    "aliases": [
+      "planet",
+      "astronomical body (location)"
+    ]
+  },
+  "P397": {
+    "popularity": 1068,
+    "type": "wikibase-item",
+    "label": "astronomical body",
+    "description": "major astronomical body the item belongs to",
+    "aliases": [
+      "parent body",
+      "orbits"
+    ]
+  },
+  "P398": {
+    "popularity": 1007,
+    "type": "wikibase-item",
+    "label": "child astronomical body",
+    "description": "minor body that belongs to the item",
+    "aliases": [
+      "child body"
+    ]
+  },
+  "P399": {
+    "popularity": 34,
+    "type": "wikibase-item",
+    "label": "companion of",
+    "description": "two or more astronomic bodies of the same type relating to each other",
+    "aliases": []
+  },
+  "P490": {
+    "popularity": 120117,
+    "type": "string",
+    "label": "provisional designation",
+    "description": "designation of an astronomical body after its discovery and before its official name",
+    "aliases": []
+  },
+  "P491": {
+    "popularity": 8,
+    "type": "commonsMedia",
+    "label": "orbit diagram",
+    "description": "image with the diagram of the orbit of an astronomic body",
+    "aliases": []
+  },
+  "P528": {
+    "popularity": 103060,
+    "type": "string",
+    "label": "catalog code",
+    "description": "catalog name of an object, use with qualifier P972",
+    "aliases": [
+      "astronomical catalog",
+      "register",
+      "opus number",
+      "catalogue code"
+    ]
+  },
+  "P1016": {
+    "popularity": 0,
+    "type": "wikibase-item",
+    "label": "asteroid taxonomy",
+    "description": "type of asteroid classification",
+    "aliases": []
+  },
+  "P1046": {
+    "popularity": 40,
+    "type": "wikibase-item",
+    "label": "discovery method",
+    "description": "way an exoplanet was discovered",
+    "aliases": [
+      "detection method"
+    ]
+  },
+  "P1170": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "transmitted signal",
+    "description": "type of signal transmitted by a device",
+    "aliases": [
+      "transmits",
+      "signal transmitted"
+    ]
+  },
+  "P1194": {
+    "popularity": 1,
+    "type": "wikibase-item",
+    "label": "received signal",
+    "description": "signals detected by a machine",
+    "aliases": []
+  },
+  "P1418": {
+    "popularity": 258,
+    "type": "quantity",
+    "label": "orbits completed",
+    "description": "number of orbits a spacecraft has done around a body",
+    "aliases": []
+  },
+  "P2045": {
+    "popularity": 1779,
+    "type": "quantity",
+    "label": "orbital inclination",
+    "description": "orbital inclination of a stable orbit",
+    "aliases": []
+  }
+}

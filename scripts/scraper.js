@@ -1,26 +1,35 @@
-'use strict';
-
 var _ = require('lodash');
 var cheerio = require('cheerio');
 var axios = require('axios');
-var jsonfile = require('jsonfile')
-
+var jsonfile = require('jsonfile');
 var api = require('./api');
 
-api.getPropertyList('Person')
-  .then(response => cheerio.load(response.data))
-  .then(scrapeIds)
-  .then(fetchProperties)
-  .then((props) => {
-    jsonfile.writeFile('person.json', props, function (err) {
-      if (!err) {
-        console.log('done')
-      } else {
-        console.log(err);
-      }
-    });
-  })
-  .catch((e) => console.log(e));
+var types = [
+  'Generic',
+  'Person',
+  'Organization',
+  'Events',
+  'Works',
+  'Geographical_feature'
+];
+
+_.each(types, function (type) {
+  api.getPropertyList(type)
+    .then(response => cheerio.load(response.data))
+    .then(scrapeIds)
+    .then(fetchProperties)
+    .then((props) => {
+
+      jsonfile.writeFile('./' + type.toLowerCase() + '.json', props, function (err) {
+        if (!err) {
+          console.log('WROTE: ' + type.toLowerCase() + '.json')
+        } else {
+          console.log(err);
+        }
+      });
+    })
+    .catch((e) => console.log(e));
+});
 
 function scrapeIds ($) {
   return $('.wikitable.sortable tr')
@@ -31,25 +40,34 @@ function scrapeIds ($) {
 
 function fetchProperties (ids) {
   var descriptions = Promise.all(_.map(ids, api.getPropertyData));
-  var restrictions = Promise.all(_.map(ids, fetchPropertyRestrictions));
+  //var restrictions = Promise.all(_.map(ids, fetchPropertyRestrictions));
   var popularities = Promise.all(_.map(ids, api.getPropertyPopularity));
 
-  return Promise.all([descriptions, restrictions, popularities])
+  return Promise.all([descriptions, popularities])
     .then((response) => {
 
       return _.reduce(_.zip.apply(null, response), (props, parts) => {
         const des = parts[0];
-        const res = parts[1];
-        const popularity = parts[2];
+        const popularity = parts[1];
+        //const res = parts[1];
+
+        if (!des.labels.en) {
+          console.log('no en label', des.labels);
+        }
+
+        if (!des.descriptions.en) {
+          console.log('no en description', des.labels);
+        }
+
 
         props[des.id] = {
           popularity,
           type: des.datatype,
-          label: des.labels.en.value,
-          description: des.descriptions.en.value,
+          label: des.labels.en ? des.labels.en.value : null ,
+          description: des.descriptions.en ? des.descriptions.en.value : null,
           aliases: _.pluck(des.aliases.en, 'value'),
-          suggestedValues: res.suggestedValues,
-          suggestedValuesText: res.suggestedValuesText
+          //suggestedValues: res.suggestedValues,
+          //suggestedValuesText: res.suggestedValuesText
         };
 
         return props;
